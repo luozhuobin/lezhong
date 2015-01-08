@@ -1,0 +1,183 @@
+<div id="sidebar">
+ <div id="sidebar-wrapper">
+   <!-- Sidebar with logo and menu -->
+   <h1 id="sidebar-title"><a href="#">导航菜单</a></h1>
+   <!-- Logo (221px wide) -->
+   <a href="#"><img id="logo" src="./app/views/images/lezhong.png" alt="Simpla Admin logo" /></a>
+   <!-- Sidebar Profile links -->
+   <div id="profile-links"> 
+   		您好, <a href="javascript:;" title="Edit your profile"><?php echo $this->session->userdata ( 'truename' );?></a> | <a href="?c=admin&m=logout" title="Sign Out">退出</a> </div>
+   <ul id="main-nav">
+     <!-- Accordion Menu -->
+     <!-- <li> 
+     	<a class="nav-top-item <?php echo $_GET['c'] == 'rounds' ?  'current' : '';?>">巡房记录</a>
+     	<ul>
+         <li><a href="?c=rounds&m=edit" class="<?php echo $_GET['c'] == 'rounds'&&$_GET['m'] == 'edit' ?  'current' : '';?>">新增</a></li>
+         <li><a href="?c=rounds&m=import" class="<?php echo $_GET['c'] == 'rounds'&&$_GET['m'] == 'import' ?  'current' : '';?>">导入</a></li>
+         <li><a href="?c=rounds&m=show" class="<?php echo $_GET['c'] == 'rounds'&&$_GET['m'] == 'show' ?  'current' : '';?>">列表</a></li>
+       </ul>
+     </li>-->
+     <!-- <li> 
+     	<a class="nav-top-item <?php echo $_GET['c'] == 'alone' ?  'current' : '';?>">个别化服务计划表</a>
+       <ul>
+         <li><a href="?c=alone&m=edit" class="<?php echo $_GET['c'] == 'alone'&&$_GET['m'] == 'edit' ?  'current' : '';?>">新增</a></li>
+         <li><a href="?c=alone&m=import" class="<?php echo $_GET['c'] == 'alone'&&$_GET['m'] == 'import' ?  'current' : '';?>">导入</a></li>
+         <li><a href="?c=alone&m=show" class="<?php echo $_GET['c'] == 'alone'&&$_GET['m'] == 'show' ?  'current' : '';?>">列表</a></li>
+       </ul>
+     </li>-->
+     <li> 
+     	<a class="nav-top-item <?php echo in_array($_GET['c'],array('cases','caseslog','casesprocess')) ?  'current' : '';?>">个案</a>
+       <ul>
+         <li><a href="?c=cases&m=show" class="<?php echo $_GET['c'] == 'cases' ?  'current' : '';?>">个案列表</a></li>
+         <li><a href="?c=caseslog&m=show" class="<?php echo $_GET['c'] == 'caseslog' ?  'current' : '';?>">个案记录</a></li>
+         <li><a href="?c=casesprocess&m=show" class="<?php echo $_GET['c'] == 'casesprocess' ?  'current' : '';?>">过程记录</a></li>
+       </ul>
+     </li>
+     <!-- <li> 
+     	<a class="nav-top-item <?php echo $_GET['c'] == 'casescheck' ?  'current' : '';?>">个案阶段检视</a>
+       <ul>
+         <li><a href="?c=casescheck&m=edit" class="<?php echo $_GET['c'] == 'casescheck'&&$_GET['m'] == 'edit' ?  'current' : '';?>">新增</a></li>
+         <li><a href="?c=casescheck&m=import" class="<?php echo $_GET['c'] == 'casescheck'&&$_GET['m'] == 'import' ?  'current' : '';?>">导入</a></li>
+         <li><a href="?c=casescheck&m=show" class="<?php echo $_GET['c'] == 'casescheck'&&$_GET['m'] == 'show' ?  'current' : '';?>">列表</a></li>
+       </ul>
+     </li>
+     <li> 
+     	<a class="nav-top-item <?php echo $_GET['c'] == 'caseslog' ?  'current' : '';?>">个案记录</a>
+       <ul>
+         <li><a href="?c=caseslog&m=edit" class="<?php echo $_GET['c'] == 'caseslog'&&$_GET['m'] == 'edit' ?  'current' : '';?>">新增</a></li>
+         <li><a href="?c=caseslog&m=import" class="<?php echo $_GET['c'] == 'caseslog'&&$_GET['m'] == 'import' ?  'current' : '';?>">导入</a></li>
+         <li><a href="?c=caseslog&m=show" class="<?php echo $_GET['c'] == 'caseslog'&&$_GET['m'] == 'show' ?  'current' : '';?>">列表</a></li>
+       </ul>
+     </li> -->
+     <li> 
+     	<a class="nav-top-item <?php echo in_array($_GET['c'],array('group','groupreport','groupregister','groupsignin','groupsuggestion')) ?  'current' : '';?>">小组</a>
+       <ul>
+         <li><a href="?c=group&m=show" class="<?php echo $_GET['c'] == 'group' ?  'current' : '';?>">小组计划书</a></li>
+         <li><a href="?c=groupreport&m=show" class="<?php echo $_GET['c'] == 'groupreport'  ?  'current' : '';?>">小组报告书</a></li>
+         <li><a href="?c=groupregister&m=show" class="<?php echo $_GET['c'] == 'groupregister'  ?  'current' : '';?>">小组报名表</a></li>
+         <li><a href="?c=groupsignin&m=show" class="<?php echo $_GET['c'] == 'groupsignin'  ?  'current' : '';?>">小组签到表</a></li>
+         <li><a href="?c=groupsuggestion&m=show" class="<?php echo $_GET['c'] == 'groupsuggestion'  ?  'current' : '';?>">小组意见收集表</a></li>
+       </ul>
+     </li>
+     <!-- <li> 
+     	<a class="nav-top-item <?php echo $_GET['c'] == 'groupreport' ?  'current' : '';?>">小组报告书</a>
+       <ul>
+         <li><a href="?c=groupreport&m=edit" class="<?php echo $_GET['c'] == 'groupreport'&&$_GET['m'] == 'edit' ?  'current' : '';?>">新增</a></li>
+         <li><a href="?c=groupreport&m=import" class="<?php echo $_GET['c'] == 'groupreport' && $_GET['m'] == 'import' ?  'current' : '';?>">导入</a></li>
+         <li><a href="?c=groupreport&m=show" class="<?php echo $_GET['c'] == 'groupreport' && $_GET['m'] == 'show' ?  'current' : '';?>">列表</a></li>
+       </ul>
+     </li>
+     <li> 
+     	<a class="nav-top-item <?php echo $_GET['c'] == 'groupregister' ?  'current' : '';?>">小组报名表</a>
+       <ul>
+         <li><a href="?c=groupregister&m=edit" class="<?php echo $_GET['c'] == 'groupregister'&&$_GET['m'] == 'edit' ?  'current' : '';?>">新增</a></li>
+         <li><a href="?c=groupregister&m=import" class="<?php echo $_GET['c'] == 'groupregister' && $_GET['m'] == 'import' ?  'current' : '';?>">导入</a></li>
+         <li><a href="?c=groupregister&m=show" class="<?php echo $_GET['c'] == 'groupregister' && $_GET['m'] == 'show' ?  'current' : '';?>">列表</a></li>
+       </ul>
+     </li>
+     <li> 
+     	<a class="nav-top-item <?php echo $_GET['c'] == 'groupsignin' ?  'current' : '';?>">小组签到表</a>
+       <ul>
+         <li><a href="?c=groupsignin&m=edit" class="<?php echo $_GET['c'] == 'groupsignin'&&$_GET['m'] == 'edit' ?  'current' : '';?>">新增</a></li>
+         <li><a href="?c=groupsignin&m=import" class="<?php echo $_GET['c'] == 'groupsignin' && $_GET['m'] == 'import' ?  'current' : '';?>">导入</a></li>
+         <li><a href="?c=groupsignin&m=show" class="<?php echo $_GET['c'] == 'groupsignin' && $_GET['m'] == 'show' ?  'current' : '';?>">列表</a></li>
+       </ul>
+     </li>
+     <li> 
+     	<a class="nav-top-item <?php echo $_GET['c'] == 'groupsuggestion' ?  'current' : '';?>">小组意见收集表</a>
+       <ul>
+         <li><a href="?c=groupsuggestion&m=edit" class="<?php echo $_GET['c'] == 'groupsuggestion'&&$_GET['m'] == 'edit' ?  'current' : '';?>">新增</a></li>
+         <li><a href="?c=groupsuggestion&m=import" class="<?php echo $_GET['c'] == 'groupsuggestion' && $_GET['m'] == 'import' ?  'current' : '';?>">导入</a></li>
+         <li><a href="?c=groupsuggestion&m=show" class="<?php echo $_GET['c'] == 'groupsuggestion' && $_GET['m'] == 'show' ?  'current' : '';?>">列表</a></li>
+       </ul>
+     </li> -->
+     <li> 
+     	<a class="nav-top-item <?php echo in_array($_GET['c'],array('activity','activityreport','activityregister','activitysignin','activitysuggestion')) ?  'current' : '';?>">活动</a>
+       <ul>
+         <li><a href="?c=activity&m=show" class="<?php echo $_GET['c'] == 'activity' ?  'current' : '';?>">活动计划书</a></li>
+         <li><a href="?c=activityreport&m=show" class="<?php echo $_GET['c'] == 'activityreport'  ?  'current' : '';?>">活动报告书</a></li>
+         <li><a href="?c=activityregister&m=show" class="<?php echo $_GET['c'] == 'activityregister'  ?  'current' : '';?>">活动报名表</a></li>
+         <li><a href="?c=activitysignin&m=show" class="<?php echo $_GET['c'] == 'activitysignin'  ?  'current' : '';?>">活动签到表</a></li>
+         <li><a href="?c=activitysuggestion&m=show" class="<?php echo $_GET['c'] == 'activitysuggestion'  ?  'current' : '';?>">活动意见收集表</a></li>
+       </ul>
+     </li>
+     <!-- <li> 
+     	<a class="nav-top-item <?php echo $_GET['c'] == 'activityreport' ?  'current' : '';?>">活动报告书</a>
+       <ul>
+         <li><a href="?c=activityreport&m=edit" class="<?php echo $_GET['c'] == 'activityreport'&&$_GET['m'] == 'edit' ?  'current' : '';?>">新增</a></li>
+         <li><a href="?c=activityreport&m=import" class="<?php echo $_GET['c'] == 'activityreport' && $_GET['m'] == 'import' ?  'current' : '';?>">导入</a></li>
+         <li><a href="?c=activityreport&m=show" class="<?php echo $_GET['c'] == 'activityreport' && $_GET['m'] == 'show' ?  'current' : '';?>">列表</a></li>
+       </ul>
+     </li>
+     <li> 
+     	<a class="nav-top-item <?php echo $_GET['c'] == 'activityregister' ?  'current' : '';?>">活动报名表</a>
+       <ul>
+         <li><a href="?c=activityregister&m=edit" class="<?php echo $_GET['c'] == 'activityregister'&&$_GET['m'] == 'edit' ?  'current' : '';?>">新增</a></li>
+         <li><a href="?c=activityregister&m=import" class="<?php echo $_GET['c'] == 'activityregister' && $_GET['m'] == 'import' ?  'current' : '';?>">导入</a></li>
+         <li><a href="?c=activityregister&m=show" class="<?php echo $_GET['c'] == 'activityregister' && $_GET['m'] == 'show' ?  'current' : '';?>">列表</a></li>
+       </ul>
+     </li>
+     <li> 
+     	<a class="nav-top-item <?php echo $_GET['c'] == 'activitysignin' ?  'current' : '';?>">活动签到表</a>
+       <ul>
+         <li><a href="?c=activitysignin&m=edit" class="<?php echo $_GET['c'] == 'activitysignin'&&$_GET['m'] == 'edit' ?  'current' : '';?>">新增</a></li>
+         <li><a href="?c=activitysignin&m=import" class="<?php echo $_GET['c'] == 'activitysignin' && $_GET['m'] == 'import' ?  'current' : '';?>">导入</a></li>
+         <li><a href="?c=activitysignin&m=show" class="<?php echo $_GET['c'] == 'activitysignin' && $_GET['m'] == 'show' ?  'current' : '';?>">列表</a></li>
+       </ul>
+     </li>
+     <li> 
+     	<a class="nav-top-item <?php echo $_GET['c'] == 'activitysuggestion' ?  'current' : '';?>">活动意见收集表</a>
+       <ul>
+         <li><a href="?c=activitysuggestion&m=edit" class="<?php echo $_GET['c'] == 'activitysuggestion'&&$_GET['m'] == 'edit' ?  'current' : '';?>">新增</a></li>
+         <li><a href="?c=activitysuggestion&m=import" class="<?php echo $_GET['c'] == 'activitysuggestion' && $_GET['m'] == 'import' ?  'current' : '';?>">导入</a></li>
+         <li><a href="?c=activitysuggestion&m=show" class="<?php echo $_GET['c'] == 'activitysuggestion' && $_GET['m'] == 'show' ?  'current' : '';?>">列表</a></li>
+       </ul>
+     </li>
+      -->
+     <li> 
+     	<a class="nav-top-item <?php echo $_GET['c'] == 'consultation' ?  'current' : '';?>">日常咨询记录表</a>
+       <ul>
+         <li><a href="?c=consultation&m=edit" class="<?php echo $_GET['c'] == 'consultation'&& $_GET['m'] == 'edit' ?  'current' : '';?>">新增</a></li>
+         <li><a href="?c=consultation&m=import" class="<?php echo $_GET['c'] == 'consultation'&&$_GET['m'] == 'import' ?  'current' : '';?>">导入</a></li>
+         <li><a href="?c=consultation&m=show" class="<?php echo $_GET['c'] == 'consultation'&&$_GET['m'] == 'show' ?  'current' : '';?>">列表</a></li>
+       </ul>
+     </li>
+     <li> 
+     	<a class="nav-top-item <?php echo $_GET['c'] == 'volunteer' ?  'current' : '';?>">义工</a>
+       <ul>
+         <li><a href="?c=volunteer&m=edit" class="<?php echo $_GET['c'] == 'volunteer'&&$_GET['m'] == 'edit' ?  'current' : '';?>">义工登记</a></li>
+         <li><a href="?c=volunteer&m=import" class="<?php echo $_GET['c'] == 'volunteer'&&$_GET['m'] == 'import' ?  'current' : '';?>">义工培训</a></li>
+         <li><a href="?c=volunteer&m=show" class="<?php echo $_GET['c'] == 'volunteer'&&$_GET['m'] == 'show' ?  'current' : '';?>">义工服务</a></li>
+       </ul>
+     </li>
+     <!-- <li> 
+     	<a class="nav-top-item <?php echo $_GET['c'] == 'train' ?  'current' : '';?>">义工培训</a>
+       <ul>
+         <li><a href="?c=train&m=edit" class="<?php echo $_GET['c'] == 'train'&&$_GET['m'] == 'edit' ?  'current' : '';?>">新增</a></li>
+         <li><a href="?c=train&m=import" class="<?php echo $_GET['c'] == 'train'&&$_GET['m'] == 'import' ?  'current' : '';?>">导入</a></li>
+         <li><a href="?c=train&m=show" class="<?php echo $_GET['c'] == 'train'&&$_GET['m'] == 'show' ?  'current' : '';?>">列表</a></li>
+       </ul>
+     </li>
+     <li> 
+     	<a class="nav-top-item <?php echo $_GET['c'] == 'service' ?  'current' : '';?>">义工服务</a>
+       <ul>
+         <li><a href="?c=service&m=edit" class="<?php echo $_GET['c'] == 'service'&&$_GET['m'] == 'edit' ?  'current' : '';?>">新增</a></li>
+         <li><a href="?c=service&m=import" class="<?php echo $_GET['c'] == 'service'&&$_GET['m'] == 'import' ?  'current' : '';?>">导入</a></li>
+         <li><a href="?c=service&m=show" class="<?php echo $_GET['c'] == 'service'&&$_GET['m'] == 'show' ?  'current' : '';?>">列表</a></li>
+       </ul>
+     </li> -->
+     <?
+        if(intval ( $this->session->userdata ( 'groupId' ) ) < 4){
+	 ?>
+     <li> 
+     	<a class="nav-top-item <?php echo $_GET['c'] == 'settings' ?  'current' : '';?>">成员管理</a>
+       <ul>
+         <li><a href="?c=settings&m=show" class="<?php echo $_GET['c'] == 'settings'&&$_GET['m'] == 'show' ?  'current' : '';?>">成员列表</a></li>
+       </ul>
+     </li>
+     <?
+     	}
+     ?>
+   </ul>
+  </div>
+</div>

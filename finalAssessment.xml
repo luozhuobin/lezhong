@@ -1,0 +1,1835 @@
+﻿<!--结案评估表-->
+<w:p w:rsidR="00217D49" w:rsidRDefault="00217D49" w:rsidP="00217D49">
+<w:pPr>
+<w:widowControl/>
+<w:ind w:firstLineChars="1300" w:firstLine="2730"/>
+<w:jc w:val="right"/>
+<w:rPr>
+<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00217D49">
+<w:rPr>
+<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:lastRenderedPageBreak/>
+<w:t>C-</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>10</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="001B0234" w:rsidRDefault="001B0234" w:rsidP="001B0234">
+<w:pPr>
+<w:widowControl/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>结案</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>评估表</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="001B0234" w:rsidRPr="00217D49" w:rsidRDefault="001B0234" w:rsidP="00753C4F">
+<w:pPr>
+<w:widowControl/>
+<w:rPr>
+<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="00350BCD" w:rsidRDefault="00753C4F">
+<w:pPr>
+<w:rPr>
+<w:u w:val="single"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="eastAsia"/>
+</w:rPr>
+<w:t>个案编号</w:t>
+</w:r>
+<w:r>
+<w:t>：</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="eastAsia"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                  </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00753C4F" w:rsidRDefault="00753C4F">
+<w:pPr>
+<w:rPr>
+<w:u w:val="single"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="00753C4F" w:rsidRDefault="00753C4F">
+<w:pPr>
+<w:rPr>
+<w:u w:val="single"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="eastAsia"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t>跟进</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t>社工：</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="eastAsia"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                  </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00753C4F" w:rsidRDefault="00753C4F">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="楷体_GB2312" w:eastAsia="楷体_GB2312" w:hAnsi="PMingLiU"/>
+<w:sz w:val="24"/>
+<w:szCs w:val="24"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>1</w:t>
+</w:r>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>评价表（请在最能</w:t>
+</w:r>
+<w:proofErr w:type="gramStart"/>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>代表您</w:t>
+</w:r>
+<w:proofErr w:type="gramEnd"/>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>意见的答案上</w:t>
+</w:r>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>打“√”</w:t>
+</w:r>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>，0为非常不同意，5为非常同意。）</w:t>
+</w:r>
+</w:p>
+<w:tbl>
+<w:tblPr>
+<w:tblStyle w:val="a6"/>
+<w:tblW w:w="10048" w:type="dxa"/>
+<w:tblInd w:w="-289" w:type="dxa"/>
+<w:tblLook w:val="01E0"/>
+</w:tblPr>
+<w:tblGrid>
+<w:gridCol w:w="5284"/>
+<w:gridCol w:w="794"/>
+<w:gridCol w:w="794"/>
+<w:gridCol w:w="794"/>
+<w:gridCol w:w="794"/>
+<w:gridCol w:w="794"/>
+<w:gridCol w:w="794"/>
+</w:tblGrid>
+<w:tr w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidTr="00753C4F">
+<w:trPr>
+<w:trHeight w:val="624"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="0" w:type="auto"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>您</w:t>
+</w:r>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>对负责社工的表现满意程度</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>1</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>2</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>3</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>4</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>5</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidTr="00753C4F">
+<w:trPr>
+<w:trHeight w:val="624"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="0" w:type="auto"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>总体而言</w:t>
+</w:r>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>，社工的服务能否协助</w:t>
+</w:r>
+<w:proofErr w:type="gramStart"/>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>您面对</w:t>
+</w:r>
+<w:proofErr w:type="gramEnd"/>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>/解决</w:t>
+</w:r>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>您的问题</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>1</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>2</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>3</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>4</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>5</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidTr="00753C4F">
+<w:trPr>
+<w:trHeight w:val="624"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="0" w:type="auto"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>接受</w:t>
+</w:r>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>服务后，</w:t>
+</w:r>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>您</w:t>
+</w:r>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>的情况</w:t>
+</w:r>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>改善程度</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>1</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>2</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>3</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>4</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>5</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidTr="00753C4F">
+<w:trPr>
+<w:trHeight w:val="624"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="0" w:type="auto"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>与社</w:t>
+</w:r>
+<w:proofErr w:type="gramStart"/>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>工接触</w:t>
+</w:r>
+<w:proofErr w:type="gramEnd"/>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>时，</w:t>
+</w:r>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>您</w:t>
+</w:r>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>对解决你的困难的积极性如何</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>1</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>2</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>3</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>4</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>5</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+<w:tr w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidTr="00753C4F">
+<w:trPr>
+<w:trHeight w:val="624"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="0" w:type="auto"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00753C4F">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>本个案结束之时，</w:t>
+</w:r>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>您</w:t>
+</w:r>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>与社</w:t>
+</w:r>
+<w:proofErr w:type="gramStart"/>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>工双方</w:t>
+</w:r>
+<w:proofErr w:type="gramEnd"/>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>同意的目标能否达到</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>1</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>2</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>3</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>4</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="794" w:type="dxa"/>
+<w:vAlign w:val="center"/>
+</w:tcPr>
+<w:p w:rsidR="00753C4F" w:rsidRPr="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00672B84">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:leftChars="63" w:left="132"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00753C4F">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>5</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+</w:tbl>
+<w:p w:rsidR="00753C4F" w:rsidRDefault="00753C4F">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00753C4F">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>2其他</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>评语或意见</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00753C4F" w:rsidRPr="0005356A" w:rsidRDefault="00753C4F" w:rsidP="00753C4F">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00753C4F">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:left="539" w:hanging="539"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+<w:t xml:space="preserve">             </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">    </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+<w:t xml:space="preserve">     </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">       </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00753C4F" w:rsidRPr="0005356A" w:rsidRDefault="00753C4F" w:rsidP="00753C4F">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:left="539" w:hanging="539"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00753C4F">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:left="539" w:hanging="539"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+<w:t xml:space="preserve">             </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+<w:t xml:space="preserve">    </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">            </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="00753C4F" w:rsidRPr="0005356A" w:rsidRDefault="00753C4F" w:rsidP="00753C4F">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:left="539" w:hanging="539"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="00753C4F" w:rsidRPr="0005356A" w:rsidRDefault="00753C4F" w:rsidP="00753C4F">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:left="539" w:hanging="539"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+</w:p>
+<w:p w:rsidR="00753C4F" w:rsidRDefault="00753C4F" w:rsidP="00753C4F">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:left="539" w:hanging="59"/>
+<w:jc w:val="right"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>服务对象</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>签署：</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+</w:p>
+<w:p w:rsidR="00753C4F" w:rsidRPr="0005356A" w:rsidRDefault="00753C4F" w:rsidP="00753C4F">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:left="539" w:hanging="59"/>
+<w:jc w:val="right"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="00753C4F" w:rsidRPr="0005356A" w:rsidRDefault="00753C4F" w:rsidP="00753C4F">
+<w:pPr>
+<w:ind w:right="315"/>
+<w:jc w:val="right"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">日期 : </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+</w:p>
+<w:p w:rsidR="00753C4F" w:rsidRDefault="00753C4F">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRDefault="000F6B3B">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRDefault="000F6B3B">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRDefault="000F6B3B">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRDefault="000F6B3B">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRDefault="000F6B3B">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRDefault="000F6B3B">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRDefault="000F6B3B">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRDefault="000F6B3B">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRDefault="000F6B3B">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRDefault="000F6B3B">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRDefault="000F6B3B">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRDefault="000F6B3B">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRDefault="000F6B3B">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRDefault="000F6B3B">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRDefault="000F6B3B">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>

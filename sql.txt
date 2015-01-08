@@ -1,0 +1,12 @@
+processId
+serialNumber
+socialWorker
+date
+thosePresent
+address
+target
+languageLog
+nonLanguageExpression
+workersFeel
+overallFeeling
+plan

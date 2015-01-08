@@ -1,0 +1,38 @@
+<?php include 'header.html';?>
+<body id="login">
+<div id="login-wrapper" class="png_bg">
+  <div id="login-top">
+    <h1>乐众数据平台</h1>
+    <!-- Logo (221px width) -->
+    <a href="#"><img id="logo" src="./app/views/images/lezhong.png" alt="Simpla Admin logo" /></a> </div>
+  <!-- End #logn-top -->
+  <div id="login-content">
+    <form id="login-form">
+      <div class="notification information png_bg none" id="login-notice">
+        <div> Just click "Sign In". No password needed. </div>
+      </div>
+      <p>
+        <label>用户名：</label>
+        <input class="text-input" type="text" id="username" name="username"/>
+      </p>
+      <div class="clear"></div>
+      <p>
+        <label>密&nbsp;&nbsp;码：</label>
+        <input class="text-input" type="password" id="password" name="password"/>
+      </p>
+      <div class="clear"></div>
+      <!-- <p id="remember-password">
+        <input type="checkbox" id="remember-password" name="remember-password" />
+        记住密码 </p>
+      <div class="clear"></div> -->
+      <p>
+        <input class="button" type="button" value="登&nbsp;&nbsp;录" onclick="login();"/>
+      </p>
+    </form>
+  </div>
+  <!-- End #login-content -->
+</div>
+<!-- End #login-wrapper -->
+<script type="text/javascript" src="/app/views/js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<?php include 'header.html';?>
+<body>
+<div id="body-wrapper">
+  <?php include 'left.html';?>
+  <div id="main-content">
+    <!-- Page Head -->
+    <div class="clear"></div>
+    <!-- End .clear -->
+    <div class="content-box">
+      <!-- Start Content Box -->
+      <div class="content-box-header">
+        <h3>成员管理</h3>
+        <ul class="content-box-tabs">
+          <li><a href="#tab1" class="default-tab">列表</a></li>
+          <!-- href must be unique and match the id of target div -->
+          <li><a href="?c=settings&m=edit">新增成员</a></li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+      <!-- End .content-box-header -->
+      <div class="content-box-content">
+        <div class="tab-content default-tab" id="tab1">
+          <div class="notification error png_bg none" id="notice">
+          	<a href="javascript:;" class="close">
+          		<img src="./app/views/images/icons/cross_grey_small.png" title="Close this notification" alt="close" />
+          	</a>
+            <div>提示内容</div>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  <input class="check-all" type="checkbox" />
+                </th>
+                <th>用户id</th>
+                <th>帐号</th>
+                <th>姓名</th>
+                <th>分组</th>
+                <th>手机号码</th>
+                <th>联系地址</th>
+                <th>状态</th>
+                <th>新增时间</th>
+                <th>操作</th>
+              </tr>
+            </thead>
+            <tfoot>
+              <tr>
+                <td colspan="9">
+                  <div class="pagination"> 
+                  	<?php echo $links;?>
+                  </div>
+                  <!-- End .pagination -->
+                  <div class="clear"></div>
+                </td>
+              </tr>
+            </tfoot>
+            <tbody>
+              <?php
+              	foreach($memberList as $key=>$value){
+					echo '
+					<tr>
+                	<td>
+                  		<input type="checkbox" name="memberId" value="'.$value['memberId'].'"/>
+               	 	</td>
+					<td>'.$value['memberId'].'</td>
+					<td><a href="#" title="title">'.$value['username'].'</a></td>
+                	<td>'.$value['truename'].'</td>
+                	<td>'.$value['groupName'].'</td>
+                	<td>'.$value['telephone'].'</td>
+                	<td>'.$value['address'].'</td>
+					<td>'.$value['status'].'</td>
+					<td>'.$value['createtime'].'</td>
+                	<td>
+                  		<a href="?c=settings&m=edit&id='.$value['memberId'].'" title="Edit">
+							<img src="./app/views/images/icons/pencil.png" alt="Edit" />
+						</a> 
+						<a href="javascript:;" title="Delete" onclick="delMember(\''.$value["memberId"].'\',this);">
+							<img src="./app/views/images/icons/cross.png" alt="Delete" />
+						</a>
+					</td>
+              		</tr>';
+				}
+              ?>
+            </tbody>
+          </table>
+        </div>
+        <!-- End #tab1 -->
+      </div>
+    </div>
+    <?php include 'footer.html';?>
+  </div>
+</div>
+<script type="text/javascript" src="app/views/js/settings.js"></script>
+</body>
+</html>

@@ -1,0 +1,662 @@
+﻿
+<w:p w:rsidR="00217D49" w:rsidRDefault="00217D49" w:rsidP="00217D49">
+<w:pPr>
+<w:widowControl/>
+<w:ind w:firstLineChars="1300" w:firstLine="2730"/>
+<w:jc w:val="right"/>
+<w:rPr>
+<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00217D49">
+<w:rPr>
+<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:lastRenderedPageBreak/>
+<w:t>C-0</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>8</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="001B0234" w:rsidRDefault="001B0234" w:rsidP="001B0234">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:b/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="001B0234" w:rsidRPr="0005356A" w:rsidRDefault="001B0234" w:rsidP="001B0234">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:b/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:b/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>转介</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:b/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>/结案</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:b/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>同意书</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="001B0234" w:rsidRDefault="001B0234" w:rsidP="001B0234">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="300" w:lineRule="auto"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="001B0234" w:rsidRDefault="001B0234" w:rsidP="001B0234">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="300" w:lineRule="auto"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="001B0234" w:rsidRPr="0005356A" w:rsidRDefault="001B0234" w:rsidP="001B0234">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="300" w:lineRule="auto"/>
+<w:jc w:val="center"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="001B0234" w:rsidRDefault="001B0234" w:rsidP="001B0234">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:firstLineChars="200" w:firstLine="420"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="001B0234" w:rsidRPr="0005356A" w:rsidRDefault="001B0234" w:rsidP="001B0234">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:firstLineChars="200" w:firstLine="420"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">本人 </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                  </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve"> 完全明白</w:t>
+</w:r>
+<w:proofErr w:type="gramStart"/>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>及同意</w:t>
+</w:r>
+<w:proofErr w:type="gramEnd"/>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>佛山市南海</w:t>
+</w:r>
+<w:proofErr w:type="gramStart"/>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>区</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>乐众</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>社</w:t>
+</w:r>
+<w:proofErr w:type="gramEnd"/>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">工服务中心转介本人到 </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="001B0234" w:rsidRPr="0005356A" w:rsidRDefault="001B0234" w:rsidP="001B0234">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:firstLineChars="200" w:firstLine="420"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="001B0234" w:rsidRPr="0005356A" w:rsidRDefault="001B0234" w:rsidP="001B0234">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                                 </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                                       </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>，</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="001B0234" w:rsidRPr="0005356A" w:rsidRDefault="001B0234" w:rsidP="001B0234">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="001B0234" w:rsidRPr="0005356A" w:rsidRDefault="001B0234" w:rsidP="001B0234">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+<w:lang w:eastAsia="zh-TW"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>理由</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">是 </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                          </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                                      </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve"> 。</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="001B0234" w:rsidRDefault="001B0234" w:rsidP="001B0234">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="300" w:lineRule="auto"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="001B0234" w:rsidRPr="0005356A" w:rsidRDefault="001B0234" w:rsidP="001B0234">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="300" w:lineRule="auto"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>并知悉日后若有需要可如何得到服务。</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="001B0234" w:rsidRDefault="001B0234" w:rsidP="001B0234">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="300" w:lineRule="auto"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:eastAsia="PMingLiU" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:lang w:eastAsia="zh-TW"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="001B0234" w:rsidRPr="001B0234" w:rsidRDefault="001B0234" w:rsidP="001B0234">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="300" w:lineRule="auto"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:eastAsia="PMingLiU" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:lang w:eastAsia="zh-TW"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="001B0234" w:rsidRPr="001B0234" w:rsidRDefault="001B0234" w:rsidP="001B0234">
+<w:pPr>
+<w:tabs>
+<w:tab w:val="left" w:pos="6720"/>
+<w:tab w:val="left" w:pos="9735"/>
+</w:tabs>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="300" w:lineRule="auto"/>
+<w:ind w:firstLineChars="2250" w:firstLine="4725"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>个案</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>编号：</w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                    </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="001B0234" w:rsidRPr="0005356A" w:rsidRDefault="001B0234" w:rsidP="001B0234">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="300" w:lineRule="auto"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:lang w:eastAsia="zh-TW"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="001B0234" w:rsidRPr="0005356A" w:rsidRDefault="001B0234" w:rsidP="001B0234">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="480" w:lineRule="auto"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">服务使用者签名   : </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">         负责社工签名</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:tab/>
+<w:t xml:space="preserve">: </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                  </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="001B0234" w:rsidRPr="0005356A" w:rsidRDefault="001B0234" w:rsidP="001B0234">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="480" w:lineRule="auto"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+<w:lang w:eastAsia="zh-TW"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>日期</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:tab/>
+<w:t xml:space="preserve">    </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:tab/>
+<w:t xml:space="preserve">   : </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">         日期</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:tab/>
+<w:t>:</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:lang w:eastAsia="zh-TW"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+<w:lang w:eastAsia="zh-TW"/>
+</w:rPr>
+<w:t xml:space="preserve">             </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+<w:lang w:eastAsia="zh-TW"/>
+</w:rPr>
+<w:t xml:space="preserve">    </w:t>
+</w:r>
+</w:p>
+<w:tbl>
+<w:tblPr>
+<w:tblpPr w:leftFromText="180" w:rightFromText="180" w:vertAnchor="text" w:horzAnchor="page" w:tblpXSpec="center" w:tblpY="270"/>
+<w:tblW w:w="10024" w:type="dxa"/>
+<w:tblBorders>
+<w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:insideH w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+<w:insideV w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+</w:tblBorders>
+<w:tblLayout w:type="fixed"/>
+<w:tblCellMar>
+<w:left w:w="28" w:type="dxa"/>
+<w:right w:w="28" w:type="dxa"/>
+</w:tblCellMar>
+<w:tblLook w:val="0000"/>
+</w:tblPr>
+<w:tblGrid>
+<w:gridCol w:w="10024"/>
+</w:tblGrid>
+<w:tr w:rsidR="001B0234" w:rsidRPr="0005356A" w:rsidTr="001B0234">
+<w:trPr>
+<w:trHeight w:val="699"/>
+</w:trPr>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="10024" w:type="dxa"/>
+</w:tcPr>
+<w:p w:rsidR="001B0234" w:rsidRPr="0005356A" w:rsidRDefault="001B0234" w:rsidP="001B0234">
+<w:pPr>
+<w:spacing w:before="40" w:after="40"/>
+<w:ind w:left="113" w:right="113"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>你提供的资料，将会用作申请有关服务之用。你有权查阅及更正本机构所保存有关你的</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>个人</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>资料。如有任何疑问，包括要求查阅或更正资料，请联络有关职员或本机构负责人。</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+</w:tbl>
+<w:p w:rsidR="001B0234" w:rsidRDefault="001B0234" w:rsidP="00217D49">
+<w:pPr>
+<w:widowControl/>
+<w:ind w:firstLineChars="1300" w:firstLine="2730"/>
+<w:jc w:val="right"/>
+<w:rPr>
+<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="001B0234" w:rsidRDefault="001B0234">
+<w:pPr>
+<w:widowControl/>
+<w:jc w:val="left"/>
+<w:rPr>
+<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:br w:type="page"/>
+</w:r>
+</w:p>

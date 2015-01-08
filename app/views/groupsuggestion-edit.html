@@ -1,0 +1,109 @@
+<?php include 'header.html';?>
+<body>
+<div id="body-wrapper">
+  <?php include 'left.html';?>
+  <div id="main-content">
+    <!-- Page Head -->
+    <!-- <h2>Welcome</h2> -->
+    <div class="clear"></div>
+    <!-- End .clear -->
+    <div class="content-box">
+      <!-- Start Content Box -->
+      <div class="content-box-header">
+        <h3><?php echo $title;?></h3>
+        <div class="clear"></div>
+      </div>
+      <!-- End .content-box-header -->
+      <div class="content-box-content">
+        <div class="tab-content default-tab" >
+          <form id="groupsuggestion">
+            <fieldset>
+             <p>
+              <label>小组名称</label>
+             <select name="groupId" class="small-input">
+              	<option value="0">请选择</option>
+              	<?php
+              		foreach($groupList as $key=>$value){
+						if($value['groupId'] == $groupId){
+							$selected = 'selected="selected"';
+						}
+						echo '<option value="'.$value['groupId'].'" '.$selected.'>'.$value['name'].'</option>';
+					}
+              	?>
+              </select>
+              <span class="input-notification png_bg none" id="groupIdInfo"></span>
+             </p>
+             <p>
+              <label>目标达致程度</label>
+             <input class="text-input small-input" type="text" id="targetsAchievement" name="targetsAchievement" value="<?php echo $targetsAchievement;?>"/>
+              <span class="input-notification png_bg none" id="targetsAchievementInfo"></span>
+             </p>
+             <p>
+              <label>时间安排</label>
+             <input class="text-input small-input" type="text" id="timeArrangement" name="timeArrangement" value="<?php echo $timeArrangement;?>"/>
+              <span class="input-notification png_bg none" id="timeArrangementInfo"></span>
+             </p>
+             <p>
+              <label>小组形式</label>
+             <input class="text-input small-input" type="text" id="form" name="form" value="<?php echo $form;?>"/>
+              <span class="input-notification png_bg none" id="formInfo"></span>
+             </p>
+             <p>
+              <label>小组场地</label>
+             <input class="text-input small-input" type="text" id="site" name="site" value="<?php echo $site;?>"/>
+              <span class="input-notification png_bg none" id="siteInfo"></span>
+             </p>
+             <p>
+              <label>小组内容</label>
+             <input class="text-input small-input" type="text" id="content" name="content" value="<?php echo $content;?>"/>
+              <span class="input-notification png_bg none" id="contentInfo"></span>
+             </p>
+             <p>
+              <label>工作人员表现</label>
+             <input class="text-input small-input" type="text" id="jobPerformance" name="jobPerformance" value="<?php echo $jobPerformance;?>"/>
+              <span class="input-notification png_bg none" id="jobPerformanceInfo"></span>
+             </p>
+             <p>
+              <label>工作人员态度</label>
+             <input class="text-input small-input" type="text" id="workAttitude" name="workAttitude" value="<?php echo $workAttitude;?>"/>
+              <span class="input-notification png_bg none" id="workAttitudeInfo"></span>
+             </p>
+             <p>
+              <label>投入度</label>
+             <input class="text-input small-input" type="text" id="involvement" name="involvement" value="<?php echo $involvement;?>"/>
+              <span class="input-notification png_bg none" id="involvementInfo"></span>
+             </p>
+             <p>
+              <label>整体安排</label>
+             <input class="text-input small-input" type="text" id="packageProgramme" name="packageProgramme" value="<?php echo $packageProgramme;?>"/>
+              <span class="input-notification png_bg none" id="packageProgrammeInfo"></span>
+             </p>
+             <p>
+              <label>其他意见及建议</label>
+              <textarea class="text-input textarea wysiwyg" id="advices" name="advices" cols="79" rows="15"><?php echo $advices;?></textarea>
+             </p>
+            <p>
+              <input type="hidden" name="<?php echo $primaryName;?>" value="<?php echo $primaryValue;?>" />
+              <input class="button" type="button" value="确定" onclick="saveInfo('groupsuggestion','groupsuggestion','saveInfo')"/>
+            </p>
+            </fieldset>
+            <div class="notification success png_bg none" style="width:150px;" id="groupsuggestionSaveResult">
+	          	<a href="javascript:;" class="close">
+	          		<img src="./app/views/images/icons/cross_grey_small.png" title="Close this notification" alt="close" />
+	          	</a>
+	            <div>提示内容</div>
+          	</div>
+            <div class="clear"></div>
+            <!-- End .clear -->
+          </form>
+        </div>
+        <!-- End #tab2 -->
+      </div>
+    </div>
+    <?php include 'footer.html';?>
+  </div>
+</div>
+<script type="text/javascript" src="app/views/js/base.js"></script>
+<script type="text/javascript" src="app/views/module/My97DatePicker/WdatePicker.js"></script>
+</body>
+</html>

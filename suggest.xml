@@ -1,0 +1,1540 @@
+﻿<!--社工的建议及行动-->
+<w:p w:rsidR="00217D49" w:rsidRDefault="00217D49" w:rsidP="00217D49">
+	<w:pPr>
+		<w:widowControl/>
+		<w:ind w:firstLineChars="1300" w:firstLine="2730"/>
+		<w:jc w:val="right"/>
+		<w:rPr>
+			<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+	</w:pPr>
+	<w:r w:rsidRPr="00217D49">
+		<w:rPr>
+			<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+		<w:lastRenderedPageBreak/>
+		<w:t>C-0</w:t>
+	</w:r>
+	<w:r>
+		<w:rPr>
+			<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+		<w:t>2</w:t>
+	</w:r>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+	<w:pPr>
+		<w:pStyle w:val="App-head3"/>
+		<w:tabs>
+			<w:tab w:val="left" w:pos="5760"/>
+		</w:tabs>
+		<w:adjustRightInd w:val="0"/>
+		<w:spacing w:before="0" w:after="0"/>
+		<w:ind w:firstLineChars="1829" w:firstLine="3856"/>
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:sz w:val="21"/>
+			<w:szCs w:val="21"/>
+			<w:u w:val="none"/>
+			<w:lang w:eastAsia="zh-CN"/>
+		</w:rPr>
+	</w:pPr>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:sz w:val="21"/>
+			<w:szCs w:val="21"/>
+			<w:u w:val="none"/>
+			<w:lang w:eastAsia="zh-CN"/>
+		</w:rPr>
+		<w:t>社工的建议及行动</w:t>
+	</w:r>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+	<w:pPr>
+		<w:snapToGrid w:val="0"/>
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:b/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+	</w:pPr>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:b/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+		<w:tab/>
+	</w:r>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:b/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+		<w:tab/>
+	</w:r>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+	<w:pPr>
+		<w:snapToGrid w:val="0"/>
+		<w:ind w:firstLineChars="150" w:firstLine="315"/>
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+		<w:szCs w:val="21"/>
+		</w:rPr>
+	</w:pPr>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+		<w:szCs w:val="21"/>
+		</w:rPr>
+		<w:t>（ {$notFollowUp} ）不需要跟进（请注明原因）</w:t>
+	</w:r>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+			<w:u w:val="single"/>
+		</w:rPr>
+		<w:t xml:space="preserve">  {$followUpRemark}                         </w:t>
+	</w:r>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+		<w:t xml:space="preserve"> </w:t>
+	</w:r>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+	<w:pPr>
+		<w:snapToGrid w:val="0"/>
+		<w:ind w:firstLineChars="150" w:firstLine="315"/>
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+	</w:pPr>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+		<w:szCs w:val="21"/>
+		</w:rPr>
+		<w:t>（ {$followUp} ）需要跟进</w:t>
+	</w:r>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+		<w:szCs w:val="21"/>
+		</w:rPr>
+		<w:t xml:space="preserve"> </w:t>
+	</w:r>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+	<w:pPr>
+		<w:snapToGrid w:val="0"/>
+		<w:ind w:firstLineChars="200" w:firstLine="420"/>
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+	</w:pPr>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+		<w:t>危机因素：{$crisis}（请注明）：</w:t>
+	</w:r>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+			<w:u w:val="single"/>
+		</w:rPr>
+		<w:t xml:space="preserve">  {$crisisRemark}                         </w:t>
+	</w:r>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+	<w:pPr>
+		<w:snapToGrid w:val="0"/>
+		<w:ind w:firstLineChars="200" w:firstLine="420"/>
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+	</w:pPr>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+		<w:t>紧急服务：{$urgent}（请注明所需服务）：</w:t>
+	</w:r>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+		<w:t xml:space="preserve"> </w:t>
+	</w:r>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+			<w:u w:val="single"/>
+		</w:rPr>
+		<w:t xml:space="preserve">  {$urgentRemark}                        </w:t>
+	</w:r>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+	<w:pPr>
+		<w:snapToGrid w:val="0"/>
+		<w:ind w:firstLineChars="200" w:firstLine="420"/>
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+	</w:pPr>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+		<w:t>其他原因（请注明）：</w:t>
+	</w:r>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+		<w:t xml:space="preserve"> </w:t>
+	</w:r>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+			<w:u w:val="single"/>
+		</w:rPr>
+		<w:t xml:space="preserve"> </w:t>
+	</w:r>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+			<w:szCs w:val="21"/>
+			<w:u w:val="single"/>
+		</w:rPr>
+		<w:t xml:space="preserve">  {$otherReasons}                             </w:t>
+	</w:r>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+			<w:u w:val="single"/>
+		</w:rPr>
+		<w:t xml:space="preserve">                          </w:t>
+	</w:r>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+		<w:t xml:space="preserve"> </w:t>
+	</w:r>
+</w:p>
+
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+		<w:pPr>
+		<w:snapToGrid w:val="0"/>
+		<w:ind w:firstLineChars="150" w:firstLine="315"/>
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+	</w:pPr>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="006A3F26" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+	<w:pPr>
+		<w:snapToGrid w:val="0"/>
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:b/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+	</w:pPr>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:b/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+		<w:t xml:space="preserve">                                                  </w:t>
+	</w:r>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+	<w:pPr>
+		<w:snapToGrid w:val="0"/>
+		<w:ind w:firstLineChars="200" w:firstLine="420"/>
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+	</w:pPr>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+		<w:t>当事人是否愿意接受所建议的服务：</w:t>
+	</w:r>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+		<w:t>（ {$willing}）</w:t>
+	</w:r>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+		<w:t>愿意</w:t>
+	</w:r>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+		<w:t>；（ {$unwilling} ）</w:t>
+	</w:r>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+		<w:t>不愿意</w:t>
+	</w:r>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+		<w:t>；（ {$notApplicable}）</w:t>
+	</w:r>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+		<w:t>不适用</w:t>
+	</w:r>
+</w:p>
+
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+	<w:pPr>
+		<w:snapToGrid w:val="0"/>
+		<w:spacing w:line="360" w:lineRule="exact"/>
+		<w:ind w:firstLineChars="200" w:firstLine="420"/>
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+			<w:u w:val="single"/>
+		</w:rPr>
+	</w:pPr>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+		<w:t>如不愿意，请注明原因及建议其它跟进工作：</w:t>
+	</w:r>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+			<w:u w:val="single"/>
+		</w:rPr>
+		<w:t xml:space="preserve">  {$isAcceptRemark}                                         </w:t>
+	</w:r>
+</w:p>
+
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+	<w:pPr>
+		<w:snapToGrid w:val="0"/>
+		<w:spacing w:line="420" w:lineRule="exact"/>
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+			<w:u w:val="single"/>
+		</w:rPr>
+	</w:pPr>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+		<w:t xml:space="preserve">    </w:t>
+	</w:r>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+			<w:u w:val="single"/>
+		</w:rPr>
+		<w:t xml:space="preserve">                                                                                   </w:t>
+	</w:r>
+</w:p>
+
+<w:p w:rsidR="006A3F26" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+	<w:pPr>
+		<w:snapToGrid w:val="0"/>
+		<w:spacing w:line="420" w:lineRule="exact"/>
+		<w:ind w:firstLineChars="200" w:firstLine="420"/>
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+	</w:pPr>
+	<w:r w:rsidRPr="0005356A">
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+		<w:szCs w:val="21"/>
+		</w:rPr>
+		<w:t>若开案：</w:t>
+	</w:r>
+</w:p>
+<w:p w:rsidR="006F4649" w:rsidRPr="0005356A" w:rsidRDefault="006F4649" w:rsidP="006A3F26">
+	<w:pPr>
+		<w:snapToGrid w:val="0"/>
+		<w:spacing w:line="420" w:lineRule="exact"/>
+		<w:ind w:firstLineChars="200" w:firstLine="420"/>
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+	</w:pPr>
+</w:p>
+<w:p w:rsidR="006F4649" w:rsidRPr="006F4649" w:rsidRDefault="006F4649" w:rsidP="006F4649">
+	<w:pPr>
+		<w:snapToGrid w:val="0"/>
+		<w:ind w:firstLineChars="200" w:firstLine="420"/>
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:b/>
+			<w:szCs w:val="21"/>
+			<w:u w:val="single"/>
+		</w:rPr>
+	</w:pPr>
+	<w:r>
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+		<w:t>个案编号</w:t>
+	</w:r>
+	<w:r>
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+		<w:t>：</w:t>
+	</w:r>
+	<w:r>
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+			<w:szCs w:val="21"/>
+			<w:u w:val="single"/>
+		</w:rPr>
+		<w:t xml:space="preserve"> {$serialNumber}       </w:t>
+	</w:r>
+	<w:r>
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+			<w:u w:val="single"/>
+		</w:rPr>
+		<w:t xml:space="preserve">     </w:t>
+	</w:r>
+	<w:r>
+		<w:rPr>
+			<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+			<w:szCs w:val="21"/>
+			<w:u w:val="single"/>
+		</w:rPr>
+		<w:t xml:space="preserve">          </w:t>
+	</w:r>
+</w:p>
+
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="420" w:lineRule="exact"/>
+<w:ind w:firstLineChars="200" w:firstLine="420"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>建议个案总体目的为</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>：</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> {$overallAim}         </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">             </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                                                  </w:t>
+</w:r>
+</w:p>
+
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="420" w:lineRule="exact"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">    </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>各项目标：</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">   {$goals}                                                                                </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="420" w:lineRule="exact"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">    </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                                       </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">          </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                                            </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="420" w:lineRule="exact"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">    </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>服务计划：</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">  {$servicePlan}                 </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                                              </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">          </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">       </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="420" w:lineRule="exact"/>
+<w:ind w:firstLineChars="200" w:firstLine="420"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                  </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                                    </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                             </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">   </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">      </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="420" w:lineRule="exact"/>
+<w:ind w:firstLineChars="200" w:firstLine="420"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                  </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                                    </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                                    </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="420" w:lineRule="exact"/>
+<w:ind w:firstLineChars="200" w:firstLine="420"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                 </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                        </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                        </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">       </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                    </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="420" w:lineRule="exact"/>
+<w:ind w:firstLineChars="200" w:firstLine="420"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                 </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                        </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                        </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                        </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">  </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="420" w:lineRule="exact"/>
+<w:ind w:firstLineChars="200" w:firstLine="420"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>困难预计及对策：</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">  {$difficulty}                 </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                                         </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">          </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">       </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="420" w:lineRule="exact"/>
+<w:ind w:firstLineChars="200" w:firstLine="420"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                  </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                                    </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                             </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">   </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">      </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="420" w:lineRule="exact"/>
+<w:ind w:firstLineChars="200" w:firstLine="420"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                  </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                                    </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                                    </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="420" w:lineRule="exact"/>
+<w:ind w:firstLineChars="200" w:firstLine="420"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="420" w:lineRule="exact"/>
+<w:ind w:firstLineChars="200" w:firstLine="420"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>填表社工：</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">  {$socialWorker}               </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:tab/>
+<w:t>日期：</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">  {$date}               </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">     </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">          督导批注</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">       1、个案需要跟进：{$isNeed}</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">  {$isNeedRemark}        </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">      </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">  </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t>】</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+<w:pPr>
+<w:ind w:firstLineChars="350" w:firstLine="735"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>2、其它：</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> {$other}      </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">     </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">   </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">                                                                     </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="420" w:lineRule="exact"/>
+<w:ind w:firstLineChars="200" w:firstLine="420"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>督导意见：</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> {$opinionSupervision}                                                      </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">              </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">    </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="420" w:lineRule="exact"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">    </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                                                                                   </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">    </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">    </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">督导签名：__________________________ 批阅日期：_________________          </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006A3F26">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">  </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">  </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="006A3F26" w:rsidRPr="0005356A" w:rsidRDefault="006A3F26" w:rsidP="006F4649">
+<w:pPr>
+<w:ind w:firstLineChars="200" w:firstLine="420"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>机构查阅：</w:t>
+</w:r>
+
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> {$inspectionBodies}                                                      </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="006F4649" w:rsidRDefault="006A3F26" w:rsidP="006F4649">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:firstLineChars="200" w:firstLine="420"/>
+<w:jc w:val="right"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r w:rsidR="006F4649">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>*</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>本表格所收集的资料只用作本机构提供有关服务之用，资料保密处理。</w:t>
+</w:r>
+</w:p>

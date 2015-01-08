@@ -1,0 +1,466 @@
+<?php include 'header.html';?>
+<body>
+<div id="body-wrapper">
+  <?php include 'left.html';?>
+  <div id="main-content">
+    <!-- Page Head -->
+    <!-- <h2>Welcome</h2> -->
+    <div class="clear"></div>
+    <!-- End .clear -->
+    <div class="content-box">
+      <!-- Start Content Box -->
+      <div class="content-box-header">
+        <h3><?php echo $title;?></h3>
+        <div class="clear"></div>
+      </div>
+      <!-- End .content-box-header -->
+      <div class="content-box-content">
+        <div class="tab-content default-tab" >
+          <form id="rounds">
+            <fieldset>
+            <p>
+              <label>姓名</label>
+              <input class="text-input small-input" type="text" id="name" name="name" value="<?php echo $name;?>"/>
+              <span class="input-notification png_bg none" id="nameInfo"></span>
+              </p>
+            <p>
+              <label>性别</label>
+              <?php 
+              	foreach($__sex as $key=>$value){
+					$checked = $value==$sex?'checked=checked':'';
+					echo '<input type="radio" name="sex" value="'.$value.'" '.$checked.' />  '.$value.'  ';
+				}
+              ?>
+              <span class="input-notification png_bg none" id="sexInfo"></span>
+             </p>
+            <p>
+              <label>出生日期</label>
+              <input class="text-input small-input" type="text" id="birthday" name="birthday" value="<?php echo $birthday;?>" onClick="WdatePicker()"/>
+              <span class="input-notification png_bg none" id="birthdayInfo"></span>
+              </p>
+             <p>
+              <label>联系方式</label>
+              <input class="text-input small-input" type="text" id="contact" name="contact" value="<?php echo $contact;?>"/>
+              <span class="input-notification png_bg none" id="contactInfo"></span>
+              </p>
+             <p>
+              <label>科室</label>
+              	<?php
+              	foreach($__section as $key=>$value){
+					if(!empty($sesion)){
+						if(in_array($section,$__section)){
+							$checked = $value==$sex?' checked=checked ':'';						
+						}else{
+							$checked = ' checked=checked ';
+						}
+					}
+					if(strstr($value,$parting) === false){
+						$click = ' onclick="$(\'.sectionRemark\').hide();"';
+					}else{
+						$value = str_ireplace($parting,"",$value);
+						$click = ' onclick="$(\'.sectionRemark\').show();"';
+					}
+					echo '<input type="radio" name="section" value="'.$value.'" '.$checked.$click.' />  '.$value.'  ';
+				}
+				if(!empty($section)){
+					if(!in_array($section,$__section)){
+						$isNone = "";
+					}else{
+						$isNone = "none";
+					}
+				}else{
+					$isNone = 'none';
+				}
+				echo '<input type="text" class="text-input small-input '.$isNone.' sectionRemark" name="sectionRemark" value="'.$section.'"/>
+              				<small class="sectionRemark '.$isNone.'">*请注明</small>';
+				?>
+             </p>
+             <p>
+              <label>日期</label>
+              <input class="text-input small-input" type="text" id="date" name="date" value="<?php echo $date;?>" onClick="WdatePicker()"/>
+              <span class="input-notification png_bg none" id="dateInfo"></span>
+              </p>
+             <p>
+              <label>入院时间</label>
+              <input class="text-input small-input" type="text" id="admissionTime" name="admissionTime" value="<?php echo $admissionTime;?>" onClick="WdatePicker()"/>
+              <span class="input-notification png_bg none" id="admissionTimeInfo"></span>
+              </p>
+             <p>
+              <label>手术时间</label>
+              <input class="text-input small-input" type="text" id="operationTime" name="operationTime" value="<?php echo $operationTime;?>" onClick="WdatePicker()"/>
+              <span class="input-notification png_bg none" id="operationTimeInfo"></span>
+              </p>
+              <p>
+              <label>出院时间</label>
+              <input class="text-input small-input" type="text" id="dischargeTime" name="dischargeTime" value="<?php echo $dischargeTime;?>" onClick="WdatePicker()"/>
+              <span class="input-notification png_bg none" id="dischargeTimeInfo"></span>
+              </p>
+             <p>
+              <label>诊断</label>
+              <input class="text-input medium-input" type="text" id="diagnose" name="diagnose" value="<?php echo $diagnose;?>"/>
+              <span class="input-notification png_bg none" id="diagnoseInfo"></span>
+              </p>
+              <p>
+              <label>过敏史</label>
+              <?php
+              	foreach($__allergicHistory as $key=>$value){
+					if(!empty($allergicHistory)){
+						if(in_array($allergicHistory,$__allergicHistory)){
+							$checked = $value==$sex?' checked=checked ':'';						
+						}else{
+							$checked = ' checked=checked ';
+						}
+					}
+					if(strstr($value,$parting) === false){
+						$click = ' onclick="$(\'.allergicHistoryRemark\').hide();"';
+					}else{
+						$value = str_ireplace($parting,"",$value);
+						$click = ' onclick="$(\'.allergicHistoryRemark\').show();"';
+					}
+					echo '<input type="radio" name="allergicHistory" value="'.$value.'" '.$checked.$click.' />  '.$value.'  ';
+				}
+				if(!empty($allergicHistory)){
+					if(!in_array($allergicHistory,$__allergicHistory)){
+						$isNone = "";
+					}else{
+						$isNone = "none";
+					}
+				}else{
+					$isNone = 'none';
+				}
+				echo '<input type="text" class="text-input small-input '.$isNone.' allergicHistoryRemark" name="allergicHistoryRemark" value="'.$allergicHistory.'"/>
+              				<small class="allergicHistoryRemark '.$isNone.'">*请注明</small>';
+				?>
+             </p>
+             <p>
+              <label>禁忌</label>
+              <?php
+              	foreach($__inhibition as $key=>$value){
+					if(!empty($inhibition)){
+						if(in_array($inhibition,$__inhibition)){
+							$checked = $value==$sex?' checked=checked ':'';						
+						}else{
+							$checked = ' checked=checked ';
+						}
+					}
+					if(strstr($value,$parting) === false){
+						$click = ' onclick="$(\'.inhibitionRemark\').hide();"';
+					}else{
+						$value = str_ireplace($parting,"",$value);
+						$click = ' onclick="$(\'.inhibitionRemark\').show();"';
+					}
+					echo '<input type="radio" name="inhibition" value="'.$value.'" '.$checked.$click.' />  '.$value.'  ';
+				}
+				if(!empty($inhibition)){
+					if(!in_array($inhibition,$__inhibition)){
+						$isNone = "";
+					}else{
+						$isNone = "none";
+					}
+				}else{
+					$isNone = 'none';
+				}
+				echo '<input type="text" class="text-input small-input '.$isNone.' inhibitionRemark" name="inhibitionRemark" value="'.$inhibition.'"/>
+              				<small class="inhibitionRemark '.$isNone.'">*请注明</small>';
+				?>
+             </p>
+             <p>
+              <label>住院照顾</label>
+              <?php
+              	foreach($__hospitalCare as $key=>$value){
+					$checked = $value == $hospitalCare?'checked=checked':'';
+					echo '<input type="radio" name="hospitalCare" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>进食</label>
+              <?php
+              	foreach($__eat as $key=>$value){
+					if(!empty($eat)){
+						if(in_array($eat,$__eat)){
+							$checked = $value==$sex?' checked=checked ':'';						
+						}else{
+							$checked = ' checked=checked ';
+						}
+					}
+					if(strstr($value,$parting) === false){
+						$click = ' onclick="$(\'.eatRemark\').hide();"';
+					}else{
+						$value = str_ireplace($parting,"",$value);
+						$click = ' onclick="$(\'.eatRemark\').show();"';
+					}
+					echo '<input type="radio" name="eat" value="'.$value.'" '.$checked.$click.' />  '.$value.'  ';
+				}
+				if(!empty($eat)){
+					if(!in_array($eat,$__eat)){
+						$isNone = "";
+					}else{
+						$isNone = "none";
+					}
+				}else{
+					$isNone = 'none';
+				}
+				echo '<input type="text" class="text-input small-input '.$isNone.' eatRemark" name="eatRemark" value="'.$eat.'"/>
+              				<small class="eatRemark '.$isNone.'">*请注明</small>';
+				?>
+             </p>
+             <p>
+              <label>沐浴</label>
+              <?php
+              	foreach($__bath as $key=>$value){
+					if(!empty($bath)){
+						if(in_array($bath,$__bath)){
+							$checked = $value==$sex?' checked=checked ':'';						
+						}else{
+							$checked = ' checked=checked ';
+						}
+					}
+					if(strstr($value,$parting) === false){
+						$click = ' onclick="$(\'.bathRemark\').hide();"';
+					}else{
+						$value = str_ireplace($parting,"",$value);
+						$click = ' onclick="$(\'.bathRemark\').show();"';
+					}
+					echo '<input type="radio" name="bath" value="'.$value.'" '.$checked.$click.' />  '.$value.'  ';
+				}
+				if(!empty($bath)){
+					if(!in_array($bath,$__bath)){
+						$isNone = "";
+					}else{
+						$isNone = "none";
+					}
+				}else{
+					$isNone = 'none';
+				}
+				echo '<input type="text" class="text-input small-input '.$isNone.' bathRemark" name="bathRemark" value="'.$bath.'"/>
+              				<small class="bathRemark '.$isNone.'">*请注明</small>';
+				?>
+             </p>
+             <p>
+              <label>洗衣</label>
+              <?php
+              	foreach($__wash as $key=>$value){
+					if(!empty($bath)){
+						if(in_array($bath,$__wash)){
+							$checked = $value==$sex?' checked=checked ':'';						
+						}else{
+							$checked = ' checked=checked ';
+						}
+					}
+					if(strstr($value,$parting) === false){
+						$click = ' onclick="$(\'.washRemark\').hide();"';
+					}else{
+						$value = str_ireplace($parting,"",$value);
+						$click = ' onclick="$(\'.washRemark\').show();"';
+					}
+					echo '<input type="radio" name="wash" value="'.$value.'" '.$checked.$click.' />  '.$value.'  ';
+				}
+				if(!empty($wash)){
+					if(!in_array($wash,$__wash)){
+						$isNone = "";
+					}else{
+						$isNone = "none";
+					}
+				}else{
+					$isNone = 'none';
+				}
+				echo '<input type="text" class="text-input small-input '.$isNone.' washRemark" name="washRemark" value="'.$wash.'"/>
+              				<small class="washRemark '.$isNone.'">*请注明</small>';
+				?>
+             </p>
+             <p>
+              <label>服药</label>
+              <?php
+              	foreach($__dose as $key=>$value){
+					if(!empty($bath)){
+						if(in_array($bath,$__dose)){
+							$checked = $value==$sex?' checked=checked ':'';						
+						}else{
+							$checked = ' checked=checked ';
+						}
+					}
+					if(strstr($value,$parting) === false){
+						$click = ' onclick="$(\'.doseRemark\').hide();"';
+					}else{
+						$value = str_ireplace($parting,"",$value);
+						$click = ' onclick="$(\'.doseRemark\').show();"';
+					}
+					echo '<input type="radio" name="dose" value="'.$value.'" '.$checked.$click.' />  '.$value.'  ';
+				}
+				if(!empty($dose)){
+					if(!in_array($dose,$__dose)){
+						$isNone = "";
+					}else{
+						$isNone = "none";
+					}
+				}else{
+					$isNone = 'none';
+				}
+				echo '<input type="text" class="text-input small-input '.$isNone.' doseRemark" name="doseRemark" value="'.$dose.'"/>
+              				<small class="doseRemark '.$isNone.'">*请注明</small>';
+				?>
+             </p>
+            <p>
+              <label>住院费用支付方式</label>
+              <?php
+              	foreach($__payment as $key=>$value){
+					if(!empty($bath)){
+						if(in_array($bath,$__payment)){
+							$checked = $value==$sex?' checked=checked ':'';						
+						}else{
+							$checked = ' checked=checked ';
+						}
+					}
+					if(strstr($value,$parting) === false){
+						$click = ' onclick="$(\'.paymentRemark\').hide();"';
+					}else{
+						$value = str_ireplace($parting,"",$value);
+						$click = ' onclick="$(\'.paymentRemark\').show();"';
+					}
+					echo '<input type="radio" name="payment" value="'.$value.'" '.$checked.$click.' />  '.$value.'  ';
+				}
+				if(!empty($payment)){
+					if(!in_array($payment,$__payment)){
+						$isNone = "";
+					}else{
+						$isNone = "none";
+					}
+				}else{
+					$isNone = 'none';
+				}
+				echo '<input type="text" class="text-input small-input '.$isNone.' paymentRemark" name="paymentRemark" value="'.$payment.'"/>
+              				<small class="paymentRemark '.$isNone.'">*请注明</small>';
+				?>
+             </p>
+             <p>
+              <label>危机因素</label>
+              	<?php
+              	foreach($__riskFactors as $key=>$value){
+					$checked = $value == $riskFactors?'checked=checked':'';
+					echo '<input type="radio" name="riskFactors" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+            </p>
+            <p>
+              <label>当事人是否愿意接受所建议的服务</label>
+              <?php
+              	foreach($__isAccept as $key=>$value){
+					if(!empty($bath)){
+						if(in_array($bath,$__isAccept)){
+							$checked = $value==$sex?' checked=checked ':'';						
+						}else{
+							$checked = ' checked=checked ';
+						}
+					}
+					if(strstr($value,$parting) === false){
+						$click = ' onclick="$(\'.isAcceptRemark\').hide();"';
+					}else{
+						$value = str_ireplace($parting,"",$value);
+						$click = ' onclick="$(\'.isAcceptRemark\').show();"';
+					}
+					echo '<input type="radio" name="isAccept" value="'.$value.'" '.$checked.$click.' />  '.$value.'  ';
+				}
+				if(!empty($isAccept)){
+					if(!in_array($isAccept,$__isAccept)){
+						$isNone = "";
+					}else{
+						$isNone = "none";
+					}
+				}else{
+					$isNone = 'none';
+				}
+				echo '<input type="text" class="text-input small-input '.$isNone.' isAcceptRemark" name="isAcceptRemark" value="'.$isAccept.'"/>
+              				<small class="isAcceptRemark '.$isNone.'">*请注明</small>';
+				?>
+            </p>
+             <p>
+              <label>患者对病情了解程度</label>
+              <textarea class="text-input textarea wysiwyg" id="patientsUnderstand" name="patientsUnderstand" cols="79" rows="15"><?php echo $patientsUnderstand;?></textarea>
+            </p>
+            <p>
+              <label>家属对病情了解程度</label>
+              <textarea class="text-input textarea wysiwyg" id="familyUnderstand" name="familyUnderstand" cols="79" rows="15"><?php echo $familyUnderstand;?></textarea>
+            </p>
+            <p>
+              <label>对治疗方案了解程度</label>
+              <textarea class="text-input textarea wysiwyg" id="treatmentPlanUnderstand" name="treatmentPlanUnderstand" cols="79" rows="15"><?php echo $treatmentPlanUnderstand;?></textarea>
+            </p>
+            <p>
+              <label>对检查项目了解程度</label>
+              <textarea class="text-input textarea wysiwyg" id="inspectionItemsUnderstand" name="inspectionItemsUnderstand" cols="79" rows="15"><?php echo $inspectionItemsUnderstand;?></textarea>
+            </p>
+            <p>
+              <label>对疾病接受程度</label>
+              <textarea class="text-input textarea wysiwyg" id="acceptanceOfDisease" name="acceptanceOfDisease" cols="79" rows="15"><?php echo $acceptanceOfDisease;?></textarea>
+            </p>
+            <p>
+              <label>对治疗接受程度</label>
+              <textarea class="text-input textarea wysiwyg" id="acceptanceOfTreatment" name="acceptanceOfTreatment" cols="79" rows="15"><?php echo $acceptanceOfTreatment;?></textarea>
+            </p>
+            <p>
+              <label>对手术接受程度</label>
+              <textarea class="text-input textarea wysiwyg" id="acceptanceOfOperation" name="acceptanceOfOperation" cols="79" rows="15"><?php echo $acceptanceOfOperation;?></textarea>
+            </p>
+            <p>
+              <label>对检查接受程度</label>
+              <textarea class="text-input textarea wysiwyg" id="acceptanceOfCheck" name="acceptanceOfCheck" cols="79" rows="15"><?php echo $acceptanceOfCheck;?></textarea>
+            </p>
+            <p>
+              <label>对住院环境评价</label>
+              <textarea class="text-input textarea wysiwyg" id="evaluationOfHospital" name="evaluationOfHospital" cols="79" rows="15"><?php echo $evaluationOfHospital;?></textarea>
+            </p>
+            <p>
+              <label>对伙食评价</label>
+              <textarea class="text-input textarea wysiwyg" id="evaluationOfFood" name="evaluationOfFood" cols="79" rows="15"><?php echo $evaluationOfFood;?></textarea>
+            </p>
+            <p>
+              <label>对医务人员评价</label>
+              <textarea class="text-input textarea wysiwyg" id="evaluationOfMedical" name="evaluationOfMedical" cols="79" rows="15"><?php echo $evaluationOfMedical;?></textarea>
+            </p>
+            <p>
+              <label>医患互动</label>
+              <textarea class="text-input textarea wysiwyg" id="DoctorPatientInteraction" name="DoctorPatientInteraction" cols="79" rows="15"><?php echo $DoctorPatientInteraction;?></textarea>
+            </p>
+            <p>
+              <label>病友互动</label>
+              <textarea class="text-input textarea wysiwyg" id="patientInteraction" name="patientInteraction" cols="79" rows="15"><?php echo $patientInteraction;?></textarea>
+            </p>
+            <p>
+              <label>社工建议及行动</label>
+              <textarea class="text-input textarea wysiwyg" id="RecommendationsAndAction" name="RecommendationsAndAction" cols="79" rows="15"><?php echo $suggess;?></textarea>
+            </p>
+            <p>
+              <label>巡房记录内容</label>
+              <textarea class="text-input textarea wysiwyg" id="content" name="content" cols="79" rows="15"><?php echo $content;?></textarea>
+            </p>
+            <p>
+              <label>督导意见</label>
+              <textarea class="text-input textarea wysiwyg" id="suggestion" name="suggestion" cols="79" rows="15"><?php echo $suggestion;?></textarea>
+            </p>
+            <p>
+              <input type="hidden" name="<?php echo $primaryName;?>" value="<?php echo $primaryValue;?>" />
+              <input class="button" type="button" value="确定" onclick="saveInfo('rounds','rounds','saveInfo')"/>
+              
+            </p>
+            </fieldset>
+            <div class="notification success png_bg none" style="width:150px;" id="saveResult">
+	          	<a href="javascript:;" class="close">
+	          		<img src="./app/views/images/icons/cross_grey_small.png" title="Close this notification" alt="close" />
+	          	</a>
+	            <div>提示内容</div>
+          	</div>
+            <div class="clear"></div>
+            <!-- End .clear -->
+          </form>
+        </div>
+        <!-- End #tab2 -->
+      </div>
+    </div>
+    <?php include 'footer.html';?>
+  </div>
+</div>
+<script type="text/javascript" src="app/views/js/base.js"></script>
+<script type="text/javascript" src="app/views/module/My97DatePicker/WdatePicker.js"></script>
+</body>
+</html>

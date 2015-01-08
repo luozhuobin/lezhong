@@ -1,0 +1,186 @@
+<?php include 'header.html';?>
+<body>
+<div id="body-wrapper">
+  <?php include 'left.html';?>
+  <div id="main-content">
+    <!-- Page Head -->
+    <!-- <h2>Welcome</h2> -->
+    <div class="clear"></div>
+    <!-- End .clear -->
+    <div class="content-box">
+      <!-- Start Content Box -->
+      <div class="content-box-header">
+        <h3><?php echo $title;?></h3>
+        <div class="clear"></div>
+      </div>
+      <!-- End .content-box-header -->
+      <div class="content-box-content">
+        <div class="tab-content default-tab" >
+          <form id="groupreport">
+            <fieldset>
+             <p>
+              <label>小组名称</label>
+              <select name="groupId" class="small-input">
+              	<option value="0">请选择</option>
+              	<?php
+              		foreach($groupList as $key=>$value){
+						if($value['groupId'] == "groupId"){
+							$selected = 'selected="selected"';
+						}
+						echo '<option value="'.$value['groupId'].'" '.$selected.'>'.$value['name'].'</option>';
+					}
+              	?>
+              </select>
+              <span class="input-notification png_bg none" id="groupNameInfo"></span>
+            </p>
+              <p>
+	              <label>筹备工作</label>
+	              <textarea class="text-input textarea wysiwyg" id="preparatoryWork" name="preparatoryWork" cols="79" rows="15"><?php echo $preparatoryWork;?></textarea>
+              </p>
+              <?
+              	if(intval ( $this->session->userdata ( 'groupId' ) ) < 4){
+			　?>
+              <p>
+	              <label>督导意见</label>
+	              <textarea class="text-input textarea wysiwyg" id="preparatoryWorkOption" name="preparatoryWorkOption" cols="79" rows="15"><?php echo $preparatoryWorkOption;?></textarea>
+              </p>
+              <?php
+              	}
+              ?>
+              <p>
+	              <label>目标达致情况</label>
+	              <textarea class="text-input textarea wysiwyg" id="targetCompletion" name="targetCompletion" cols="79" rows="15"><?php echo $targetCompletion;?></textarea>
+              </p>
+              <?
+              	if(intval ( $this->session->userdata ( 'groupId' ) ) < 4){
+			　?>
+              <p>
+	              <label>督导意见</label>
+	              <textarea class="text-input textarea wysiwyg" id="targetCompletionOption" name="targetCompletionOption" cols="79" rows="15"><?php echo $targetCompletionOption;?></textarea>
+              </p>
+              <?php
+              	}
+              ?>
+              <p>
+	              <label>内容/形式</label>
+	              <textarea class="text-input textarea wysiwyg" id="reportcontent" name="reportcontent" cols="79" rows="15"><?php echo $reportcontent;?></textarea>
+              </p>
+              <?
+              	if(intval ( $this->session->userdata ( 'groupId' ) ) < 4){
+			　?>
+              <p>
+	              <label>督导意见</label>
+	              <textarea class="text-input textarea wysiwyg" id="reportcontentOption" name="reportcontentOption" cols="79" rows="15"><?php echo $reportcontentOption;?></textarea>
+              </p>
+              <?php
+              	}
+              ?>
+              <p>
+	              <label>人手分工</label>
+	              <textarea class="text-input textarea wysiwyg" id="personnelArrangement" name="personnelArrangement" cols="79" rows="15"><?php echo $personnelArrangement;?></textarea>
+              </p>
+              <?
+              	if(intval ( $this->session->userdata ( 'groupId' ) ) < 4){
+			　?>
+              <p>
+	              <label>督导意见</label>
+	              <textarea class="text-input textarea wysiwyg" id="personnelArrangementOption" name="personnelArrangementOption" cols="79" rows="15"><?php echo $personnelArrangementOption;?></textarea>
+              </p>
+              <?php
+              	}
+              ?>
+              <p>
+	              <label>工作员/协助者表现</label>
+	              <textarea class="text-input textarea wysiwyg" id="staffExpression" name="staffExpression" cols="79" rows="15"><?php echo $staffExpression;?></textarea>
+              </p>
+              <?
+              	if(intval ( $this->session->userdata ( 'groupId' ) ) < 4){
+			　?>
+              <p>
+	              <label>督导意见</label>
+	              <textarea class="text-input textarea wysiwyg" id="staffExpressionOption" name="staffExpressionOption" cols="79" rows="15"><?php echo $staffExpressionOption;?></textarea>
+              </p>
+              <?php
+              	}
+              ?>
+              <p>
+	              <label>服务对象表现</label>
+	              <textarea class="text-input textarea wysiwyg" id="targetExpression" name="targetExpression" cols="79" rows="15"><?php echo $targetExpression;?></textarea>
+              </p>
+              <?
+              	if(intval ( $this->session->userdata ( 'groupId' ) ) < 4){
+			　?>
+              <p>
+	              <label>督导意见</label>
+	              <textarea class="text-input textarea wysiwyg" id="targetExpressionOption" name="targetExpressionOption" cols="79" rows="15"><?php echo $targetExpressionOption;?></textarea>
+              </p>
+              <?php
+              	}
+              ?>
+              <p>
+	              <label>经费使用情况</label>
+	              <textarea class="text-input textarea wysiwyg" id="funds" name="funds" cols="79" rows="15"><?php echo $funds;?></textarea>
+              </p>
+              <?
+              	if(intval ( $this->session->userdata ( 'groupId' ) ) < 4){
+			　?>
+              <p>
+	              <label>督导意见</label>
+	              <textarea class="text-input textarea wysiwyg" id="fundsOption" name="fundsOption" cols="79" rows="15"><?php echo $fundsOption;?></textarea>
+              </p>
+              <?php
+              	}
+              ?>
+              <p>
+	              <label>其他</label>
+	              <textarea class="text-input textarea wysiwyg" id="reportOther" name="reportOther" cols="79" rows="15"><?php echo $reportOther;?></textarea>
+              </p>
+              <?
+              	if(intval ( $this->session->userdata ( 'groupId' ) ) < 4){
+			　?>
+              <p>
+	              <label>督导意见</label>
+	              <textarea class="text-input textarea wysiwyg" id="reportOtherOption" name="reportOtherOption" cols="79" rows="15"><?php echo $reportOtherOption;?></textarea>
+              </p>
+              <?php
+              	}
+              ?>
+              <p>
+	              <label>跟进工作</label>
+	              <textarea class="text-input textarea wysiwyg" id="followUp" name="followUp" cols="79" rows="15"><?php echo $followUp;?></textarea>
+              </p>
+              <?
+              	if(intval ( $this->session->userdata ( 'groupId' ) ) < 4){
+			　?>
+              <p>
+	              <label>督导意见</label>
+	              <textarea class="text-input textarea wysiwyg" id="followUpOption" name="followUpOption" cols="79" rows="15"><?php echo $followUpOption;?></textarea>
+              </p>
+              <?php
+              	}
+              ?>
+            <p>
+              <input type="hidden" name="<?php echo $primaryName;?>" value="<?php echo $primaryValue;?>" />
+              <input class="button" type="button" value="确定" onclick="saveInfo('groupreport','groupreport','saveInfo')"/>
+            </p>
+            </fieldset>
+            <div class="notification success png_bg none" style="width:150px;" id="groupreportSaveResult">
+	          	<a href="javascript:;" class="close">
+	          		<img src="./app/views/images/icons/cross_grey_small.png" title="Close this notification" alt="close" />
+	          	</a>
+	            <div>提示内容</div>
+          	</div>
+            <div class="clear"></div>
+            <!-- End .clear -->
+          </form>
+        </div>
+        <!-- End #tab2 -->
+      </div>
+    </div>
+    <?php include 'footer.html';?>
+  </div>
+</div>
+<script type="text/javascript" src="app/views/js/base.js"></script>
+<script type="text/javascript" src="app/views/module/My97DatePicker/WdatePicker.js"></script>
+</body>
+</html>

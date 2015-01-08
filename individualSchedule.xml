@@ -1,0 +1,2757 @@
+﻿<!--个别化服务计划表-->
+<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+<w:pPr>
+<w:pStyle w:val="a9"/>
+<w:ind w:firstLineChars="0" w:firstLine="0"/>
+<w:jc w:val="right"/>
+<w:rPr>
+<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+<w:sz w:val="24"/>
+<w:lang w:val="en-GB"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="000F6B3B">
+<w:rPr>
+<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+<w:sz w:val="24"/>
+<w:lang w:val="en-GB"/>
+</w:rPr>
+<w:t>C</w:t>
+</w:r>
+<w:r w:rsidRPr="000F6B3B">
+<w:rPr>
+<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+<w:sz w:val="24"/>
+<w:lang w:val="en-GB"/>
+</w:rPr>
+<w:t>-01B</w:t>
+</w:r>
+</w:p>
+	<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+		<w:pPr>
+			<w:pStyle w:val="a9"/>
+			<w:ind w:firstLineChars="0" w:firstLine="0"/>
+			<w:jc w:val="center"/>
+			<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+			</w:rPr>
+		</w:pPr>
+		<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>个别</w:t>
+		</w:r>
+		<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>化</w:t>
+		</w:r>
+		<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>服务</w:t>
+		</w:r>
+		<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>计划表</w:t>
+		</w:r>
+	</w:p>
+	<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+		<w:pPr>
+			<w:pStyle w:val="a9"/>
+			<w:ind w:firstLineChars="0" w:firstLine="0"/>
+			<w:jc w:val="left"/>
+			<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+			</w:rPr>
+		</w:pPr>
+		<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>服务</w:t>
+		</w:r>
+		<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>对象</w:t>
+		</w:r>
+		<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>姓名</w:t>
+		</w:r>
+		<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>：</w:t>
+		</w:r>		
+		<w:r>
+			<w:rPr>
+				<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+				<w:szCs w:val="21"/>
+				<w:u w:val="single"/>
+			</w:rPr>
+			<w:t xml:space="preserve"> {$name} </w:t>
+		</w:r>
+		<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>年龄</w:t>
+		</w:r>
+		<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>/性别</w:t>
+		</w:r>
+		<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>：</w:t>
+		</w:r>
+		<w:r>
+			<w:rPr>
+				<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+				<w:szCs w:val="21"/>
+				<w:u w:val="single"/>
+			</w:rPr>
+			<w:t xml:space="preserve">	{$age}/{$sex}	</w:t>
+		</w:r>
+	</w:p>
+	<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+		<w:pPr>
+			<w:pStyle w:val="a9"/>
+			<w:ind w:firstLineChars="0" w:firstLine="0"/>
+			<w:jc w:val="left"/>
+			<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+			</w:rPr>
+		</w:pPr>
+		<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>个案编号：</w:t>
+		</w:r>
+		<!--<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>{$serialNumber}</w:t>
+		</w:r>-->
+		<w:r>
+			<w:rPr>
+				<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+				<w:szCs w:val="21"/>
+				<w:u w:val="single"/>
+			</w:rPr>
+			<w:t xml:space="preserve">	{$serialNumber}	</w:t>
+		</w:r>
+		<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>首次会谈日期：</w:t>
+		</w:r>
+		<!--<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t> {$firstTalkDate} </w:t>
+		</w:r>-->
+		<w:r>
+			<w:rPr>
+				<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+				<w:szCs w:val="21"/>
+				<w:u w:val="single"/>
+			</w:rPr>
+			<w:t xml:space="preserve">  {$firstTalkDate}  </w:t>
+		</w:r>
+	</w:p>
+	<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+		<w:pPr>
+			<w:pStyle w:val="a9"/>
+			<w:ind w:firstLineChars="0" w:firstLine="0"/>
+			<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+			</w:rPr>
+		</w:pPr>
+		<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>个案</w:t>
+		</w:r>
+		<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>评估：</w:t>
+		</w:r>
+	</w:p>
+	<w:tbl>
+		<w:tblPr>
+			<w:tblW w:w="0" w:type="auto"/>
+			<w:tblBorders>
+				<w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+				<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+				<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+				<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+				<w:insideH w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+				<w:insideV w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+			</w:tblBorders>
+			<w:tblLook w:val="04A0"/>
+		</w:tblPr>
+		<w:tblGrid>
+			<w:gridCol w:w="704"/>
+			<w:gridCol w:w="7655"/>
+			<w:gridCol w:w="1269"/>
+		</w:tblGrid>
+		<w:tr w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidTr="000F6B3B">
+			<w:tc>
+				<w:tcPr>
+					<w:tcW w:w="704" w:type="dxa"/>
+					<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+					<w:vAlign w:val="center"/>
+				</w:tcPr>
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+					<w:pPr>
+						<w:pStyle w:val="a9"/>
+						<w:ind w:firstLineChars="0" w:firstLine="0"/>
+						<w:jc w:val="center"/>
+						<w:rPr>
+							<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+							<w:sz w:val="24"/>
+							<w:lang w:val="en-GB"/>
+						</w:rPr>
+					</w:pPr>
+					<w:r w:rsidRPr="000F6B3B">
+						<w:rPr>
+							<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+							<w:sz w:val="24"/>
+							<w:lang w:val="en-GB"/>
+						</w:rPr>
+						<w:t>内容</w:t>
+					</w:r>
+				</w:p>
+			</w:tc>
+			<w:tc>
+				<w:tcPr>
+					<w:tcW w:w="7655" w:type="dxa"/>
+					<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+					<w:vAlign w:val="center"/>
+				</w:tcPr>
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+					<w:pPr>
+						<w:pStyle w:val="a9"/>
+						<w:ind w:firstLineChars="0" w:firstLine="0"/>
+						<w:jc w:val="center"/>
+						<w:rPr>
+							<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+							<w:sz w:val="24"/>
+							<w:lang w:val="en-GB"/>
+						</w:rPr>
+					</w:pPr>
+					<w:r w:rsidRPr="000F6B3B">
+						<w:rPr>
+							<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+							<w:sz w:val="24"/>
+							<w:lang w:val="en-GB"/>
+						</w:rPr>
+						<w:t>状况</w:t>
+					</w:r>
+				</w:p>
+			</w:tc>
+			<w:tc>
+				<w:tcPr>
+					<w:tcW w:w="1269" w:type="dxa"/>
+					<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+					<w:vAlign w:val="center"/>
+				</w:tcPr>
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+					<w:pPr>
+						<w:pStyle w:val="a9"/>
+						<w:ind w:firstLineChars="0" w:firstLine="0"/>
+						<w:jc w:val="center"/>
+						<w:rPr>
+							<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+							<w:sz w:val="24"/>
+							<w:lang w:val="en-GB"/>
+						</w:rPr>
+					</w:pPr>
+					<w:r w:rsidRPr="000F6B3B">
+						<w:rPr>
+							<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+							<w:sz w:val="24"/>
+							<w:lang w:val="en-GB"/>
+						</w:rPr>
+						<w:t>备注</w:t>
+					</w:r>
+				</w:p>
+			</w:tc>
+		</w:tr>
+		<w:tr w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidTr="000F6B3B">
+			<w:tc>
+				<w:tcPr>
+					<w:tcW w:w="704" w:type="dxa"/>
+					<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+					<w:vAlign w:val="center"/>
+				</w:tcPr>
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+					<w:pPr>
+						<w:pStyle w:val="a9"/>
+						<w:ind w:firstLineChars="0" w:firstLine="0"/>
+						<w:jc w:val="center"/>
+						<w:rPr>
+							<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+							<w:sz w:val="24"/>
+							<w:lang w:val="en-GB"/>
+						</w:rPr>
+					</w:pPr>
+					<w:r w:rsidRPr="000F6B3B">
+						<w:rPr>
+						<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+						<w:sz w:val="24"/>
+						<w:lang w:val="en-GB"/>
+						</w:rPr>
+						<w:t>经济</w:t>
+					</w:r>
+				</w:p>
+			</w:tc>
+			<w:tc>
+				<w:tcPr>
+				<w:tcW w:w="7655" w:type="dxa"/>
+				<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+				</w:tcPr>
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+				<w:pPr>
+				<w:pStyle w:val="a9"/>
+				<w:ind w:firstLineChars="0" w:firstLine="0"/>
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				</w:pPr>
+				<w:r w:rsidRPr="000F6B3B">
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				<w:t>收入来源</w:t>
+				</w:r>
+				<w:r w:rsidRPr="000F6B3B">
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				<w:t>：</w:t>
+				</w:r>						
+				{$incomeSource}				
+				<w:r w:rsidRPr="000F6B3B">
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				<w:t>：</w:t>
+				</w:r>
+				<w:r w:rsidRPr="000F6B3B">
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				<w:t>_____</w:t>
+				</w:r>
+				<w:r>
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				<w:t>__________________________</w:t>
+				</w:r>
+				<w:r w:rsidRPr="000F6B3B">
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				<w:t>___</w:t>
+				</w:r>
+				</w:p>
+				
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+					<w:pPr>
+					<w:pStyle w:val="a9"/>
+					<w:ind w:firstLineChars="0" w:firstLine="0"/>
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					</w:pPr>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>财政</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>状况：</w:t>
+					</w:r>										
+					{$financialSituation}				
+				</w:p>
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+				<w:pPr>
+				<w:pStyle w:val="a9"/>
+				<w:ind w:firstLineChars="0" w:firstLine="0"/>
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				</w:pPr>
+				<w:r w:rsidRPr="000F6B3B">
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				<w:t>需</w:t>
+				</w:r>
+				<w:r w:rsidRPr="000F6B3B">
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				<w:t>资助亲友：</w:t>
+				</w:r>								
+				{$subsidize}								
+				</w:p>
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+					<w:pPr>
+						<w:pStyle w:val="a9"/>
+						<w:ind w:firstLineChars="0" w:firstLine="0"/>
+						<w:rPr>
+							<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+							<w:sz w:val="24"/>
+							<w:lang w:val="en-GB"/>
+						</w:rPr>
+					</w:pPr>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>其他</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>：</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>________</w:t>
+					</w:r>
+				</w:p>
+			</w:tc>
+			
+			<w:tc>
+			<w:tcPr>
+			<w:tcW w:w="1269" w:type="dxa"/>
+			<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			</w:tcPr>
+			<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+			<w:pPr>
+			<w:pStyle w:val="a9"/>
+			<w:ind w:firstLineChars="0" w:firstLine="0"/>
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			</w:pPr>
+			</w:p>
+			</w:tc>
+		</w:tr>
+		<w:tr w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidTr="000F6B3B">
+		<w:tc>
+		<w:tcPr>
+		<w:tcW w:w="704" w:type="dxa"/>
+		<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+		<w:vAlign w:val="center"/>
+		</w:tcPr>
+		<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+		<w:pPr>
+		<w:pStyle w:val="a9"/>
+		<w:ind w:firstLineChars="0" w:firstLine="0"/>
+		<w:jc w:val="center"/>
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		</w:pPr>
+		<w:r w:rsidRPr="000F6B3B">
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		<w:t>认知</w:t>
+		</w:r>
+		</w:p>
+		</w:tc>
+		<w:tc>
+		<w:tcPr>
+		<w:tcW w:w="7655" w:type="dxa"/>
+		<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+		</w:tcPr>
+		<w:p w:rsidR="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+		<w:pPr>
+		<w:pStyle w:val="a9"/>
+		<w:ind w:firstLineChars="0" w:firstLine="0"/>
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		</w:pPr>
+		<w:r w:rsidRPr="000F6B3B">
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		<w:t>活动</w:t>
+		</w:r>
+		<w:r w:rsidRPr="000F6B3B">
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		<w:t>能力</w:t>
+		</w:r>
+		<w:r w:rsidRPr="000F6B3B">
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		<w:t>：</w:t>
+		</w:r>
+		</w:p>
+		
+		<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="00C647E6" w:rsidP="00401C08">
+			<w:pPr>
+			<w:pStyle w:val="a9"/>
+			<w:ind w:firstLineChars="0" w:firstLine="0"/>
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			</w:pPr>
+			
+		{$activity}				
+		<w:r w:rsidR="000F6B3B" w:rsidRPr="000F6B3B">
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		<w:t>：</w:t>
+		</w:r>
+		<w:r w:rsidR="000F6B3B" w:rsidRPr="000F6B3B">
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		<w:t>________</w:t>
+		</w:r>
+		</w:p>
+		
+		
+		<w:p w:rsidR="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+		<w:pPr>
+		<w:pStyle w:val="a9"/>
+		<w:ind w:firstLineChars="0" w:firstLine="0"/>
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		</w:pPr>
+		<w:r w:rsidRPr="000F6B3B">
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		<w:t>记忆</w:t>
+		</w:r>
+		<w:r w:rsidRPr="000F6B3B">
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		<w:t>：</w:t>
+		</w:r>
+		</w:p>
+		<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="00C647E6" w:rsidP="00401C08">
+		<w:pPr>
+		<w:pStyle w:val="a9"/>
+		<w:ind w:firstLineChars="0" w:firstLine="0"/>
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		</w:pPr>				
+		{$momory}		
+		</w:p>
+		<w:p w:rsidR="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+		<w:pPr>
+		<w:pStyle w:val="a9"/>
+		<w:ind w:firstLineChars="0" w:firstLine="0"/>
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		</w:pPr>
+		<w:r w:rsidRPr="000F6B3B">
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		<w:t>环境</w:t>
+		</w:r>
+		<w:r w:rsidRPr="000F6B3B">
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		<w:t>辨认：</w:t>
+		</w:r>
+		</w:p>
+		<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="00C647E6" w:rsidP="00401C08">
+		<w:pPr>
+		<w:pStyle w:val="a9"/>
+		<w:ind w:firstLineChars="0" w:firstLine="0"/>
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		</w:pPr>			
+		{$identifyEnvironmental}		
+		</w:p>
+		
+		
+		<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+		<w:pPr>
+		<w:pStyle w:val="a9"/>
+		<w:ind w:firstLineChars="0" w:firstLine="0"/>
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		</w:pPr>
+		<w:r w:rsidRPr="000F6B3B">
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		<w:t>如厕</w:t>
+		</w:r>
+		<w:r w:rsidRPr="000F6B3B">
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		<w:t>：</w:t>
+		</w:r>
+		{$toilet}
+		<w:r w:rsidRPr="000F6B3B">
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		<w:t>：</w:t>
+		</w:r>
+		<w:r w:rsidRPr="000F6B3B">
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		<w:t>________</w:t>
+		</w:r>
+		</w:p>
+		<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+		<w:pPr>
+		<w:pStyle w:val="a9"/>
+		<w:ind w:firstLineChars="0" w:firstLine="0"/>
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		</w:pPr>
+		<w:r w:rsidRPr="000F6B3B">
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		<w:t>合作</w:t>
+		</w:r>
+		<w:r w:rsidRPr="000F6B3B">
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		<w:t>：</w:t>
+		</w:r>
+		{$cooperation}
+		</w:p>
+		
+		<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+		<w:pPr>
+		<w:pStyle w:val="a9"/>
+		<w:ind w:firstLineChars="0" w:firstLine="0"/>
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		</w:pPr>
+		<w:r w:rsidRPr="000F6B3B">
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		<w:t>穿衣</w:t>
+		</w:r>
+		<w:r w:rsidRPr="000F6B3B">
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		<w:t>：</w:t>
+		</w:r>		
+		{$dressing}		
+		</w:p>
+		<w:p w:rsidR="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+			<w:pPr>
+			<w:pStyle w:val="a9"/>
+			<w:ind w:firstLineChars="0" w:firstLine="0"/>
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			</w:pPr>
+			<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>进食</w:t>
+			</w:r>
+			<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>：</w:t>
+			</w:r>
+		{$eat}
+		</w:p>
+		<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+		<w:pPr>
+		<w:pStyle w:val="a9"/>
+		<w:ind w:firstLineChars="0" w:firstLine="0"/>
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		</w:pPr>
+		<w:r>
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		<w:t>个人清洁</w:t>
+		</w:r>
+		<w:r>
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		<w:t>：</w:t>
+		</w:r>		
+		{$personalCleanliness}
+		</w:p>
+		<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+		<w:pPr>
+		<w:pStyle w:val="a9"/>
+		<w:ind w:firstLineChars="0" w:firstLine="0"/>
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		</w:pPr>
+		<w:r w:rsidRPr="000F6B3B">
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		<w:t>饮食</w:t>
+		</w:r>
+		<w:r w:rsidRPr="000F6B3B">
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		<w:t>：</w:t>
+		</w:r>
+		
+		
+		{$diet}
+		<w:r w:rsidRPr="000F6B3B">
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		<w:t>_______</w:t>
+		</w:r>
+		</w:p>
+		</w:tc>
+		<w:tc>
+		<w:tcPr>
+		<w:tcW w:w="1269" w:type="dxa"/>
+		<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+		</w:tcPr>
+		<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+		<w:pPr>
+		<w:pStyle w:val="a9"/>
+		<w:ind w:firstLineChars="0" w:firstLine="0"/>
+		<w:rPr>
+		<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+		<w:sz w:val="24"/>
+		<w:lang w:val="en-GB"/>
+		</w:rPr>
+		</w:pPr>
+		</w:p>
+		</w:tc>
+		</w:tr>
+		
+		<w:tr w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidTr="000F6B3B">
+			<w:tc>
+				<w:tcPr>
+				<w:tcW w:w="704" w:type="dxa"/>
+				<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+				<w:vAlign w:val="center"/>
+				</w:tcPr>
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+				<w:pPr>
+				<w:pStyle w:val="a9"/>
+				<w:ind w:firstLineChars="0" w:firstLine="0"/>
+				<w:jc w:val="center"/>
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				</w:pPr>
+				<w:r w:rsidRPr="000F6B3B">
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				<w:t>社交</w:t>
+				</w:r>
+				</w:p>
+			</w:tc>
+			<w:tc>
+				<w:tcPr>
+					<w:tcW w:w="7655" w:type="dxa"/>
+					<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+				</w:tcPr>
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+				<w:pPr>
+				<w:pStyle w:val="a9"/>
+				<w:ind w:firstLineChars="0" w:firstLine="0"/>
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				</w:pPr>
+				<w:r w:rsidRPr="000F6B3B">
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				<w:t>与</w:t>
+				</w:r>
+				<w:r w:rsidRPr="000F6B3B">
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				<w:t>亲戚关系</w:t>
+				</w:r>
+				</w:p>
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+					<w:pPr>
+					<w:pStyle w:val="a9"/>
+					<w:ind w:firstLineChars="0" w:firstLine="0"/>
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					</w:pPr>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>亲戚</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>到访：</w:t>
+					</w:r>
+					{$visit}
+					<w:r>
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>；</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>探望亲戚</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>：</w:t>
+					</w:r>
+					{$visitRelatives}
+				</w:p>
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+					<w:pPr>
+					<w:pStyle w:val="a9"/>
+					<w:ind w:firstLineChars="0" w:firstLine="0"/>
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					</w:pPr>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>电话</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>联络：</w:t>
+					</w:r>
+					{$phoneContact}
+					<w:r>
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>；</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>书信来往</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>：</w:t>
+					</w:r>
+					{$lettersVisit}
+				</w:p>
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+					<w:pPr>
+					<w:pStyle w:val="a9"/>
+					<w:ind w:firstLineChars="0" w:firstLine="0"/>
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					</w:pPr>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>其他</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>：</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>________</w:t>
+					</w:r>
+				</w:p>
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+					<w:pPr>
+					<w:pStyle w:val="a9"/>
+					<w:ind w:firstLineChars="0" w:firstLine="0"/>
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					</w:pPr>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>社区关系：</w:t>
+					</w:r>
+				</w:p>
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+					<w:pPr>
+					<w:pStyle w:val="a9"/>
+					<w:ind w:firstLineChars="0" w:firstLine="0"/>
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					</w:pPr>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>倾谈</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>：</w:t>
+					</w:r>					
+					{$neighborhoodTalk}
+					<w:r>
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t xml:space="preserve">；    </w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>玩乐</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>：</w:t>
+					</w:r>
+					{$neighborhoodFun}
+				</w:p>
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+					<w:pPr>
+					<w:pStyle w:val="a9"/>
+					<w:ind w:firstLineChars="0" w:firstLine="0"/>
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					</w:pPr>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>互不</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>理睬：</w:t>
+					</w:r>
+					{$noTalk}
+					<w:r>
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>；</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>交恶</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>：</w:t>
+					</w:r>
+					{$becomeEnemies}
+				</w:p>
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+				<w:pPr>
+				<w:pStyle w:val="a9"/>
+				<w:ind w:firstLineChars="0" w:firstLine="0"/>
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				</w:pPr>
+				<w:r w:rsidRPr="000F6B3B">
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				<w:t>与</w:t>
+				</w:r>
+				<w:r w:rsidRPr="000F6B3B">
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				<w:t>中心职员关系：</w:t>
+				</w:r>
+				</w:p>
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+					<w:pPr>
+					<w:pStyle w:val="a9"/>
+					<w:ind w:firstLineChars="0" w:firstLine="0"/>
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					</w:pPr>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>倾诉</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>心情：</w:t>
+					</w:r>
+					{$talkToMind}
+					<w:r>
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>；</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>寻求</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>协助：</w:t>
+					</w:r>
+					{$neetTohelp}
+				</w:p>
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+					<w:pPr>
+					<w:pStyle w:val="a9"/>
+					<w:ind w:firstLineChars="0" w:firstLine="0"/>
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					</w:pPr>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>提供</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>意见：</w:t>
+					</w:r>
+					{$advising}
+					<w:r>
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>；</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>投诉</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>批评：</w:t>
+					</w:r>
+					{$critique}
+				</w:p>
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+				<w:pPr>
+				<w:pStyle w:val="a9"/>
+				<w:ind w:firstLineChars="0" w:firstLine="0"/>
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				</w:pPr>
+				<w:r w:rsidRPr="000F6B3B">
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				<w:t>其他</w:t>
+				</w:r>
+				<w:r w:rsidRPr="000F6B3B">
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				<w:t>：</w:t>
+				</w:r>
+				<w:r w:rsidRPr="000F6B3B">
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				<w:t>________</w:t>
+				</w:r>
+				</w:p>
+			</w:tc>
+			<w:tc>
+			<w:tcPr>
+			<w:tcW w:w="1269" w:type="dxa"/>
+			<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			</w:tcPr>
+			<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+			<w:pPr>
+			<w:pStyle w:val="a9"/>
+			<w:ind w:firstLineChars="0" w:firstLine="0"/>
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			</w:pPr>
+			</w:p>
+			</w:tc>
+		</w:tr>
+		<w:tr w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidTr="000F6B3B">
+			<w:tc>
+			<w:tcPr>
+			<w:tcW w:w="704" w:type="dxa"/>
+			<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:vAlign w:val="center"/>
+			</w:tcPr>
+			<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+			<w:pPr>
+			<w:pStyle w:val="a9"/>
+			<w:ind w:firstLineChars="0" w:firstLine="0"/>
+			<w:jc w:val="center"/>
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			</w:pPr>
+			<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>休闲</w:t>
+			</w:r>
+			</w:p>
+			</w:tc>
+			<w:tc>
+			<w:tcPr>
+			<w:tcW w:w="7655" w:type="dxa"/>
+			<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			</w:tcPr>
+			<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+			<w:pPr>
+			<w:pStyle w:val="a9"/>
+			<w:ind w:firstLineChars="0" w:firstLine="0"/>
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			</w:pPr>
+			<w:r>
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>手机</w:t>
+			</w:r>
+			<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>：</w:t>
+			</w:r>
+			{$phone}
+			<w:r>
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>；电视</w:t>
+			</w:r>
+			<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>：</w:t>
+			</w:r>
+			{$tv}
+			</w:p>
+			<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+			<w:pPr>
+			<w:pStyle w:val="a9"/>
+			<w:ind w:firstLineChars="0" w:firstLine="0"/>
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			</w:pPr>
+			<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>书报</w:t>
+			</w:r>
+			<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>：</w:t>
+			</w:r>
+			{$newspaper}
+			<w:r>
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>；</w:t>
+			</w:r>
+			<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>户外</w:t>
+			</w:r>
+			<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>：</w:t>
+			</w:r>
+			{$outdoor}
+			</w:p>
+			<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+				<w:pPr>
+				<w:pStyle w:val="a9"/>
+				<w:ind w:firstLineChars="0" w:firstLine="0"/>
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				</w:pPr>
+				<w:r w:rsidRPr="000F6B3B">
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				<w:t>聚餐</w:t>
+				</w:r>
+				<w:r w:rsidRPr="000F6B3B">
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				<w:t>：</w:t>
+				</w:r>
+				{$dinnerParty}
+				<w:r>
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				<w:t>；</w:t>
+				</w:r>
+				<w:r w:rsidRPr="000F6B3B">
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				<w:t>特别</w:t>
+				</w:r>
+				<w:r w:rsidRPr="000F6B3B">
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				<w:t>活动：</w:t>
+				</w:r>
+				{$specialEvents}
+			</w:p>
+			<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+			<w:pPr>
+			<w:pStyle w:val="a9"/>
+			<w:ind w:firstLineChars="0" w:firstLine="0"/>
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			</w:pPr>
+			<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>其他</w:t>
+			</w:r>
+			<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>：</w:t>
+			</w:r>
+			<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>________</w:t>
+			</w:r>
+			</w:p>
+			</w:tc>
+			<w:tc>
+			<w:tcPr>
+			<w:tcW w:w="1269" w:type="dxa"/>
+			<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			</w:tcPr>
+			<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+			<w:pPr>
+			<w:pStyle w:val="a9"/>
+			<w:ind w:firstLineChars="0" w:firstLine="0"/>
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			</w:pPr>
+			</w:p>
+			</w:tc>
+		</w:tr>
+		<w:tr w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidTr="000F6B3B">
+			<w:tc>
+			<w:tcPr>
+			<w:tcW w:w="704" w:type="dxa"/>
+			<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:vAlign w:val="center"/>
+			</w:tcPr>
+			<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+			<w:pPr>
+			<w:pStyle w:val="a9"/>
+			<w:ind w:firstLineChars="0" w:firstLine="0"/>
+			<w:jc w:val="center"/>
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			</w:pPr>
+			<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>生活</w:t>
+			</w:r>
+			<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:t>习惯</w:t>
+			</w:r>
+			</w:p>
+			</w:tc>
+			<w:tc>
+				<w:tcPr>
+				<w:tcW w:w="7655" w:type="dxa"/>
+				<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+				</w:tcPr>
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+					<w:pPr>
+					<w:pStyle w:val="a9"/>
+					<w:ind w:firstLineChars="0" w:firstLine="0"/>
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					</w:pPr>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>吸烟</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>：</w:t>
+					</w:r>
+					{$smoking}
+					<w:r>
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>；</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>喝酒</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>：</w:t>
+					</w:r>
+					{$drinking}
+				</w:p>
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+					<w:pPr>
+					<w:pStyle w:val="a9"/>
+					<w:ind w:firstLineChars="0" w:firstLine="0"/>
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					</w:pPr>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>运动</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>：</w:t>
+					</w:r>
+					{$sports}
+					<w:r>
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>；</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>阅读</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>：</w:t>
+					</w:r>
+					{$reading}
+				</w:p>
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+					<w:pPr>
+					<w:pStyle w:val="a9"/>
+					<w:ind w:firstLineChars="0" w:firstLine="0"/>
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					</w:pPr>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>生活</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>有规律：</w:t>
+					</w:r>
+					
+					
+				{$law}
+				
+				
+				</w:p>
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+				<w:pPr>
+				<w:pStyle w:val="a9"/>
+				<w:ind w:firstLineChars="0" w:firstLine="0"/>
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				</w:pPr>
+				<w:r w:rsidRPr="000F6B3B">
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				<w:t>其他</w:t>
+				</w:r>
+				<w:r w:rsidRPr="000F6B3B">
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				<w:t>：</w:t>
+				</w:r>
+				<w:r w:rsidRPr="000F6B3B">
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				<w:t>________</w:t>
+				</w:r>
+				</w:p>
+			</w:tc>
+			<w:tc>
+			<w:tcPr>
+			<w:tcW w:w="1269" w:type="dxa"/>
+			<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			</w:tcPr>
+			<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+			<w:pPr>
+			<w:pStyle w:val="a9"/>
+			<w:ind w:firstLineChars="0" w:firstLine="0"/>
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			</w:pPr>
+			</w:p>
+			</w:tc>
+		</w:tr>
+		<w:tr w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidTr="000F6B3B">
+			<w:tc>
+			<w:tcPr>
+			<w:tcW w:w="704" w:type="dxa"/>
+			<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			<w:vAlign w:val="center"/>
+			</w:tcPr>
+			<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+			<w:pPr>
+			<w:pStyle w:val="a9"/>
+			<w:ind w:firstLineChars="0" w:firstLine="0"/>
+			<w:jc w:val="center"/>
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			</w:pPr>
+			<w:r w:rsidRPr="000F6B3B">
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			<w:lastRenderedPageBreak/>
+			<w:t>心理健康</w:t>
+			</w:r>
+			</w:p>
+			</w:tc>
+			<w:tc>
+					<w:tcPr>
+					<w:tcW w:w="7655" w:type="dxa"/>
+					<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+					</w:tcPr>
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+					<w:pPr>
+					<w:pStyle w:val="a9"/>
+					<w:ind w:firstLineChars="0" w:firstLine="0"/>
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					</w:pPr>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>情绪</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>控制：</w:t>
+					</w:r>
+					{$emotionalControl}
+					<w:r>
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>；</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>性格</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>乐观：</w:t>
+					</w:r>
+					{$hopeful}
+				</w:p>
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+					<w:pPr>
+					<w:pStyle w:val="a9"/>
+					<w:ind w:firstLineChars="0" w:firstLine="0"/>
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					</w:pPr>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>信任</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>他人：</w:t>
+					</w:r>
+					{$trustOthers}
+					<w:r>
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>；</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>合群</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>：</w:t>
+					</w:r>
+					{$gregarious}
+				</w:p>
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+					<w:pPr>
+					<w:pStyle w:val="a9"/>
+					<w:ind w:firstLineChars="0" w:firstLine="0"/>
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					</w:pPr>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>对待</w:t>
+					</w:r>
+					<w:r>
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>疾病</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>态度：</w:t>
+					</w:r>
+					{$attitude}
+					<w:r>
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>；</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>生活</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>积极性：</w:t>
+					</w:r>
+					{$active}
+				</w:p>
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+					<w:pPr>
+					<w:pStyle w:val="a9"/>
+					<w:ind w:firstLineChars="0" w:firstLine="0"/>
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					</w:pPr>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>处理</w:t>
+					</w:r>
+					<w:r w:rsidRPr="000F6B3B">
+					<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:sz w:val="24"/>
+					<w:lang w:val="en-GB"/>
+					</w:rPr>
+					<w:t>压力：</w:t>
+					</w:r>
+					{$stressManagement}
+				</w:p>
+				<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+				<w:pPr>
+				<w:pStyle w:val="a9"/>
+				<w:ind w:firstLineChars="0" w:firstLine="0"/>
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				</w:pPr>
+				<w:r w:rsidRPr="000F6B3B">
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				<w:t>其他</w:t>
+				</w:r>
+				<w:r w:rsidRPr="000F6B3B">
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				<w:t>：</w:t>
+				</w:r>
+				<w:r w:rsidRPr="000F6B3B">
+				<w:rPr>
+				<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+				<w:sz w:val="24"/>
+				<w:lang w:val="en-GB"/>
+				</w:rPr>
+				<w:t>________</w:t>
+				</w:r>
+				</w:p>
+			</w:tc>
+			<w:tc>
+			<w:tcPr>
+			<w:tcW w:w="1269" w:type="dxa"/>
+			<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+			</w:tcPr>
+			<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="00401C08">
+			<w:pPr>
+			<w:pStyle w:val="a9"/>
+			<w:ind w:firstLineChars="0" w:firstLine="0"/>
+			<w:rPr>
+			<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+			<w:sz w:val="24"/>
+			<w:lang w:val="en-GB"/>
+			</w:rPr>
+			</w:pPr>
+			</w:p>
+			</w:tc>
+		</w:tr>
+	</w:tbl>
+	
+<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+<w:pPr>
+<w:pStyle w:val="a9"/>
+<w:ind w:firstLineChars="0" w:firstLine="0"/>
+<w:rPr>
+<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+<w:sz w:val="24"/>
+<w:lang w:val="en-GB"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="000F6B3B">
+<w:rPr>
+<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+<w:sz w:val="24"/>
+<w:lang w:val="en-GB"/>
+</w:rPr>
+<w:t>个案</w:t>
+</w:r>
+<w:r w:rsidRPr="000F6B3B">
+<w:rPr>
+<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+<w:sz w:val="24"/>
+<w:lang w:val="en-GB"/>
+</w:rPr>
+<w:t>分析：</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+<w:pPr>
+<w:pStyle w:val="a9"/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="5"/>
+</w:numPr>
+<w:ind w:firstLineChars="0"/>
+<w:rPr>
+<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+<w:sz w:val="24"/>
+<w:lang w:val="en-GB"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="000F6B3B">
+<w:rPr>
+<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+<w:sz w:val="24"/>
+<w:lang w:val="en-GB"/>
+</w:rPr>
+<w:t>问题：</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">   {$question}  </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+<w:pPr>
+<w:pStyle w:val="a9"/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="5"/>
+</w:numPr>
+<w:ind w:firstLineChars="0"/>
+<w:rPr>
+<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+<w:sz w:val="24"/>
+<w:lang w:val="en-GB"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="000F6B3B">
+<w:rPr>
+<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+<w:sz w:val="24"/>
+<w:lang w:val="en-GB"/>
+</w:rPr>
+<w:t>目标</w:t>
+</w:r>
+<w:r w:rsidRPr="000F6B3B">
+<w:rPr>
+<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+<w:sz w:val="24"/>
+<w:lang w:val="en-GB"/>
+</w:rPr>
+<w:t>：</w:t>
+</w:r>
+
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">  {$targets}  </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRPr="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+<w:pPr>
+<w:pStyle w:val="a9"/>
+<w:numPr>
+<w:ilvl w:val="0"/>
+<w:numId w:val="5"/>
+</w:numPr>
+<w:ind w:firstLineChars="0"/>
+<w:rPr>
+<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+<w:sz w:val="24"/>
+<w:lang w:val="en-GB"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="000F6B3B">
+<w:rPr>
+<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+<w:sz w:val="24"/>
+<w:lang w:val="en-GB"/>
+</w:rPr>
+<w:t>服务</w:t>
+</w:r>
+<w:r w:rsidRPr="000F6B3B">
+<w:rPr>
+<w:rFonts w:asciiTheme="minorEastAsia" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+<w:sz w:val="24"/>
+<w:lang w:val="en-GB"/>
+</w:rPr>
+<w:t>计划：</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">   {$servicePlan} </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:asciiTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:asciiTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRPr="0005356A" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="420" w:lineRule="exact"/>
+<w:ind w:firstLineChars="200" w:firstLine="420"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRPr="0005356A" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="420" w:lineRule="exact"/>
+<w:ind w:firstLineChars="200" w:firstLine="420"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>填表社工：</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                 </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:tab/>
+<w:t>日期：</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                 </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:tab/>
+</w:r>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRPr="0005356A" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">     </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRPr="0005356A" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">          督导批注</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRPr="0005356A" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">       1、个案需要跟进：{$isNeed}</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">     {$isNeedRemark}     </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">      </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">  </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t>】</w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRPr="0005356A" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+<w:pPr>
+<w:ind w:firstLineChars="350" w:firstLine="735"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>2、其它：</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">   {$other}    </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">     </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">   </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">                                                                     </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRPr="0005356A" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="420" w:lineRule="exact"/>
+<w:ind w:firstLineChars="200" w:firstLine="420"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>督导意见：</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                {$opinionSupervision}                                       </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">              </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">    </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRPr="0005356A" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:spacing w:line="420" w:lineRule="exact"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">    </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">                                                                                   </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRPr="0005356A" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">    </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRPr="0005356A" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">    </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">督导签名：__________________________ 批阅日期：_________________          </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRPr="0005356A" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">  </w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve">  </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRPr="0005356A" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+<w:pPr>
+<w:ind w:firstLineChars="200" w:firstLine="420"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma" w:hint="eastAsia"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>机构查阅：</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+<w:u w:val="single"/>
+</w:rPr>
+<w:t xml:space="preserve">  {$inspectionBodies}                                       </w:t>
+</w:r>
+</w:p>
+<w:p w:rsidR="000F6B3B" w:rsidRDefault="000F6B3B" w:rsidP="000F6B3B">
+<w:pPr>
+<w:snapToGrid w:val="0"/>
+<w:ind w:firstLineChars="200" w:firstLine="420"/>
+<w:jc w:val="right"/>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t xml:space="preserve"> </w:t>
+</w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>*</w:t>
+</w:r>
+<w:r w:rsidRPr="0005356A">
+<w:rPr>
+<w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:cs="Tahoma"/>
+<w:szCs w:val="21"/>
+</w:rPr>
+<w:t>本表格所收集的资料只用作本机构提供有关服务之用，资料保密处理。</w:t>
+</w:r>
+</w:p>

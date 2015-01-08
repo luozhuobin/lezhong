@@ -1,0 +1,781 @@
+<?php include 'header.html';?>
+<body>
+<div id="body-wrapper">
+  <?php include 'left.html';?>
+  <div id="main-content">
+    <!-- Page Head -->
+    <!-- <h2>Welcome</h2> -->
+    <div class="clear"></div>
+    <!-- End .clear -->
+    <div class="content-box">
+      <!-- Start Content Box -->
+      <div class="content-box-header">
+        <h3><?php echo $title;?></h3>
+         <ul class="content-box-tabs">
+          <li><a href="#tab1" class="default-tab">个案资料</a></li>
+          <!-- href must be unique and match the id of target div -->
+          <li><a href="#tab3">个性化服务计划表</a></li>
+          <li><a href="#tab2">社工建议及行动</a></li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+      <!-- End .content-box-header -->
+      <div class="content-box-content">
+        <div class="tab-content default-tab" id="tab1">
+          <form id="cases">
+            <fieldset>
+            <p>
+              <label>个案编号</label>
+             <input class="text-input small-input" type="text" id="serialNumber" name="serialNumber" value="<?php echo $serialNumber;?>"/>
+              <span class="input-notification png_bg none" id="serialNumberInfo"></span>
+             </p>
+             <p>
+              <label>案主姓名</label>
+             <input class="text-input small-input" type="text" id="name" name="name" value="<?php echo $name;?>"/>
+              <span class="input-notification png_bg none" id="nameInfo"></span>
+             </p>
+             <p>
+              <label>案主别名</label>
+             <input class="text-input small-input" type="text" id="alias" name="alias" value="<?php echo $alias;?>"/>
+              <span class="input-notification png_bg none" id="aliasInfo"></span>
+             </p>
+             <p>
+              <label>性别</label>
+              <?php 
+              	foreach($__sex as $key=>$value){
+					$checked = $value==$sex?'checked=checked':'';
+					echo '<input type="radio" name="sex" value="'.$value.'" '.$checked.' />  '.$value.'  ';
+				}
+              ?>
+              <span class="input-notification png_bg none" id="sexInfo"></span>
+             </p>
+             <p>
+              <label>出生日期</label>
+              <input class="text-input small-input" type="text" id="birthday" name="birthday" value="<?php echo $birthday;?>" onClick="WdatePicker()"/>
+              <span class="input-notification png_bg none" id="birthdayInfo"></span>
+              </p>
+             <p>
+              <label>住址</label>
+             <input class="text-input small-input" type="text" id="address" name="address" value="<?php echo $address;?>"/>
+              <span class="input-notification png_bg none" id="addressInfo"></span>
+             </p>
+             <p>
+              <label>联络电话</label>
+             <input class="text-input small-input" type="text" id="phone" name="phone" value="<?php echo $phone;?>"/>
+              <span class="input-notification png_bg none" id="phoneInfo"></span>
+             </p>
+             <p>
+              <label>婚姻情况</label>
+              <?php 
+              	foreach($__marriage as $key=>$value){
+					$checked = $value==$marriage?'checked=checked':'';
+					echo '<input type="radio" name="marriage" value="'.$value.'" '.$checked.' />  '.$value.'  ';
+				}
+              ?>
+              <span class="input-notification png_bg none" id="marriageInfo"></span>
+             </p>
+             <p>
+              <label>职业情况</label>
+              <?php 
+              	foreach($__occupationStatus as $key=>$value){
+					$checked = $value==$occupationStatus?'checked=checked':'';
+					echo '<input type="radio" name="occupationStatus" value="'.$value.'" '.$checked.' />  '.$value.'  ';
+				}
+              ?>
+              <span class="input-notification png_bg none" id="occupationStatusInfo"></span>
+             </p>
+             <p>
+              <label>家庭经济状况</label>
+             <input class="text-input small-input" type="text" id="economics" name="economics" value="<?php echo $economics;?>"/>
+              <span class="input-notification png_bg none" id="economicsInfo"></span>
+             </p>
+             <p>
+              <label>使用社会服务记录</label>
+             <input class="text-input small-input" type="text" id="socialServiceRecords" name="socialServiceRecords" value="<?php echo $socialServiceRecords;?>"/>
+              <span class="input-notification png_bg none" id="socialServiceRecordsInfo"></span>
+             </p>
+             <p>
+              <label>科室</label>
+              <?php 
+              	foreach($__department as $key=>$value){
+					$checked = $value==$department?'checked=checked':'';
+					echo '<input type="radio" name="department" value="'.$value.'" '.$checked.' />  '.$value.'  ';
+				}
+              ?>
+              <span class="input-notification png_bg none" id="departmentInfo"></span>
+             </p>
+              <p>
+	              <label>病情摘要</label>
+	              <textarea class="text-input textarea wysiwyg" id="patientSummary" name="patientSummary" cols="79" rows="15"><?php echo $patientSummary;?></textarea>
+              </p>
+              <p>
+	              <label>致残原因摘要</label>
+	              <textarea class="text-input textarea wysiwyg" id="causesOfDisability" name="causesOfDisability" cols="79" rows="15"><?php echo $causesOfDisability;?></textarea>
+              </p>
+              <p>
+	              <label>服务需求摘要</label>
+	              <textarea class="text-input textarea wysiwyg" id="serviceNeeds" name="serviceNeeds" cols="79" rows="15"><?php echo $serviceNeeds;?></textarea>
+              </p>
+              <p>
+	              <label>家庭／个案背景</label>
+	              <textarea class="text-input textarea wysiwyg" id="familyBackground" name="familyBackground" cols="79" rows="15"><?php echo $familyBackground;?></textarea>
+              </p>
+              <p>
+              <label>案主自述之服务要求</label>
+              <textarea class="text-input textarea wysiwyg" id="readme" name="readme" cols="79" rows="15"><?php echo $readme;?></textarea>
+            </p>
+            <p>
+              <input type="hidden" name="<?php echo $primaryName;?>" value="<?php echo $primaryValue;?>" />
+              <input class="button" type="button" value="确定" onclick="saveInfo('cases','cases','saveInfo')"/>
+            </p>
+            </fieldset>
+            <div class="notification success png_bg none" style="width:150px;" id="casesSaveResult">
+	          	<a href="javascript:;" class="close">
+	          		<img src="./app/views/images/icons/cross_grey_small.png" title="Close this notification" alt="close" />
+	          	</a>
+	            <div>提示内容</div>
+          	</div>
+            <div class="clear"></div>
+            <!-- End .clear -->
+          </form>
+        </div>
+        <!-- End #tab1 -->
+        
+        <div class="tab-content" id="tab2">
+          <form id="casessuggest">
+          	<fieldset>
+	            <!-- Set class to "column-left" or "column-right" on fieldsets to divide the form into columns -->
+	             <p>
+		           <label>是否需要跟进</label>
+              		<?php
+              	foreach($__followUp as $key=>$value){
+					if(!empty($followUp)){
+						if(in_array($followUp,$__followUp)){
+							$checked = $value==$followUp?' checked=checked ':'';						
+						}else{
+							$checked = ' checked=checked ';
+						}
+					}
+					if(strstr($value,"不需要") === false){
+						$click = ' onclick="$(\'.followUpRemark\').hide();"';
+					}else{
+						$click = ' onclick="$(\'.followUpRemark\').show();"';
+					}
+					echo '<input type="radio" name="followUp" value="'.$value.'" '.$checked.$click.' />  '.$value.'  ';
+				}
+				if(!empty($followUpRemark)){
+					$isNone = "";
+				}else{
+					$isNone = 'none';
+				}
+				echo '<input type="text" class="text-input small-input '.$isNone.' followUpRemark" name="followUpRemark" value="'.$followUp.'"/>
+              				<small class="followUpRemark '.$isNone.'">*请注明</small>';
+				?>
+	             </p>
+	             <p>
+		           <label>危机因素</label>
+              		<?php
+              	foreach($__crisis as $key=>$value){
+					if(!empty($crisis)){
+						if(in_array($crisis,$__crisis)){
+							$checked = $value==$crisis?' checked=checked ':'';						
+						}else{
+							$checked = ' checked=checked ';
+						}
+					}
+					if(strstr($value,"无") !== false){
+						$click = ' onclick="$(\'.crisisRemark\').hide();"';
+					}else{
+						$click = ' onclick="$(\'.crisisRemark\').show();"';
+					}
+					echo '<input type="radio" name="crisis" value="'.$value.'" '.$checked.$click.' />  '.$value.'  ';
+				}
+				if(!empty($crisisRemark)){
+					$isNone = "";
+				}else{
+					$isNone = 'none';
+				}
+				echo '<input type="text" class="text-input small-input '.$isNone.' crisisRemark" name="crisisRemark" value="'.$crisis.'"/>
+              				<small class="crisisRemark '.$isNone.'">*请注明</small>';
+				?>
+	             </p>
+	             <p>
+		           <label>紧急服务</label>
+              		<?php
+              	foreach($__urgent as $key=>$value){
+					if(!empty($urgent)){
+						if(in_array($urgent,$__urgent)){
+							$checked = $value==$urgent?' checked=checked ':'';						
+						}else{
+							$checked = ' checked=checked ';
+						}
+					}
+					if(strstr($value,"不需要") !== false){
+						$click = ' onclick="$(\'.urgentRemark\').hide();"';
+					}else{
+						$click = ' onclick="$(\'.urgentRemark\').show();"';
+					}
+					echo '<input type="radio" name="urgent" value="'.$value.'" '.$checked.$click.' />  '.$value.'  ';
+				}
+				if(!empty($urgentRemark)){
+					$isNone = "";
+				}else{
+					$isNone = 'none';
+				}
+				echo '<input type="text" class="text-input small-input '.$isNone.' urgentRemark" name="urgentRemark" value="'.$urgent.'"/>
+              				<small class="urgentRemark '.$isNone.'">*请注明</small>';
+				?>
+	             </p>
+	             <p>
+		              <label>其他原因</label>
+		              <input class="text-input medium-input datepicker" type="text" id="otherReasons" name="otherReasons" value="<?php echo $otherReasons;?>"/>
+		              <span class="input-notification success png_bg none"></span> 
+	             </p>
+	             <p>
+		           <label>当事人是否愿意接受所建议的服务</label>
+              		<?php
+              	foreach($__isAccept as $key=>$value){
+					if(!empty($isAccept)){
+						if(in_array($isAccept,$__isAccept)){
+							$checked = $value==$isAccept?' checked=checked ':'';						
+						}else{
+							$checked = ' checked=checked ';
+						}
+					}
+					if(strstr($value,"不愿意") !== false){
+						$click = ' onclick="$(\'.isAcceptRemark\').show();"';
+					}else{
+						$click = ' onclick="$(\'.isAcceptRemark\').hide();"';
+					}
+					echo '<input type="radio" name="isAccept" value="'.$value.'" '.$checked.$click.' />  '.$value.'  ';
+				}
+				if(!empty($isAcceptRemark)){
+					$isNone = "";
+				}else{
+					$isNone = 'none';
+				}
+				echo '<input type="text" class="text-input small-input '.$isNone.' isAcceptRemark" name="isAcceptRemark" value="'.$isAccept.'"/>
+              				<small class="isAcceptRemark '.$isNone.'">*请注明</small>';
+				?>
+	             </p>
+	            <p>
+	              <label>建议个案总体目的</label>
+	              <textarea class="text-input textarea wysiwyg" id="overallAim" name="overallAim" cols="79" rows="15"><?php echo $overallAim;?></textarea>
+	            </p>
+	            <p>
+	              <label>各项目标</label>
+	              <textarea class="text-input textarea wysiwyg" id="goals" name="goals" cols="79" rows="15"><?php echo $goals;?></textarea>
+	            </p>
+	            <p>
+	              <label>服务计划</label>
+	              <textarea class="text-input textarea wysiwyg" id="servicePlan" name="servicePlan" cols="79" rows="15"><?php echo $servicePlan;?></textarea>
+	            </p>
+	            <p>
+	              <label>困难预计及对策</label>
+	              <textarea class="text-input textarea wysiwyg" id="difficulty" name="difficulty" cols="79" rows="15"><?php echo $difficulty;?></textarea>
+	            </p>
+	            <?
+              		if(intval ( $this->session->userdata ( 'groupId' ) ) < 4){
+			　	?>
+	            <p>
+	              <label>督导批注</label>
+	            </p>
+	            <p>
+		           <label>当事人是否愿意接受所建议的服务</label>
+              		<?php
+              	foreach($__isNeed as $key=>$value){
+					if(!empty($isNeed)){
+						if(in_array($isNeed,$__isNeed)){
+							$checked = $value==$isNeed?' checked=checked ':'';						
+						}else{
+							$checked = ' checked=checked ';
+						}
+					}
+					if(strstr($value,"否") === false){
+						$click = ' onclick="$(\'.isNeedRemark\').show();"';
+					}else{
+						$click = ' onclick="$(\'.isNeedRemark\').hide();"';
+					}
+					echo '<input type="radio" name="isNeed" value="'.$value.'" '.$checked.$click.' />  '.$value.'  ';
+				}
+				if(!empty($isNeedRemark)){
+					$isNone = "";
+				}else{
+					$isNone = 'none';
+				}
+				echo '<input type="text" class="text-input small-input '.$isNone.' isNeedRemark" name="isNeedRemark" value="'.$isNeed.'"/>
+              				<small class="isNeedRemark '.$isNone.'">*请注明</small>';
+				?>
+	             </p>
+	             <p>
+		              <label>其他</label>
+		              <input class="text-input medium-input datepicker" type="text" id="other" name="other" value="<?php echo $other;?>"/>
+		              <span class="input-notification success png_bg none"></span> 
+	             </p>
+	             <p>
+	              <label>督导意见</label>
+	              <textarea class="text-input textarea wysiwyg" id="opinionSupervision" name="opinionSupervision" cols="79" rows="15"><?php echo $opinionSupervision;?></textarea>
+	            </p>
+	            <p>
+	              <label>机构检阅</label>
+	              <textarea class="text-input textarea wysiwyg" id="inspectionBodies" name="inspectionBodies" cols="79" rows="15"><?php echo $inspectionBodies;?></textarea>
+	            </p>
+	            <?
+	            	}
+	            ?>
+	            <p>
+	               <input type="hidden" name="casesId" value="<?php echo $casesId;?>" />
+	               <input type="hidden" name="<?php echo $casesSuggestKey;?>" value="<?php echo $casesSuggestValue;?>" />
+              	<input class="button" type="button" value="确定" onclick="saveInfo('casessuggest','casessuggest','saveInfo')"/>
+	            </p>
+            </fieldset>
+            <div class="notification success png_bg none" style="width:150px;" id="casessuggestSaveResult">
+	          	<a href="javascript:;" class="close">
+	          		<img src="./app/views/images/icons/cross_grey_small.png" title="Close this notification" alt="close" />
+	          	</a>
+	            <div>提示内容</div>
+          	</div>
+            <div class="clear"></div>
+            <!-- End .clear -->
+          </form>
+        </div>
+        <!-- End #tab2 -->
+        
+        <div class="tab-content" id="tab3">
+          <form id="alone">
+            <fieldset>
+            <p>
+              <label>首次会谈日期</label>
+              <input class="text-input small-input" type="text" id="firstTalkDate" name="firstTalkDate" value="<?php echo $firstTalkDate;?>" onClick="WdatePicker()"/>
+              <span class="input-notification png_bg none" id="firstTalkDateInfo"></span>
+              </p>
+             <p>
+              <label>问题</label>
+              <input class="text-input small-input" type="text" id="question" name="question" value="<?php echo $question;?>"/>
+              <span class="input-notification png_bg none" id="questionInfo"></span>
+              </p>
+             <p>
+              <label>服务目标</label>
+              <input class="text-input small-input" type="text" id="targets" name="targets" value="<?php echo $targets;?>"/>
+              <span class="input-notification png_bg none" id="targetsInfo"></span>
+              </p>
+             <p>
+              <label>服务计划</label>
+              <input class="text-input small-input" type="text" id="servicePlan" name="servicePlan" value="<?php echo $servicePlan;?>"/>
+              <span class="input-notification png_bg none" id="servicePlanInfo"></span>
+              </p>
+             <p>
+              <label>收入来源</label>
+              <?php
+              	foreach($__incomeSource as $key=>$value){
+					$checked = $value == $incomeSource?'checked=checked':'';
+					echo '<input type="radio" name="incomeSource" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>财政状况</label>
+              <?php
+              	foreach($__financialSituation as $key=>$value){
+					$checked = $value == $financialSituation?'checked=checked':'';
+					echo '<input type="radio" name="financialSituation" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>需资助亲友</label>
+              <?php
+              	foreach($__subsidize as $key=>$value){
+					$checked = $value == $subsidize?'checked=checked':'';
+					echo '<input type="radio" name="subsidize" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>活动能力</label>
+              <?php
+              	foreach($__activity as $key=>$value){
+					$checked = $value == $activity?'checked=checked':'';
+					echo '<input type="radio" name="activity" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>记忆</label>
+              <?php
+              	foreach($__momory as $key=>$value){
+					$checked = $value == $momory?'checked=checked':'';
+					echo '<input type="radio" name="momory" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>环境辨认</label>
+              <?php
+              	foreach($__identifyEnvironmental as $key=>$value){
+					$checked = $value == $identifyEnvironmental?'checked=checked':'';
+					echo '<input type="radio" name="identifyEnvironmental" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>如厕</label>
+              <?php
+              	foreach($__toilet as $key=>$value){
+					$checked = $value == $toilet?'checked=checked':'';
+					echo '<input type="radio" name="toilet" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>合作</label>
+              <?php
+              	foreach($__cooperation as $key=>$value){
+					$checked = $value == $cooperation?'checked=checked':'';
+					echo '<input type="radio" name="cooperation" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+              <p>
+              <label>穿衣</label>
+              <?php
+              	foreach($__dressing as $key=>$value){
+					$checked = $value == $dressing?'checked=checked':'';
+					echo '<input type="radio" name="dressing" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>进食</label>
+              <?php
+              	foreach($__eat as $key=>$value){
+					$checked = $value == $eat?'checked=checked':'';
+					echo '<input type="radio" name="eat" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>个人清洁</label>
+              <?php
+              	foreach($__personalCleanliness as $key=>$value){
+					$checked = $value == $personalCleanliness?'checked=checked':'';
+					echo '<input type="radio" name="personalCleanliness" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>饮食</label>
+              <?php
+              	foreach($__diet as $key=>$value){
+					$checked = $value == $diet?'checked=checked':'';
+					echo '<input type="radio" name="diet" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>亲戚到访</label>
+              <?php
+              	foreach($__visit as $key=>$value){
+					$checked = $value == $visit?'checked=checked':'';
+					echo '<input type="radio" name="visit" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>电话联络</label>
+              <?php
+              	foreach($__phoneContact as $key=>$value){
+					$checked = $value == $phoneContact?'checked=checked':'';
+					echo '<input type="radio" name="phoneContact" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>探望亲戚</label>
+              <?php
+              	foreach($__visitRelatives as $key=>$value){
+					$checked = $value == $visitRelatives?'checked=checked':'';
+					echo '<input type="radio" name="visitRelatives" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+            <p>
+              <label>书信来往</label>
+              <?php
+              	foreach($__lettersVisit as $key=>$value){
+					$checked = $value == $lettersVisit?'checked=checked':'';
+					echo '<input type="radio" name="lettersVisit" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>邻里倾谈</label>
+              <?php
+              	foreach($__neighborhoodTalk as $key=>$value){
+					$checked = $value == $neighborhoodTalk?'checked=checked':'';
+					echo '<input type="radio" name="neighborhoodTalk" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>邻里玩乐</label>
+              <?php
+              	foreach($__neighborhoodFun as $key=>$value){
+					$checked = $value == $neighborhoodFun?'checked=checked':'';
+					echo '<input type="radio" name="neighborhoodFun" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>互不理睬</label>
+              <?php
+              	foreach($__noTalk as $key=>$value){
+					$checked = $value == $noTalk?'checked=checked':'';
+					echo '<input type="radio" name="noTalk" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>邻里交恶</label>
+              <?php
+              	foreach($__becomeEnemies as $key=>$value){
+					$checked = $value == $becomeEnemies?'checked=checked':'';
+					echo '<input type="radio" name="becomeEnemies" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>与中心职员倾谈心情</label>
+              <?php
+              	foreach($__talkToMind as $key=>$value){
+					$checked = $value == $talkToMind?'checked=checked':'';
+					echo '<input type="radio" name="talkToMind" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>需求协助</label>
+              <?php
+              	foreach($__neetTohelp as $key=>$value){
+					$checked = $value == $neetTohelp?'checked=checked':'';
+					echo '<input type="radio" name="neetTohelp" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>提供意见</label>
+              <?php
+              	foreach($__advising as $key=>$value){
+					$checked = $value == $advising?'checked=checked':'';
+					echo '<input type="radio" name="advising" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>投诉批评</label>
+              <?php
+              	foreach($__critique as $key=>$value){
+					$checked = $value == $critique?'checked=checked':'';
+					echo '<input type="radio" name="critique" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>手机</label>
+              <?php
+              	foreach($__phone as $key=>$value){
+					$checked = $value == $phone?'checked=checked':'';
+					echo '<input type="radio" name="phone" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>电视</label>
+              <?php
+              	foreach($__tv as $key=>$value){
+					$checked = $value == $tv?'checked=checked':'';
+					echo '<input type="radio" name="tv" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>时报</label>
+              <?php
+              	foreach($__newspaper as $key=>$value){
+					$checked = $value == $newspaper?'checked=checked':'';
+					echo '<input type="radio" name="newspaper" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>户外</label>
+              <?php
+              	foreach($__outdoor as $key=>$value){
+					$checked = $value == $outdoor?'checked=checked':'';
+					echo '<input type="radio" name="outdoor" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>聚餐</label>
+              <?php
+              	foreach($__dinnerParty as $key=>$value){
+					$checked = $value == $dinnerParty?'checked=checked':'';
+					echo '<input type="radio" name="dinnerParty" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>特别活动</label>
+              <?php
+              	foreach($__specialEvents as $key=>$value){
+					$checked = $value == $specialEvents?'checked=checked':'';
+					echo '<input type="radio" name="specialEvents" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>吸烟</label>
+              <?php
+              	foreach($__smoking as $key=>$value){
+					$checked = $value == $smoking?'checked=checked':'';
+					echo '<input type="radio" name="smoking" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>喝酒</label>
+              <?php
+              	foreach($__drinking as $key=>$value){
+					$checked = $value == $drinking?'checked=checked':'';
+					echo '<input type="radio" name="drinking" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>运动</label>
+              <?php
+              	foreach($__sports as $key=>$value){
+					$checked = $value == $sports?'checked=checked':'';
+					echo '<input type="radio" name="sports" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>阅读</label>
+              <?php
+              	foreach($__reading as $key=>$value){
+					$checked = $value == $reading?'checked=checked':'';
+					echo '<input type="radio" name="reading" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>生活有规律</label>
+              <?php
+              	foreach($__law as $key=>$value){
+					$checked = $value == $law?'checked=checked':'';
+					echo '<input type="radio" name="law" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>情绪控制</label>
+              <?php
+              	foreach($__emotionalControl as $key=>$value){
+					$checked = $value == $emotionalControl?'checked=checked':'';
+					echo '<input type="radio" name="emotionalControl" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>性格乐观</label>
+              <?php
+              	foreach($__hopeful as $key=>$value){
+					$checked = $value == $hopeful?'checked=checked':'';
+					echo '<input type="radio" name="hopeful" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>信任他人</label>
+              <?php
+              	foreach($__trustOthers as $key=>$value){
+					$checked = $value == $trustOthers?'checked=checked':'';
+					echo '<input type="radio" name="trustOthers" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>合群</label>
+              <?php
+              	foreach($__gregarious as $key=>$value){
+					$checked = $value == $gregarious?'checked=checked':'';
+					echo '<input type="radio" name="gregarious" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>对待疾病态度</label>
+              <?php
+              	foreach($__attitude as $key=>$value){
+					$checked = $value == $attitude?'checked=checked':'';
+					echo '<input type="radio" name="attitude" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>生活积极性</label>
+              <?php
+              	foreach($__active as $key=>$value){
+					$checked = $value == $active?'checked=checked':'';
+					echo '<input type="radio" name="active" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+             <p>
+              <label>处理压力</label>
+              <?php
+              	foreach($__stressManagement as $key=>$value){
+					$checked = $value == $stressManagement?'checked=checked':'';
+					echo '<input type="radio" name="stressManagement" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+             </p>
+            <?php
+            	if($this->session->userdata ( 'groupId' )<4){
+			?>
+            <p>
+              <label>督导意见</label>
+              <textarea class="text-input textarea wysiwyg" id="steeringViews" name="steeringViews" cols="79" rows="15"><?php echo $steeringViews;?></textarea>
+            </p>
+            <?php
+			}
+            ?>
+            <p>
+              <input type="hidden" name="casesId" value="<?php echo $casesId;?>" />
+              <input type="hidden" name="<?php echo $aloneKey;?>" value="<?php echo $aloneValue;?>" />
+              <input class="button" type="button" value="确定" onclick="saveInfo('alone','alone','saveInfo')"/>
+              
+            </p>
+            </fieldset>
+            <div class="notification success png_bg none" style="width:150px;" id="aloneSaveResult">
+	          	<a href="javascript:;" class="close">
+	          		<img src="./app/views/images/icons/cross_grey_small.png" title="Close this notification" alt="close" />
+	          	</a>
+	            <div>提示内容</div>
+          	</div>
+            <div class="clear"></div>
+            <!-- End .clear -->
+          </form>
+        </div>
+        <!-- End #tab3 -->
+      </div>
+    </div>
+    <?php include 'footer.html';?>
+  </div>
+</div>
+<script type="text/javascript" src="app/views/js/base.js"></script>
+<script type="text/javascript" src="app/views/module/My97DatePicker/WdatePicker.js"></script>
+</body>
+</html>

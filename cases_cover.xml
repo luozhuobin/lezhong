@@ -1,0 +1,956 @@
+﻿<w:p w:rsidR="00350BCD" w:rsidRDefault="00487B21">
+	<w:r>
+		<w:rPr>
+			<w:noProof/>
+		</w:rPr>
+		<w:pict>
+			<v:line id="直接连接符 8" o:spid="_x0000_s1026" style="position:absolute;left:0;text-align:left;flip:x;z-index:251667456;visibility:visible;mso-position-vertical-relative:page;mso-width-relative:margin;mso-height-relative:margin" from="-14.2pt,69.15pt" to="-14.2pt,767.05pt" o:gfxdata="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&#xA;AAA=&#xA;" strokecolor="#5b9bd5 [3204]" strokeweight=".5pt">
+				<v:stroke joinstyle="miter"/>
+				<w10:wrap anchory="page"/>
+			</v:line>
+		</w:pict>
+	</w:r>
+	<w:r>
+		<w:rPr>
+			<w:noProof/>
+		</w:rPr>
+		<w:pict>
+			<v:rect id="矩形 132" o:spid="_x0000_s1029" style="position:absolute;left:0;text-align:left;margin-left:399.2pt;margin-top:-1.9pt;width:60.4pt;height:109.6pt;z-index:251659264;visibility:visible;mso-position-horizontal-relative:margin;mso-position-vertical-relative:page;v-text-anchor:bottom" o:gfxdata="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&#xA;" fillcolor="#5b9bd5 [3204]" stroked="f" strokeweight="1pt">
+				<v:path arrowok="t"/>
+				<o:lock v:ext="edit" aspectratio="t"/>
+				<v:textbox inset="3.6pt,,3.6pt">
+					<w:txbxContent>
+						<w:p w:rsidR="00D9556A" w:rsidRDefault="00C40F59" w:rsidP="00C40F59">
+							<w:pPr>
+								<w:pStyle w:val="a5"/>
+								<w:ind w:right="120"/>
+								<w:jc w:val="right"/>
+								<w:rPr>
+									<w:color w:val="FFFFFF" w:themeColor="background1"/>
+									<w:sz w:val="24"/>
+									<w:szCs w:val="24"/>
+								</w:rPr>
+							</w:pPr>
+							<w:r>
+								<w:rPr>
+									<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+									<w:color w:val="FFFFFF" w:themeColor="background1"/>
+									<w:sz w:val="24"/>
+									<w:szCs w:val="24"/>
+								</w:rPr>
+								<w:t>□</w:t>
+							</w:r>
+							<w:r>
+								<w:rPr>
+									<w:rFonts w:hint="eastAsia"/>
+									<w:color w:val="FFFFFF" w:themeColor="background1"/>
+									<w:sz w:val="24"/>
+									<w:szCs w:val="24"/>
+								</w:rPr>
+								<w:t>2013</w:t>
+							</w:r>
+						</w:p>
+						<w:p w:rsidR="00C40F59" w:rsidRDefault="00C40F59" w:rsidP="00C40F59">
+							<w:pPr>
+								<w:pStyle w:val="a5"/>
+								<w:ind w:right="120"/>
+								<w:jc w:val="right"/>
+								<w:rPr>
+									<w:color w:val="FFFFFF" w:themeColor="background1"/>
+									<w:sz w:val="24"/>
+									<w:szCs w:val="24"/>
+								</w:rPr>
+							</w:pPr>
+							<w:r>
+								<w:rPr>
+									<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+									<w:color w:val="FFFFFF" w:themeColor="background1"/>
+									<w:sz w:val="24"/>
+									<w:szCs w:val="24"/>
+								</w:rPr>
+								<w:t>□</w:t>
+							</w:r>
+							<w:r>
+								<w:rPr>
+									<w:color w:val="FFFFFF" w:themeColor="background1"/>
+									<w:sz w:val="24"/>
+									<w:szCs w:val="24"/>
+								</w:rPr>
+								<w:t>2014</w:t>
+							</w:r>
+						</w:p>
+						<w:p w:rsidR="00C40F59" w:rsidRDefault="00C40F59" w:rsidP="00C40F59">
+							<w:pPr>
+								<w:pStyle w:val="a5"/>
+								<w:ind w:right="120"/>
+								<w:jc w:val="right"/>
+								<w:rPr>
+									<w:color w:val="FFFFFF" w:themeColor="background1"/>
+									<w:sz w:val="24"/>
+									<w:szCs w:val="24"/>
+								</w:rPr>
+							</w:pPr>
+							<w:r>
+								<w:rPr>
+									<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+									<w:color w:val="FFFFFF" w:themeColor="background1"/>
+									<w:sz w:val="24"/>
+									<w:szCs w:val="24"/>
+								</w:rPr>
+								<w:t>□</w:t>
+							</w:r>
+							<w:r>
+								<w:rPr>
+									<w:color w:val="FFFFFF" w:themeColor="background1"/>
+									<w:sz w:val="24"/>
+									<w:szCs w:val="24"/>
+								</w:rPr>
+								<w:t>2015</w:t>
+							</w:r>
+						</w:p>
+					</w:txbxContent>
+				</v:textbox>
+				<w10:wrap anchorx="margin" anchory="page"/>
+			</v:rect>
+		</w:pict>
+	</w:r>
+</w:p>
+
+<w:p w:rsidR="00350BCD" w:rsidRDefault="00487B21" w:rsidP="00217D49">
+	<w:pPr>
+		<w:widowControl/>
+		<w:ind w:firstLineChars="1300" w:firstLine="2730"/>
+		<w:jc w:val="right"/>
+		<w:rPr>
+			<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+			<w:szCs w:val="21"/>
+		</w:rPr>
+	</w:pPr>
+	<w:r w:rsidRPr="00487B21">
+		<w:rPr>
+			<w:noProof/>
+		</w:rPr>
+		<w:pict>
+			<v:shapetype id="_x0000_t202" coordsize="21600,21600" o:spt="202" path="m,l,21600r21600,l21600,xe">
+				<v:stroke joinstyle="miter"/>
+				<v:path gradientshapeok="t" o:connecttype="rect"/>
+			</v:shapetype>
+			<v:shape id="文本框 1" o:spid="_x0000_s1027" type="#_x0000_t202" style="position:absolute;left:0;text-align:left;margin-left:42.9pt;margin-top:644.1pt;width:452.75pt;height:529.2pt;z-index:251662336;visibility:visible;mso-height-percent:350;mso-wrap-distance-left:14.4pt;mso-wrap-distance-right:14.4pt;mso-position-horizontal-relative:margin;mso-position-vertical-relative:page;mso-height-percent:350;mso-width-relative:margin" o:gfxdata="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&#xA;AAQABADzAAAA7QUAAAAA&#xA;" filled="f" stroked="f" strokeweight=".5pt">
+			<v:textbox style="mso-fit-shape-to-text:t" inset="0,0,0,0">
+		<w:txbxContent>
+		<w:p w:rsidR="00183C8A" w:rsidRPr="00183C8A" w:rsidRDefault="009A4B9F" w:rsidP="00183C8A">
+			<w:pPr>
+				<w:pStyle w:val="a5"/>
+				<w:spacing w:before="40" w:after="40"/>
+				<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:caps/>
+					<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+					<w:sz w:val="24"/>
+					<w:szCs w:val="24"/>
+				</w:rPr>
+			</w:pPr>
+			<w:r>
+				<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:caps/>
+					<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+					<w:sz w:val="24"/>
+					<w:szCs w:val="24"/>
+				</w:rPr>
+				<w:t>开案日期</w:t>
+			</w:r>
+			<w:r w:rsidR="00183C8A" w:rsidRPr="00183C8A">
+				<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:caps/>
+					<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+					<w:sz w:val="24"/>
+					<w:szCs w:val="24"/>
+				</w:rPr>
+				<w:t>：</w:t>
+			</w:r>
+			<w:r w:rsidR="00183C8A" w:rsidRPr="00183C8A">
+				<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:caps/>
+					<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+					<w:sz w:val="24"/>
+					<w:szCs w:val="24"/>
+				</w:rPr>
+				<w:t>{$openDate}</w:t>
+			</w:r>
+			<w:r>
+				<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:caps/>
+					<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+					<w:sz w:val="24"/>
+					<w:szCs w:val="24"/>
+				</w:rPr>
+				<w:t>；结案日期</w:t>
+			</w:r>
+			<w:r w:rsidRPr="00183C8A">
+				<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia"/>
+					<w:caps/>
+					<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+					<w:sz w:val="24"/>
+					<w:szCs w:val="24"/>
+				</w:rPr>
+				<w:t>：</w:t>
+			</w:r>
+			<w:r w:rsidRPr="00183C8A">
+				<w:rPr>
+					<w:rFonts w:asciiTheme="minorEastAsia" w:hAnsiTheme="minorEastAsia" w:hint="eastAsia"/>
+					<w:caps/>
+					<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+					<w:sz w:val="24"/>
+					<w:szCs w:val="24"/>
+				</w:rPr>
+				<w:t>{$closeDate}</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00557906" w:rsidRDefault="009A4B9F" w:rsidP="00183C8A">
+			<w:pPr>
+				<w:pStyle w:val="a5"/>
+				<w:spacing w:before="40" w:after="40"/>
+				<w:rPr>
+					<w:caps/>
+					<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+					<w:sz w:val="24"/>
+					<w:szCs w:val="24"/>
+				</w:rPr>
+			</w:pPr>
+			<w:r>
+				<w:rPr>
+					<w:rFonts w:hint="eastAsia"/>
+					<w:caps/>
+					<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+					<w:sz w:val="24"/>
+					<w:szCs w:val="24"/>
+				</w:rPr>
+				<w:t>个案附件</w:t>
+			</w:r>
+			<w:r>
+				<w:rPr>
+					<w:caps/>
+					<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+					<w:sz w:val="24"/>
+					<w:szCs w:val="24"/>
+				</w:rPr>
+				<w:t>清单</w:t>
+			</w:r>
+			<w:r w:rsidR="00350BCD">
+				<w:rPr>
+					<w:caps/>
+					<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+					<w:sz w:val="24"/>
+					<w:szCs w:val="24"/>
+				</w:rPr>
+				<w:t>：</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00557906" w:rsidRDefault="00350BCD" w:rsidP="00183C8A">
+			<w:pPr>
+				<w:pStyle w:val="a5"/>
+				<w:spacing w:before="40" w:after="40"/>
+				<w:rPr>
+					<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体"/>
+					<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+					<w:sz w:val="24"/>
+					<w:szCs w:val="24"/>
+				</w:rPr>
+			</w:pPr>
+			<w:r w:rsidRPr="00183C8A">
+				<w:rPr>
+					<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+					<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+					<w:sz w:val="24"/>
+					<w:szCs w:val="24"/>
+				</w:rPr>
+				<w:t>□</w:t>
+			</w:r>
+			<w:r w:rsidR="009A4B9F" w:rsidRPr="009A4B9F">
+				<w:rPr>
+					<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+					<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+					<w:sz w:val="24"/>
+					<w:szCs w:val="24"/>
+				</w:rPr>
+				<w:t>服务对象资料记录</w:t>
+			</w:r>
+			<w:r w:rsidR="009A4B9F">
+				<w:rPr>
+					<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+					<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+					<w:sz w:val="24"/>
+					<w:szCs w:val="24"/>
+				</w:rPr>
+				<w:t>C</w:t>
+			</w:r>
+			<w:r w:rsidR="009A4B9F">
+				<w:rPr>
+					<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体"/>
+					<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+					<w:sz w:val="24"/>
+					<w:szCs w:val="24"/>
+				</w:rPr>
+				<w:t>-01</w:t>
+			</w:r>
+			<w:r>
+				<w:rPr>
+					<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体"/>
+					<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+					<w:sz w:val="24"/>
+					<w:szCs w:val="24"/>
+				</w:rPr>
+				<w:t>；</w:t>
+			</w:r>
+			<w:r w:rsidRPr="00183C8A">
+				<w:rPr>
+					<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+					<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+					<w:sz w:val="24"/>
+					<w:szCs w:val="24"/>
+				</w:rPr>
+				<w:t>□</w:t>
+			</w:r>
+			<w:r w:rsidR="009A4B9F" w:rsidRPr="009A4B9F">
+				<w:rPr>
+					<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+					<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+					<w:sz w:val="24"/>
+					<w:szCs w:val="24"/>
+				</w:rPr>
+				<w:t>社工建议及行动</w:t>
+			</w:r>
+			<w:r w:rsidR="009A4B9F">
+				<w:rPr>
+					<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+					<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+					<w:sz w:val="24"/>
+					<w:szCs w:val="24"/>
+				</w:rPr>
+				<w:t>C</w:t>
+			</w:r>
+			<w:r w:rsidR="009A4B9F">
+				<w:rPr>
+					<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体"/>
+					<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+					<w:sz w:val="24"/>
+					<w:szCs w:val="24"/>
+				</w:rPr>
+				<w:t>-02</w:t>
+			</w:r>
+			<w:r>
+				<w:rPr>
+					<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体"/>
+					<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+					<w:sz w:val="24"/>
+					<w:szCs w:val="24"/>
+				</w:rPr>
+				<w:t>；</w:t>
+			</w:r>
+			<w:r w:rsidRPr="00183C8A">
+				<w:rPr>
+					<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+					<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+					<w:sz w:val="24"/>
+					<w:szCs w:val="24"/>
+				</w:rPr>
+				<w:t>□</w:t>
+			</w:r>
+			<w:r w:rsidR="009A4B9F" w:rsidRPr="009A4B9F">
+				<w:rPr>
+					<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+					<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+					<w:sz w:val="24"/>
+					<w:szCs w:val="24"/>
+				</w:rPr>
+				<w:t>接受个案服务同意书</w:t>
+			</w:r>
+			<w:r w:rsidR="009A4B9F">
+				<w:rPr>
+					<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+					<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+					<w:sz w:val="24"/>
+					<w:szCs w:val="24"/>
+				</w:rPr>
+				<w:t>C</w:t>
+			</w:r>
+			<w:r w:rsidR="009A4B9F">
+				<w:rPr>
+					<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体"/>
+					<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+					<w:sz w:val="24"/>
+					<w:szCs w:val="24"/>
+				</w:rPr>
+				<w:t>-03</w:t>
+			</w:r>
+			<w:r w:rsidR="00D4494D">
+				<w:rPr>
+					<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体"/>
+					<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+					<w:sz w:val="24"/>
+					<w:szCs w:val="24"/>
+				</w:rPr>
+				<w:t>；</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00557906" w:rsidRDefault="00D4494D" w:rsidP="00183C8A">
+		<w:pPr>
+		<w:pStyle w:val="a5"/>
+		<w:spacing w:before="40" w:after="40"/>
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		</w:pPr>
+		<w:r w:rsidRPr="00183C8A">
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>□</w:t>
+		</w:r>
+		<w:r w:rsidR="00557906">
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>接收转介</w:t>
+		</w:r>
+		<w:r w:rsidR="00557906">
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>回复C-04</w:t>
+		</w:r>
+		<w:r>
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>；</w:t>
+		</w:r>
+		<w:r w:rsidRPr="00183C8A">
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>□</w:t>
+		</w:r>
+		<w:r w:rsidR="00557906" w:rsidRPr="00557906">
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>个案记录表</w:t>
+		</w:r>
+		<w:r w:rsidR="00557906">
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>C</w:t>
+		</w:r>
+		<w:r w:rsidR="00557906">
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>-05；</w:t>
+		</w:r>
+		<w:r w:rsidR="00557906" w:rsidRPr="00183C8A">
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>□</w:t>
+		</w:r>
+		<w:r w:rsidR="00557906" w:rsidRPr="00557906">
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>过程记录</w:t>
+		</w:r>
+		<w:r w:rsidR="00557906">
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>C</w:t>
+		</w:r>
+		<w:r w:rsidR="00557906">
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>-06；</w:t>
+		</w:r>
+		</w:p>
+		<w:p w:rsidR="00557906" w:rsidRDefault="00557906" w:rsidP="00183C8A">
+		<w:pPr>
+		<w:pStyle w:val="a5"/>
+		<w:spacing w:before="40" w:after="40"/>
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		</w:pPr>
+		<w:r w:rsidRPr="00183C8A">
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>□</w:t>
+		</w:r>
+		<w:r w:rsidRPr="00557906">
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>个案阶段检视 / 结案表</w:t>
+		</w:r>
+		<w:r>
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>C</w:t>
+		</w:r>
+		<w:r>
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>-07；</w:t>
+		</w:r>
+		<w:r w:rsidRPr="00183C8A">
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>□</w:t>
+		</w:r>
+		<w:r w:rsidRPr="00557906">
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>转介/结案同意书</w:t>
+		</w:r>
+		<w:r>
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>C</w:t>
+		</w:r>
+		<w:r>
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>-08；</w:t>
+		</w:r>
+		</w:p>
+		<w:p w:rsidR="00B45FDC" w:rsidRDefault="00557906" w:rsidP="00183C8A">
+		<w:pPr>
+		<w:pStyle w:val="a5"/>
+		<w:spacing w:before="40" w:after="40"/>
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		</w:pPr>
+		<w:r w:rsidRPr="00183C8A">
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>□</w:t>
+		</w:r>
+		<w:r w:rsidRPr="00557906">
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>个案转介表</w:t>
+		</w:r>
+		<w:r>
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>C</w:t>
+		</w:r>
+		<w:r>
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>-09；</w:t>
+		</w:r>
+		<w:r w:rsidRPr="00183C8A">
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>□</w:t>
+		</w:r>
+		<w:r w:rsidRPr="00557906">
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>个案结束评估表</w:t>
+		</w:r>
+		<w:r>
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>C</w:t>
+		</w:r>
+		<w:r>
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>-10</w:t>
+		</w:r>
+		</w:p>
+		<w:p w:rsidR="00B32B80" w:rsidRPr="00B45FDC" w:rsidRDefault="00B32B80" w:rsidP="00183C8A">
+		<w:pPr>
+		<w:pStyle w:val="a5"/>
+		<w:spacing w:before="40" w:after="40"/>
+		<w:rPr>
+		<w:caps/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		</w:pPr>
+		<w:r w:rsidRPr="00183C8A">
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>□</w:t>
+		</w:r>
+		<w:r>
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>其他</w:t>
+		</w:r>
+		<w:r>
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>附件</w:t>
+		</w:r>
+		<w:r>
+		<w:rPr>
+		<w:rFonts w:ascii="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+		<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+		<w:sz w:val="24"/>
+		<w:szCs w:val="24"/>
+		</w:rPr>
+		<w:t>__________________________________________________</w:t>
+		</w:r>
+		</w:p>
+		</w:txbxContent>
+		</v:textbox>
+		<w10:wrap type="square" anchorx="margin" anchory="page"/>
+		</v:shape>
+		</w:pict>
+	</w:r>
+	<w:r w:rsidRPr="00487B21">
+	<w:rPr>
+	<w:noProof/>
+	</w:rPr>
+	<w:pict>
+	<v:shape id="文本框 131" o:spid="_x0000_s1028" type="#_x0000_t202" style="position:absolute;left:0;text-align:left;margin-left:0;margin-top:298.65pt;width:241.25pt;height:529.2pt;z-index:251660288;visibility:visible;mso-height-percent:350;mso-wrap-distance-left:14.4pt;mso-wrap-distance-right:14.4pt;mso-position-horizontal:center;mso-position-horizontal-relative:margin;mso-position-vertical-relative:page;mso-height-percent:350;mso-width-relative:margin" o:gfxdata="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&#xA;AAAEAAQA8wAAAO4FAAAAAA==&#xA;" filled="f" stroked="f" strokeweight=".5pt">
+	<v:textbox style="mso-fit-shape-to-text:t" inset="0,0,0,0">
+	<w:txbxContent>
+	<w:p w:rsidR="007B4A04" w:rsidRDefault="00487B21" w:rsidP="007B4A04">
+	<w:pPr>
+	<w:pStyle w:val="a5"/>
+	<w:spacing w:before="40" w:after="560" w:line="216" w:lineRule="auto"/>
+	<w:rPr>
+	<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+	<w:sz w:val="72"/>
+	<w:szCs w:val="72"/>
+	</w:rPr>
+	</w:pPr>
+	<w:sdt>
+	<w:sdtPr>
+	<w:rPr>
+	<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+	<w:sz w:val="72"/>
+	<w:szCs w:val="72"/>
+	</w:rPr>
+	<w:alias w:val="标题"/>
+	<w:tag w:val=""/>
+	<w:id w:val="151731938"/>
+	<w:dataBinding w:prefixMappings="xmlns:ns0='http://purl.org/dc/elements/1.1/' xmlns:ns1='http://schemas.openxmlformats.org/package/2006/metadata/core-properties' " w:xpath="/ns1:coreProperties[1]/ns0:title[1]" w:storeItemID="{6C3C8BC8-F283-45AE-878A-BAB7291924A1}"/>
+	<w:text/>
+	</w:sdtPr>
+	<w:sdtContent>
+	<w:r w:rsidR="00DE115B">
+	<w:rPr>
+	<w:rFonts w:hint="eastAsia"/>
+	<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+	<w:sz w:val="72"/>
+	<w:szCs w:val="72"/>
+	</w:rPr>
+	<w:t>个案</w:t>
+	</w:r>
+	<w:r w:rsidR="00183C8A" w:rsidRPr="00183C8A">
+	<w:rPr>
+	<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+	<w:sz w:val="72"/>
+	<w:szCs w:val="72"/>
+	</w:rPr>
+	<w:t>记录</w:t>
+	</w:r>
+	<w:r w:rsidR="00D4494D">
+	<w:rPr>
+	<w:rFonts w:hint="eastAsia"/>
+	<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+	<w:sz w:val="72"/>
+	<w:szCs w:val="72"/>
+	</w:rPr>
+	<w:t>封面</w:t>
+	</w:r>
+	</w:sdtContent>
+	</w:sdt>
+	</w:p>
+	<w:p w:rsidR="00967D94" w:rsidRDefault="007B4A04" w:rsidP="007B4A04">
+	<w:pPr>
+	<w:pStyle w:val="a5"/>
+	<w:spacing w:before="40" w:after="560" w:line="216" w:lineRule="auto"/>
+	<w:rPr>
+	<w:rFonts w:hint="eastAsia"/>
+	<w:caps/>
+	<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+	<w:sz w:val="28"/>
+	<w:szCs w:val="28"/>
+	</w:rPr>
+	</w:pPr>
+	<w:r>
+	<w:rPr>
+	<w:rFonts w:hint="eastAsia"/>
+	<w:caps/>
+	<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+	<w:sz w:val="28"/>
+	<w:szCs w:val="28"/>
+	</w:rPr>
+	<w:t>个案</w:t>
+	</w:r>
+	<w:r w:rsidR="00183C8A" w:rsidRPr="00183C8A">
+	<w:rPr>
+	<w:caps/>
+	<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+	<w:sz w:val="28"/>
+	<w:szCs w:val="28"/>
+	</w:rPr>
+	<w:t>编号：</w:t>
+	</w:r>
+	<w:r w:rsidR="00183C8A" w:rsidRPr="00183C8A">
+	<w:rPr>
+	<w:rFonts w:hint="eastAsia"/>
+	<w:caps/>
+	<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+	<w:sz w:val="28"/>
+	<w:szCs w:val="28"/>
+	</w:rPr>
+	<w:t>{$serialNumber}</w:t>
+	</w:r>
+	</w:p>
+	<w:p w:rsidR="00967D94" w:rsidRDefault="00183C8A" w:rsidP="007B4A04">
+	<w:pPr>
+	<w:pStyle w:val="a5"/>
+	<w:spacing w:before="40" w:after="560" w:line="216" w:lineRule="auto"/>
+	<w:rPr>
+	<w:rFonts w:hint="eastAsia"/>
+	<w:caps/>
+	<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+	<w:sz w:val="28"/>
+	<w:szCs w:val="28"/>
+	</w:rPr>
+	</w:pPr>
+	<w:r w:rsidRPr="00183C8A">
+	<w:rPr>
+	<w:rFonts w:hint="eastAsia"/>
+	<w:caps/>
+	<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+	<w:sz w:val="28"/>
+	<w:szCs w:val="28"/>
+	</w:rPr>
+	<w:t>跟进</w:t>
+	</w:r>
+	<w:r w:rsidRPr="00183C8A">
+	<w:rPr>
+	<w:caps/>
+	<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+	<w:sz w:val="28"/>
+	<w:szCs w:val="28"/>
+	</w:rPr>
+	<w:t>社工：</w:t>
+	</w:r>
+	<w:r w:rsidRPr="00183C8A">
+	<w:rPr>
+	<w:rFonts w:hint="eastAsia"/>
+	<w:caps/>
+	<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+	<w:sz w:val="28"/>
+	<w:szCs w:val="28"/>
+	</w:rPr>
+	<w:t>{$socialWorker}</w:t>
+	</w:r>
+	</w:p>
+	<w:p w:rsidR="00183C8A" w:rsidRPr="007B4A04" w:rsidRDefault="00183C8A" w:rsidP="007B4A04">
+	<w:pPr>
+	<w:pStyle w:val="a5"/>
+	<w:spacing w:before="40" w:after="560" w:line="216" w:lineRule="auto"/>
+	<w:rPr>
+	<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+	<w:sz w:val="72"/>
+	<w:szCs w:val="72"/>
+	</w:rPr>
+	</w:pPr>
+	<w:r w:rsidRPr="00183C8A">
+	<w:rPr>
+	<w:rFonts w:hint="eastAsia"/>
+	<w:caps/>
+	<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+	<w:sz w:val="28"/>
+	<w:szCs w:val="28"/>
+	</w:rPr>
+	<w:t>督导</w:t>
+	</w:r>
+	<w:r w:rsidRPr="00183C8A">
+	<w:rPr>
+	<w:caps/>
+	<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+	<w:sz w:val="28"/>
+	<w:szCs w:val="28"/>
+	</w:rPr>
+	<w:t>：</w:t>
+	</w:r>
+	<w:r w:rsidRPr="00183C8A">
+	<w:rPr>
+	<w:rFonts w:hint="eastAsia"/>
+	<w:caps/>
+	<w:color w:val="2E74B5" w:themeColor="accent1" w:themeShade="BF"/>
+	<w:sz w:val="28"/>
+	<w:szCs w:val="28"/>
+	</w:rPr>
+	<w:t>{$supervisor}</w:t>
+	</w:r>
+	</w:p>
+	</w:txbxContent>
+	</v:textbox>
+	<w10:wrap type="square" anchorx="margin" anchory="page"/>
+	</v:shape>
+	</w:pict>
+	</w:r>
+	<w:r w:rsidR="00350BCD">
+	<w:rPr>
+	<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+	</w:rPr>
+	<w:br w:type="page"/>
+	</w:r>
+	<w:r w:rsidR="00217D49" w:rsidRPr="00217D49">
+	<w:rPr>
+	<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+	<w:sz w:val="24"/>
+	<w:szCs w:val="24"/>
+	</w:rPr>
+	<w:lastRenderedPageBreak/>
+	<w:t xml:space="preserve"> </w:t>
+	</w:r>
+	<w:r w:rsidR="00217D49" w:rsidRPr="00217D49">
+	<w:rPr>
+	<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+	<w:szCs w:val="21"/>
+	</w:rPr>
+	<w:t>C-01</w:t>
+	</w:r>
+</w:p>
