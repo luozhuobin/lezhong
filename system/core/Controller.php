@@ -194,6 +194,7 @@ class CI_Controller {
 		header ( "Content-Disposition: attachment; filename=" . iconv ( "UTF-8", "gb2312", $fileName ) . "" );
 		header ( "Content-Transfer-Encoding: binary" );
 		readfile ( $fileName );
+		unlink ( $fileName );
 		exit ();
 	}
 }

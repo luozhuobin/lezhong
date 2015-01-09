@@ -236,7 +236,7 @@ class Cases extends CI_Controller {
 		if (! empty ( $this->caseId )) {
 			$this->__cases = $this->cases->getDataByPrimaryKey ( $this->cases->__casesTable, $this->caseId );
 			if (! empty ( $this->__cases )) {
-				$fileName = "make/".$this->__cases ['alias'] . "_个案.xml";
+				$fileName = $this->__cases ['alias'] . "_个案.xml";
 				$this->__xmlContent = file_get_contents("header.xml");
 					##封面
 				$this->cover ();
