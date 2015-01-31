@@ -234,10 +234,17 @@ class Cases extends CI_Controller {
 	public function export() {
 		$this->caseId = $this->input->get ( "casesId", TRUE );
 		$this->assess = $this->input->get ( "assess", TRUE );
+		$type = '内部保存版';
 		if (! empty ( $this->caseId )) {
 			$this->__cases = $this->cases->getDataByPrimaryKey ( $this->cases->__casesTable, $this->caseId );
+			##提交评估版需要屏蔽姓名和手机号码
+			if(!empty($this->assess)){
+				$this->__cases['name'] = stringShield($this->__cases['name'],'name');
+				$this->__cases['phone'] = stringShield($this->__cases['phone'],'phone');
+				$type = '提交评估版';	 
+			}
 			if (! empty ( $this->__cases )) {
-				$fileName = $this->__cases ['alias'] . "_个案.doc";
+				$fileName = $this->__cases ['alias'] . ".doc";
 				$this->__xmlContent = file_get_contents("header.xml");
 					##封面
 				$this->cover ();

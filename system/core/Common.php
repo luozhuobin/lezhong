@@ -578,5 +578,26 @@ if (! function_exists ( 'getAge' )) {
 		return $age;
 	}
 }
+if(!function_exists('stringShield')){
+	function stringShield($string,$type){
+		switch($type){
+			case 'name':
+				$strlen = mb_strlen($string,'UTF-8');
+				if($strlen >= 4){
+					$string = str_ireplace(mb_substr($string,2,$strlen,'UTF-8'),'**',$string);
+				}else{
+					$string = str_ireplace(mb_substr($string,1,$strlen,'UTF-8'),'**',$string);
+				}
+				break;
+			case 'phone':
+				$string = str_ireplace(mb_substr($string,3,$strlen,'UTF-8'),'********',$string);
+				break;
+			default:
+				$string = '***';
+				break;
+		}
+		return $string;
+	}
+}
 /* End of file Common.php */
 /* Location: ./system/core/Common.php */
