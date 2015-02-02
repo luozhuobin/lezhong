@@ -64,6 +64,7 @@ class CI_Model {
 			$this->db->where ( $where );
 			$this->db->update ( $table, $data );
 		} else {
+			unset($data[$primary]);
 			$data ['createtime'] = time ();
 			$this->db->insert ( $table, $data );
 		}

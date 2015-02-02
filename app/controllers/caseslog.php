@@ -85,6 +85,9 @@ class Caseslog extends CI_Controller {
 	 */
 	public function saveInfo() {
 		$post = $this->input->post ();
+		if(!empty($post['opinionSupervision'])){
+			$post['supervisionTime'] = time();
+		}
 		if (! empty ( $post )) {
 			$isSuccess = $this->caseslog->save ( $this->caseslog->__caseslogTable, $post );
 			$this->jsonCallback ( "1", "保存成功" );
