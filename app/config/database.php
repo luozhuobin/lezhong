@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = '';
-$db['default']['database'] = 'lezhong';
+$db['default']['hostname'] = $_SERVER['LE_DB_HOST'];
+$db['default']['username'] = $_SERVER['LE_DB_USER'];
+$db['default']['password'] = $_SERVER['LE_DB_PASSWD'];
+$db['default']['database'] = $_SERVER['LE_DB_DATABASE'];
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
