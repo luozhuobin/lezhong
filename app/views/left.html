@@ -5,8 +5,6 @@
    <!-- Logo (221px wide) -->
    <a href="#"><img id="logo" src="./app/views/images/lezhong.png" alt="Simpla Admin logo" /></a>
    <!-- Sidebar Profile links -->
-   <div id="profile-links"> 
-   		您好, <a href="javascript:;" title="Edit your profile"><?php echo $this->session->userdata ( 'truename' );?></a> | <a href="?c=admin&m=logout" title="Sign Out">退出</a> </div>
    <ul id="main-nav">
      <!-- Accordion Menu -->
      <!-- <li> 
@@ -26,7 +24,7 @@
        </ul>
      </li>-->
      <li> 
-     	<a class="nav-top-item <?php echo in_array($_GET['c'],array('cases','caseslog','casesprocess')) ?  'current' : '';?>">个案</a>
+     	<a class="nav-top-item <?php echo in_array($_GET['c'],array('cases','caseslog','casesprocess')) ?  'current' : '';?>">个案管理</a>
        <ul>
          <li><a href="?c=cases&m=show" class="<?php echo $_GET['c'] == 'cases' ?  'current' : '';?>">个案列表</a></li>
          <li><a href="?c=caseslog&m=show" class="<?php echo $_GET['c'] == 'caseslog' ?  'current' : '';?>">个案记录</a></li>

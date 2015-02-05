@@ -19,7 +19,7 @@ ul.content-box-tabs li a.current,
 .notification {
                 -moz-border-radius: 6px;
                 -webkit-border-radius: 6px;
-				border-radius: 6px;
+				/*border-radius: 6px;*/
                 }
 
 .content-box-header {

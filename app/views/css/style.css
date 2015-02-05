@@ -10,12 +10,13 @@ html {
 body {
                 font-family: Arial, Helvetica, sans-serif;
                 color: #555;
-                background: #f0f0f0 url('../images/bg-body.gif') top left repeat-y;
+                /*background: #f0f0f0 url('../images/bg-body.gif') top left repeat-y;*/
+                background:#ECECEC;
                 font-size: 12px;
                 }
 
 #body-wrapper {
-                background: url('../images/bg-radial-gradient.gif') fixed 230px top no-repeat;
+                /*background: url('../images/bg-radial-gradient.gif') fixed 230px top no-repeat;*/
                 }                
 
 /********************************      Elements styling      ********************************/
@@ -98,9 +99,10 @@ a.remove-link:hover {
 /********************************      Sidebar      ********************************/
 
 #sidebar {
-                background: url('../images/bg-sidebar.gif') top left no-repeat;
+                /*background: url('../images/bg-sidebar.gif') top left no-repeat;*/
+				background:#2a303e;
                 width: 230px;
-                height: 100%;
+                height: 130%;
                 position: absolute;
                 left: 0;
                 top: 0;
@@ -126,7 +128,9 @@ a.remove-link:hover {
                 }
 
 #sidebar #logo {
-                margin: 40px 0 40px 0;
+                margin: 10px 10px 10px 40px;
+                width:150px;
+                height:130px;
                 }
 
 #sidebar #profile-links {
@@ -226,8 +230,7 @@ a.remove-link:hover {
 /************ Layout ************/
 
 #main-content {
-                margin: 0 30px 0 260px;
-                padding: 40px 0 0 0;
+                margin: 5px 10px 0 242px;
                 }
 
 .column-left {
@@ -329,7 +332,6 @@ ul.content-box-tabs li a.current {
                 }
 
 .content-box-content {
-                padding: 20px;
                 font-size: 13px;
                 border-top: 1px solid #ccc;
                 }
@@ -338,13 +340,18 @@ ul.content-box-tabs li a.current {
 
 #main-content table {
                 width: 100%;
-                border-collapse: collapse;
+                color:#333333;
+				border-width: 1px;
+				border-color: #666666;
+				border-collapse: collapse;
                 }
                 
 #main-content table thead th {
+				border-top:0px;
                 font-weight: bold;
                 font-size: 15px;
-                border-bottom: 1px solid #ddd;
+                border-width: 1px;
+				border-color: #DDDDDD;
                 }
                 
 #main-content tbody {
@@ -352,6 +359,8 @@ ul.content-box-tabs li a.current {
                 }
                 
 #main-content tbody tr {
+				border-style: solid;
+                border-color: #DDDDDD;
                 background: #fff;
                 }
               
@@ -361,6 +370,9 @@ ul.content-box-tabs li a.current {
                 
 #main-content table td,
 #main-content table th {
+				border-style: solid;
+				border-width: 1px;
+				border-color: #DDDDDD;
                 padding: 10px;
                 line-height: 1.3em;
                 }        

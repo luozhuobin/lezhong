@@ -3,14 +3,40 @@
 <div id="body-wrapper">
   <!-- Wrapper for the radial gradient background -->
   <?php include 'left.html';?>
+  <div style="background:#2A303E; color:#FFF;height:40px;line-height: 40px;margin: 0 10px 0 242px;">
+  	<span style="font-size:16px;font-weight:bold;padding:30px;">乐众项目管理系统</span>
+  	<span style="float:right;margin-right:50px;"> 
+   		您好, <a href="javascript:;" style="color:#fff;">
+   			<?php echo $this->session->userdata ( 'truename' );?></a> | 
+   			<a style="color:#fff;" href="?c=admin&m=logout" title="Sign Out">退出</a> 
+   	</span>
+  </div>
+  <div style="background:#fff; color:#4E4E50;height:40px;line-height: 40px;margin: 10px 0px 0 230px;">
+  	<img src="/app/views/images/home-32.png" style="height:20px;vertical-align:middle;margin-left:15px;"/>
+  	<span style="font-size:14px;font-weight:bold;">
+  		乐众项目管理系统 &gt 个案管理  &gt 个案列表 
+  	</span>
+  </div>
   <div id="main-content">
     <!-- Main Content Section with everything -->
     <!-- Page Head -->
     <!-- End .clear -->
+
+ <form action="#" method="post">
+            <fieldset>
+            <!-- Set class to "column-left" or "column-right" on fieldsets to divide the form into columns -->
+            <p>
+  搜索：<input type="text" name="small-input" id="small-input" class="text-input ">
+ <input type="submit" value="查询" class="button">
+</p>
+            </fieldset>
+            
+            <!-- End .clear -->
+          </form>
     <div class="content-box">
       <!-- Start Content Box -->
       <div class="content-box-header">
-        <h3>个案</h3>
+        <h3>个案列表</h3>
         <ul class="content-box-tabs">
           <li><a href="#tab1" class="default-tab">列表</a></li>
           <!-- href must be unique and match the id of target div -->
