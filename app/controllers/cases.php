@@ -81,8 +81,17 @@ class Cases extends CI_Controller {
 	 * @desc 列表
 	 */
 	public function show() {
-		$offset = $this->input->get ( 'per_page', TRUE );
-		$list = $this->cases->getData ( $this->cases->__casesTable, array (), $offset );
+		$page = $this->input->get ( 'per_page', TRUE );
+		$serialNumber = urldecode($this->input->get('serialNumber',TRUE));
+		$name = urldecode($this->input->get('name',TRUE));
+		if(!empty($serialNumber)){
+			$where['serialNumber'] = $serialNumber;
+			
+		}
+		if(!empty($name)){
+			$where['name'] = $name;
+		}
+		$list = $this->cases->getData ( $this->cases->__casesTable, $where, $page );
 		if (! empty ( $list ['data'] )) {
 			
 			foreach ( $list ['data'] as $key => &$value ) {
@@ -112,7 +121,7 @@ class Cases extends CI_Controller {
 			}
 		}
 		$data ['cases'] = $list ['data'];
-		$links = $this->getPageList ( $list ['total'], $offset );
+		$links = $this->getPageList ( $list ['total']);
 		$data ['links'] = $links;
 		$c = $this->input->get ( 'c', TRUE );
 		$m = $this->input->get ( 'm', TRUE );

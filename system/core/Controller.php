@@ -108,11 +108,11 @@ class CI_Controller {
 	/**
 	 * @desc 返回分页
 	 */
-	public function getPageList($total, $perpage) {
+	public function getPageList($total, $perpage = '') {
 		$this->load->library ( 'pagination' );
 		$config ['base_url'] = "/?c=" . $this->input->get ( "c", TRUE ) . "&m=" . $this->input->get ( "m", TRUE );
 		$config ['total_rows'] = $total;
-		$config ['per_page'] = $perpage;
+		$config ['per_page'] = empty($perpage) ? $this->config->item('per_page') : $perpage;
 		$config ['anchor_class'] = 'class="number"';
 		$config ['cur_tag_open'] = '<a href="javascript:;" class="number current">';
 		$config ['cur_tag_close'] = '</a>';
@@ -121,6 +121,7 @@ class CI_Controller {
 		$config ['next_link'] = '下一页';
 		$config ['last_link'] = '尾页';
 		$config ['uri_segment'] = '4'; //设为页面的参数，如果不添加这个参数分页用不了 
+		$config ['use_page_numbers'] = TRUE;
 		$this->pagination->initialize ( $config );
 		$links = $this->pagination->create_links ();
 		return $links;
@@ -196,5 +197,9 @@ class CI_Controller {
 		readfile ( $fileName );
 		unlink ( $fileName );
 		exit ();
+	}
+	
+	public function getMenu(){
+		$this->load->view ( 'menu-show', $data );
 	}
 }

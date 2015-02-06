@@ -104,9 +104,13 @@ class CI_Model {
 	/**
 	 * @desc 列表形式显示数据
 	 */
-	public function getData($table, $where, $offset = 0 , $join = array(),$select = '*',$type = array()) {
+	public function getData($table, $where, $page = 1 , $join = array(),$select = '*',$type = array()) {
 		$list = array ();
-		$this->db->where ( $where );
+		if(!empty($where)){
+			foreach($where as $key=>$value){
+				$this->db->where ( $key,$value );
+			}
+		}
 		$this->db->select ( "count(*) as total " );
 		if (! empty ( $join )) {
 			foreach ( $join as $key => $value ) {
@@ -118,13 +122,19 @@ class CI_Model {
 		$total = ! empty ( $result ) ? intval ( $result [0] ['total'] ) : 0;
 		$list ['total'] = $total;
 		$per_page = $this->config->item ( 'per_page' );
-		if ($total > $per_page) {
-			$offset = ($total - $per_page) > $offset ? $offset : $total - $per_page;
-		} else {
-			$offset = 0;
+		$num_pages = intval($total) > 0 ? ceil($total / $per_page) : 1;
+		if(intval($page) >= 1){
+			$page = intval($page) > $num_pages ? $num_pages : $page;
+		}else{
+			$page = 1;
 		}
+		$offset = ($page - 1) * $per_page;
 		$this->db->select ( $select );
-		$this->db->where ( $where );
+		if (! empty ( $where )) {
+			foreach ( $where as $key => $value ) {
+				$this->db->where ( $key, $value );
+			}
+		}
 		if (! empty ( $join )) {
 			foreach ( $join as $key => $value ) {
 				$this->db->join ( $key, $value ,$type[$key]);
