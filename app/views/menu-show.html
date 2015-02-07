@@ -1,0 +1,29 @@
+<?php
+	$menu = array(
+		"cases"=>array('个案管理','个案列表'),
+		"caseslog"=>array('个案管理','个案记录'),
+		"casesprocess"=>array('个案管理','过程记录'),
+		"group"=>array('小组管理','小组计划书'),
+		"groupreport"=>array('小组管理','小组报告书'),
+		"groupregister"=>array('小组管理','小组报名表'),
+		"groupsignin"=>array('小组管理','小组签到表'),
+		"groupsuggestion"=>array('小组管理','小组意见收集表'),
+		"consultation"=>"日常咨询记录表",
+		"volunteer"=>"义工管理",
+		"settings"=>"成员管理",
+	);
+?>  
+<div class="top_menu">
+  	<span class="product_name">乐众项目管理系统</span>
+  	<span class="userInfo"> 
+   		您好, <a href="javascript:;">
+   			<?php echo $this->session->userdata ( 'truename' );?></a> | 
+   			<a href="?c=admin&m=logout" title="Sign Out">退出</a> 
+   	</span>
+  </div>
+  <div class="tab_menu" >
+  	<img src="/app/views/images/home-32.png" />
+  	<span>
+  		乐众项目管理系统 &gt <?php echo $menu[$this->input->get('c',TRUE)][0];?>  &gt <?php echo $menu[$this->input->get('c',TRUE)][1];?>
+  	</span>
+  </div>
