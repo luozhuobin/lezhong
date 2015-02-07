@@ -299,10 +299,10 @@ class Cases extends CI_Controller {
 		$post = $this->input->post ();
 		if (! empty ( $post )) {
 			$isSuccess = $this->cases->save ( $this->cases->__casesTable, $post );
-			if ($isSuccess >= 0) {
-				$this->jsonCallback ( "1", "保存成功" );
+			if ($isSuccess > 0) {
+				$this->jsonCallback ( "1", "保存成功" ,array('opt'=>$isSuccess));
 			} else {
-				$this->jsonCallback ( "2", "保存失败" );
+				$this->jsonCallback ( "1", "操作成功" ,array('opt'=>$isSuccess));
 			}
 		} else {
 			$this->jsonCallback ( "3", "表单数据为空" );

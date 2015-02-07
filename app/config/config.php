@@ -357,7 +357,7 @@ $config['rewrite_short_tags'] = FALSE;
 */
 $config['proxy_ips'] = '';
 ##数据分页，每页显示数据条数
-$config['per_page'] = 20;
+$config['per_page'] = 15;
 ##文件上传设置
 $config['upload_path'] = './uploads/';
 $config['allowed_types'] = 'xlsx|xls';

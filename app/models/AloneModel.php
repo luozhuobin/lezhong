@@ -9,10 +9,6 @@ class AloneModel extends CI_Model {
 	public $__aloneTable = "le_record_alone";
 	public $__wordbook =   array(
 		'casesId'=>'',
-		'name'=>'',
-		'aliases'=>'',
-		'age'=>"",
-		'sex'=>'',
 		'firstTalkDate'=>'',
 		'question'=>'',
 		'targets'=>'',

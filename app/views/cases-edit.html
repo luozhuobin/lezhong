@@ -126,7 +126,7 @@
               <textarea class="text-input textarea wysiwyg" id="readme" name="readme" cols="79" rows="15"><?php echo $readme;?></textarea>
             </p>
             <p>
-              <input type="hidden" name="<?php echo $primaryName;?>" value="<?php echo $primaryValue;?>" />
+              <input type="hidden" name="casesId" value="<?php echo $primaryValue;?>" id="tab1_casesId"/>
               <input class="button" type="button" value="确定" onclick="saveInfo('cases','cases','saveInfo')"/>
             </p>
             </fieldset>
@@ -325,7 +325,7 @@
 	            	}
 	            ?>
 	            <p>
-	               <input type="hidden" name="casesId" value="<?php echo $casesId;?>" />
+	               <input type="hidden" name="casesId" value="<?php echo $casesId;?>" id="tab2_casesId"/>
 	               <input type="hidden" name="<?php echo $casesSuggestKey;?>" value="<?php echo $casesSuggestValue;?>" />
               	<input class="button" type="button" value="确定" onclick="saveInfo('casessuggest','casessuggest','saveInfo')"/>
 	            </p>
@@ -754,7 +754,7 @@
 			}
             ?>
             <p>
-              <input type="hidden" name="casesId" value="<?php echo $casesId;?>" />
+              <input type="hidden" name="casesId" value="<?php echo $casesId;?>" id="tab3_casesId"/>
               <input type="hidden" name="<?php echo $aloneKey;?>" value="<?php echo $aloneValue;?>" />
               <input class="button" type="button" value="确定" onclick="saveInfo('alone','alone','saveInfo')"/>
               

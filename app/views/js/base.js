@@ -35,6 +35,20 @@ function saveInfo(formId,c,m){
 		    	 $("#"+callback.code+"Info").hide("slow");
 		     },2000);
 	     }
+	     switch(c){
+	     	case 'cases':
+	     		if($("#tab1_casesId").val() == ''){
+	     			$("#tab1_casesId").val(callback.data.opt);
+	     		}
+	     		if($("#tab2_casesId").val() == ''){
+	     			$("#tab2_casesId").val(callback.data.opt);
+	     		}
+	     		if($("#tab3_casesId").val() == ''){
+	     			$("#tab3_casesId").val(callback.data.opt);
+	     		}
+	    	 break;
+	     
+	     }
 	   }
 	});
 }

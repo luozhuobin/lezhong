@@ -63,12 +63,13 @@ class CI_Model {
 			unset ( $data [$primary] );
 			$this->db->where ( $where );
 			$this->db->update ( $table, $data );
+			$rows = $this->db->affected_rows ();
 		} else {
 			unset($data[$primary]);
 			$data ['createtime'] = time ();
 			$this->db->insert ( $table, $data );
+			$rows = $this->db->insert_id();
 		}
-		$rows = $this->db->affected_rows ();
 		return intval ( $rows );
 	}
 	/**
@@ -104,7 +105,7 @@ class CI_Model {
 	/**
 	 * @desc 列表形式显示数据
 	 */
-	public function getData($table, $where, $page = 1 , $join = array(),$select = '*',$type = array()) {
+	public function getData($table, $where, $page = 1 , $join = array(),$select = '*',$type = array(),$order_by = '',$order_type = 'desc') {
 		$list = array ();
 		if(!empty($where)){
 			foreach($where as $key=>$value){
@@ -140,6 +141,10 @@ class CI_Model {
 				$this->db->join ( $key, $value ,$type[$key]);
 			}
 		}
+		if(empty($order_by)){
+			$order_by = $this->getPrimaryName($table);
+		}
+		$this->db->order_by($order_by,$order_type);
 		$query = $this->db->get ( $table, $per_page, $offset );
 		foreach ( $query->result_array () as $val ) {
 			$list ['data'] [] = $val;
