@@ -47,7 +47,11 @@ function saveInfo(formId,c,m){
 	     			$("#tab3_casesId").val(callback.data.opt);
 	     		}
 	    	 break;
-	     
+	     	case 'caseslog':
+	     		if($("#logId").val() == ''){
+	     			$("#logId").val(callback.data.opt);
+	     		}
+	     		break;
 	     }
 	   }
 	});

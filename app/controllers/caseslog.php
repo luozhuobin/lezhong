@@ -26,7 +26,7 @@ class Caseslog extends CI_Controller {
 		}
 		$list = $this->caseslog->getData ( $this->caseslog->__caseslogTable, $where, $offset, $join );
 		$data ['caseslog'] = $list ['data'];
-		$links = $this->getPageList ( $list ['total'], $offset );
+		$links = $this->getPageList ( $list ['total']);
 		$data ['links'] = $links;
 		$c = $this->input->get ( 'c', TRUE );
 		$m = $this->input->get ( 'm', TRUE );
@@ -90,7 +90,7 @@ class Caseslog extends CI_Controller {
 		}
 		if (! empty ( $post )) {
 			$isSuccess = $this->caseslog->save ( $this->caseslog->__caseslogTable, $post );
-			$this->jsonCallback ( "1", "保存成功" );
+			$this->jsonCallback ( "1", "保存成功" ,array("opt"=>$isSuccess));
 		} else {
 			$this->jsonCallback ( "3", "表单数据为空" );
 		}

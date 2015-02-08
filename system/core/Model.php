@@ -105,8 +105,11 @@ class CI_Model {
 	/**
 	 * @desc 列表形式显示数据
 	 */
-	public function getData($table, $where, $page = 1 , $join = array(),$select = '*',$type = array(),$order_by = '',$order_type = 'desc') {
+	public function getData($table, $where = array(), $page = 1 , $join = array(),$select = '*',$type = array(),$order_by = '',$order_type = 'desc') {
 		$list = array ();
+		if(empty($order_by)){
+			$order_by = $this->getPrimaryName($table);
+		}
 		if(!empty($where)){
 			foreach($where as $key=>$value){
 				$this->db->where ( $key,$value );
@@ -141,9 +144,7 @@ class CI_Model {
 				$this->db->join ( $key, $value ,$type[$key]);
 			}
 		}
-		if(empty($order_by)){
-			$order_by = $this->getPrimaryName($table);
-		}
+		
 		$this->db->order_by($order_by,$order_type);
 		$query = $this->db->get ( $table, $per_page, $offset );
 		foreach ( $query->result_array () as $val ) {

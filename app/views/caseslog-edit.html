@@ -20,8 +20,13 @@
           <form id="caseslog">
             <fieldset>
              <p>
-              <label>案主姓名</label>
-             <input class="text-input small-input" type="text" id="name" name="name" value="<?php echo $name;?>"/>
+              <label>个案编号</label>
+             <select name="casesId" id="casesId" class="small-input">
+             	<option value="">请选择个案编号</option>
+             	<option value="k1222">1222</option>
+             	<option value="k1333">1333</option>
+             	<option value="k1444">1444</option>
+             </select>
               <span class="input-notification png_bg none" id="nameInfo"></span>
              </p>
              <p>
@@ -88,6 +93,9 @@
     <?php include 'footer.html';?>
   </div>
 </div>
+<script type="text/javascript">
+$("#casesId").select2();
+</script>
 <script type="text/javascript" src="app/views/js/base.js"></script>
 <script type="text/javascript" src="app/views/module/My97DatePicker/WdatePicker.js"></script>
 </body>
