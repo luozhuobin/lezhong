@@ -5,6 +5,7 @@
   <?php include 'left.html';?>
   <?php include 'menu-show.html';?>
   <div id="main-content">
+  	<?php include 'group-search-form.html';?>
     <div class="content-box">
       <!-- Start Content Box -->
       <div class="content-box-header">
@@ -28,8 +29,9 @@
             <thead>
               <tr>
                 <th>
-                  <input class="check-all" type="checkbox" />
+                  	序号
                 </th>
+                <th>小组编号</th>
                 <th>小组名称</th>
                 <th>对象</th>
                 <th>名额</th>
@@ -58,9 +60,8 @@
               	foreach($group as $key=>$value){
 					echo '              
 					<tr>
-                		<td>
-                  			<input type="checkbox" />
-                		</td>
+                		<td>'.$value["groupId"].'</td>
+						<td>'.$value["serialNumber"].'</td>
                			<td>'.$value["name"].'</td>
                 		<td>'.$value["target"].'</td>
                 		<td>'.$value["quota"].'</td>
