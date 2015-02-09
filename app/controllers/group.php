@@ -80,7 +80,7 @@ class Group extends CI_Controller {
 		if (! empty ( $this->groupId )) {
 			$this->__group = $this->group->getDataByPrimaryKey ( $this->group->__groupTable, $this->groupId );
 			if (! empty ( $this->__group )) {
-				$fileName = "make/".$this->__group ['alias'] . "_小组.xml";
+				$fileName = $this->__group ['name'] . ".doc";
 				$this->__xmlContent = file_get_contents("group.xml");
 				##封面
 				$this->cover ();
