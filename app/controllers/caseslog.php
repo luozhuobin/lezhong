@@ -17,13 +17,21 @@ class Caseslog extends CI_Controller {
 	 */
 	public function show() {
 		$this->load->model ( 'CasesModel', "cases" );
+		$serialNumber = urldecode($this->input->get('serialNumber',TRUE));
+		$name = urldecode($this->input->get('name',TRUE));
 		$casesId = intval ( $this->input->get ( "casesId" ) );
 		$offset = $this->input->get ( 'per_page', TRUE );
-		$join = array ($this->cases->__casesTable => $this->cases->__casesTable . '.casesId = ' . $this->caseslog->__caseslogTable . '.casesId' );
 		$where = array();
 		if(!empty($casesId)){
-			$where = array ($this->cases->__casesTable . ".casesId" => $casesId );
+			$where[$this->cases->__casesTable . ".casesId"] = $casesId;
 		}
+		if(!empty($serialNumber)){
+			$where['serialNumber'] = $serialNumber;
+		}
+		if(!empty($name)){
+			$where['name'] = $name;
+		}
+		$join = array ($this->cases->__casesTable => $this->cases->__casesTable . '.casesId = ' . $this->caseslog->__caseslogTable . '.casesId' );
 		$list = $this->caseslog->getData ( $this->caseslog->__caseslogTable, $where, $offset, $join );
 		$data ['caseslog'] = $list ['data'];
 		$links = $this->getPageList ( $list ['total']);
@@ -62,6 +70,9 @@ class Caseslog extends CI_Controller {
 		}else{
 			$data ['title'] = "新增个案记录";
 		}
+		$this->load->model ( 'CasesModel', "cases" );
+		$list = $this->cases->getData ( $this->cases->__casesTable);
+		$data['logList'] = $list['data'];
 		$this->load->view ( 'caseslog-edit', $data );
 	}
 	/**

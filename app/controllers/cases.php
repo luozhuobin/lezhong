@@ -86,7 +86,6 @@ class Cases extends CI_Controller {
 		$name = urldecode($this->input->get('name',TRUE));
 		if(!empty($serialNumber)){
 			$where['serialNumber'] = $serialNumber;
-			
 		}
 		if(!empty($name)){
 			$where['name'] = $name;

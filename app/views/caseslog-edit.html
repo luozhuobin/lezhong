@@ -23,11 +23,13 @@
               <label>个案编号</label>
              <select name="casesId" id="casesId" class="small-input">
              	<option value="">请选择个案编号</option>
-             	<option value="k1222">1222</option>
-             	<option value="k1333">1333</option>
-             	<option value="k1444">1444</option>
+             	<?php
+             		foreach($logList AS $key=>$value){
+						echo '<option value="'.$value['casesId'].'">'.$value['serialNumber'].'</option>';
+					}
+             	?>
              </select>
-              <span class="input-notification png_bg none" id="nameInfo"></span>
+              <span class="input-notification png_bg none" id="casesIdInfo"></span>
              </p>
              <p>
               <label>日期</label>
@@ -72,8 +74,7 @@
               	}
               ?>
             <p>
-              <input type="hidden" name="logId" value="<?php echo $logId;?>" />
-              <input type="hidden" name="casesId" value="<?php echo $casesId;?>" />
+              <input type="hidden" name="logId" value="<?php echo $logId;?>" id="logId"/>
               <input class="button" type="button" value="确定" onclick="saveInfo('caseslog','caseslog','saveInfo')"/>
             </p>
             </fieldset>

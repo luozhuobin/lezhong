@@ -21,8 +21,15 @@
             <fieldset>
             <p>
               <label>个案编号</label>
-              <input class="text-input small-input" type="text" id="serialNumber" name="serialNumber" value="<?php echo $serialNumber;?>"/>
-              <span class="input-notification png_bg none" id="serialNumberInfo"></span>
+              <select name="casesId" id="casesId" class="small-input">
+             	<option value="">请选择个案编号</option>
+             	<?php
+             		foreach($logList AS $key=>$value){
+						echo '<option value="'.$value['casesId'].'">'.$value['serialNumber'].'</option>';
+					}
+             	?>
+             </select>
+              <span class="input-notification png_bg none" id="casesIdInfo"></span>
              </p>
              <p>
               <label>跟进社工</label>
@@ -79,8 +86,7 @@
               	}
               ?>
             <p>
-              <input type="hidden" name="processId" value="<?php echo $processId;?>" />
-              <input type="hidden" name="casesId" value="<?php echo $casesId;?>" />
+              <input type="hidden" name="processId" value="<?php echo $processId;?>" id="processId"/>
               <input class="button" type="button" value="确定" onclick="saveInfo('casesProcess','casesProcess','saveInfo')"/>
             </p>
             </fieldset>
@@ -100,6 +106,9 @@
     <?php include 'footer.html';?>
   </div>
 </div>
+<script type="text/javascript">
+$("#casesId").select2();
+</script>
 <script type="text/javascript" src="app/views/js/base.js"></script>
 <script type="text/javascript" src="app/views/module/My97DatePicker/WdatePicker.js"></script>
 </body>

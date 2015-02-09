@@ -19,11 +19,19 @@ class CasesProcess extends CI_Controller {
 		$this->load->model ( 'CasesModel', "cases" );
 		$casesId = intval ( $this->input->get ( "casesId" ) );
 		$offset = $this->input->get ( 'per_page', TRUE );
-		$join = array ($this->cases->__casesTable => $this->cases->__casesTable . '.casesId = ' . $this->casesProcess->__casesProcessTable . '.casesId' );
+		$serialNumber = urldecode($this->input->get('serialNumber',TRUE));
+		$name = urldecode($this->input->get('name',TRUE));
 		$where = array();
 		if(!empty($casesId)){
-			$where = array ($this->cases->__casesTable . ".casesId" => $casesId );
+			$where[$this->cases->__casesTable . ".casesId"] = $casesId;
 		}
+		if(!empty($serialNumber)){
+			$where['serialNumber'] = $serialNumber;
+		}
+		if(!empty($name)){
+			$where['name'] = $name;
+		}
+		$join = array ($this->cases->__casesTable => $this->cases->__casesTable . '.casesId = ' . $this->casesProcess->__casesProcessTable . '.casesId' );
 		$select = $this->casesProcess->__casesProcessTable.".*,".$this->cases->__casesTable.".serialNumber,".$this->cases->__casesTable.".name";
 		$list = $this->casesProcess->getData ( $this->casesProcess->__casesProcessTable, $where, $offset, $join ,$select);
 		$data ['casesProcess'] = $list ['data'];
@@ -67,6 +75,9 @@ class CasesProcess extends CI_Controller {
 		}else{
 			$data ['title'] = "新增个案过程记录";
 		}
+		$this->load->model ( 'CasesModel', "cases" );
+		$list = $this->cases->getData ( $this->cases->__casesTable);
+		$data['logList'] = $list['data'];
 		$this->load->view ( 'casesProcess-edit', $data );
 	}
 	/**
@@ -92,7 +103,7 @@ class CasesProcess extends CI_Controller {
 		$post = $this->input->post ();
 		if (! empty ( $post )) {
 			$isSuccess = $this->casesProcess->save ( $this->casesProcess->__casesProcessTable, $post );
-			$this->jsonCallback ( "1", "保存成功" );
+			$this->jsonCallback ( "1", "保存成功" ,array("opt"=>$isSuccess));
 		} else {
 			$this->jsonCallback ( "3", "表单数据为空" );
 		}

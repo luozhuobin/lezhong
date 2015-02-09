@@ -5,6 +5,7 @@
   <?php include 'left.html';?>
   <?php include 'menu-show.html';?>
   <div id="main-content">
+  	<?php include 'search-form.html';?>
     <!-- Main Content Section with everything -->
     <!-- Page Head -->
     <!-- End .clear -->
@@ -31,7 +32,7 @@
             <thead>
               <tr>
                 <th>
-                  <input class="check-all" type="checkbox" />
+                  	序号
                 </th>
                 <th>个案编号</th>
                 <th>案主姓名</th>
@@ -64,7 +65,7 @@
 					echo '              
 					<tr>
                 		<td>
-                  			<input type="checkbox" />
+                  			'.$value["processId"].'
                 		</td>
                 		<td>'.$value["serialNumber"].'</td>
                			<td>'.$value["name"].'</td>

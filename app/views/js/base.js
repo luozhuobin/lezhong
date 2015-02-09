@@ -52,6 +52,11 @@ function saveInfo(formId,c,m){
 	     			$("#logId").val(callback.data.opt);
 	     		}
 	     		break;
+	     	case 'casesprocess':
+	     		if($("#processId").val() == ''){
+	     			$("#processId").val(callback.data.opt);
+	     		}
+	     		break;
 	     }
 	   }
 	});
