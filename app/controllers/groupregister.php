@@ -19,8 +19,16 @@ class Groupregister extends CI_Controller {
 	 */
 	public function show() {
 		$offset = $this->input->get ( 'per_page', TRUE );
+		$serialNumber = urldecode($this->input->get('serialNumber',TRUE));
+		$name = urldecode($this->input->get('name',TRUE));
+		if(!empty($serialNumber)){
+			$where['serialNumber'] = $serialNumber;
+		}
+		if(!empty($name)){
+			$where['name'] = $name;
+		}
 		$join = array ($this->group->__groupTable => $this->group->__groupTable . '.groupId = ' . $this->groupregister->__groupRegisterTable . '.groupId' );
-		$list = $this->groupregister->getData ( $this->groupregister->__groupRegisterTable, array (), $offset ,$join);
+		$list = $this->groupregister->getData ( $this->groupregister->__groupRegisterTable, $where, $offset ,$join);
 		$data ['groupregister'] = $list ['data'];
 		$links = $this->getPageList ( $list ['total'], $offset );
 		$data ['links'] = $links;

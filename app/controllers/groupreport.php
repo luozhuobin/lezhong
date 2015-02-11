@@ -18,8 +18,16 @@ class Groupreport extends CI_Controller {
 	 */
 	public function show() {
 		$offset = $this->input->get ( 'per_page', TRUE );
+		$serialNumber = urldecode($this->input->get('serialNumber',TRUE));
+		$name = urldecode($this->input->get('name',TRUE));
+		if(!empty($serialNumber)){
+			$where['serialNumber'] = $serialNumber;
+		}
+		if(!empty($name)){
+			$where['name'] = $name;
+		}
 		$join = array ($this->group->__groupTable => $this->group->__groupTable . '.groupId = ' . $this->groupReport->__groupReportTable . '.groupId' );
-		$list = $this->groupReport->getData ( $this->groupReport->__groupReportTable, array (), $offset ,$join);
+		$list = $this->groupReport->getData ( $this->groupReport->__groupReportTable, $where, $offset ,$join);
 		$data ['groupreport'] = $list ['data'];
 		$links = $this->getPageList ( $list ['total'], $offset );
 		$data ['links'] = $links;

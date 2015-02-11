@@ -18,10 +18,18 @@ class Groupsignin extends CI_Controller {
 	 */
 	public function show() {
 		$offset = $this->input->get ( 'per_page', TRUE );
+		$serialNumber = urldecode($this->input->get('serialNumber',TRUE));
+		$name = urldecode($this->input->get('name',TRUE));
+		if(!empty($serialNumber)){
+			$where['serialNumber'] = $serialNumber;
+		}
+		if(!empty($name)){
+			$where['name'] = $name;
+		}
 		$this->load->model ( 'GroupModel', "group" );
 		$join = array($this->group->__groupTable=>$this->groupSignin->__groupSigninTable.".groupId = ".$this->group->__groupTable.".groupId");
 		$type = array($this->group->__groupTable=>"LEFT");
-		$list = $this->groupSignin->getData ( $this->groupSignin->__groupSigninTable, array (), $offset ,$join,'*',$type);
+		$list = $this->groupSignin->getData ( $this->groupSignin->__groupSigninTable, $where, $offset ,$join,'*',$type);
 		$data ['groupSignin'] = $list ['data'];
 		$links = $this->getPageList ( $list ['total'], $offset );
 		$data ['links'] = $links;

@@ -17,13 +17,20 @@ class Groupsuggestion extends CI_Controller {
 	 * @desc 列表
 	 */
 	public function show() {
-		
 		$offset = $this->input->get ( 'per_page', TRUE );
+		$serialNumber = urldecode($this->input->get('serialNumber',TRUE));
+		$name = urldecode($this->input->get('name',TRUE));
+		if(!empty($serialNumber)){
+			$where['serialNumber'] = $serialNumber;
+		}
+		if(!empty($name)){
+			$where['name'] = $name;
+		}
 		$this->load->model ( 'GroupModel', "group" );
 		$join = array($this->group->__groupTable=>$this->groupsuggestion->__groupsuggestionTable.".groupId = ".$this->group->__groupTable.".groupId");
 		$type = array($this->group->__groupTable=>"LEFT");
-		$select = $this->groupsuggestion->__groupsuggestionTable.'.*,'.$this->group->__groupTable.'.name';
-		$list = $this->groupsuggestion->getData ( $this->groupsuggestion->__groupsuggestionTable, array (), $offset ,$join,$select,$type);
+		$select = $this->groupsuggestion->__groupsuggestionTable.'.*,'.$this->group->__groupTable.'.name,'.$this->group->__groupTable.'.serialNumber';
+		$list = $this->groupsuggestion->getData ( $this->groupsuggestion->__groupsuggestionTable, $where, $offset ,$join,$select,$type);
 		$data ['groupsuggestion'] = $list ['data'];
 		$links = $this->getPageList ( $list ['total'], $offset );
 		$data ['links'] = $links;

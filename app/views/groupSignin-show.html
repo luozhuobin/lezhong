@@ -5,6 +5,7 @@
   <?php include 'left.html';?>
   <?php include 'menu-show.html';?>
   <div id="main-content">
+  	<?php include 'public/group-search-form.html';?>
     <!-- Main Content Section with everything -->
     <!-- Page Head -->
     <!-- End .clear -->
@@ -32,8 +33,9 @@
             <thead>
               <tr>
                 <th>
-                  <input class="check-all" type="checkbox" />
+                  	序号
                 </th>
+                <th>小组编号</th>
                 <th>小组名称</th>
                 <th>参加者姓名</th>
                 <th>第一节</th>
@@ -63,9 +65,8 @@
 					$createtime = !empty($value['createtime'])?date("Y-m-d",$value['createtime']):'';
 					echo '              
 					<tr>
-                		<td>
-                  			<input type="checkbox" />
-                		</td>
+						<td>'.$value["signinId"].'</td>
+                		<td>'.$value["serialNumber"].'</td>
                			<td>'.$value["name"].'</td>
 						<td>'.$value["participantName"].'</td>
 						<td>'.$value["section_1"].'</td>
