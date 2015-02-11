@@ -8,7 +8,7 @@ class GroupsuggestionModel extends CI_Model {
 
 	public $__groupsuggestionTable = "le_group_suggestion";
 	public $__wordbook =  array(
-			'groupName'=>'',
+			'groupId'=>'',
 			'targetsAchievement'=>'',
 			'timeArrangement'=>'',
 			'form'=>'',

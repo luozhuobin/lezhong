@@ -19,18 +19,7 @@
         <div class="tab-content default-tab" >
           <form id="caseslog">
             <fieldset>
-             <p>
-              <label>个案编号</label>
-             <select name="casesId" id="casesId" class="small-input">
-             	<option value="">请选择个案编号</option>
-             	<?php
-             		foreach($logList AS $key=>$value){
-						echo '<option value="'.$value['casesId'].'">'.$value['serialNumber'].'</option>';
-					}
-             	?>
-             </select>
-              <span class="input-notification png_bg none" id="casesIdInfo"></span>
-             </p>
+            <?php include '/app/views/public/cases-select.html';?>
              <p>
               <label>日期</label>
              <input class="text-input small-input" type="text" id="date" name="date" value="<?php echo $date;?>" onClick="WdatePicker()"/>
@@ -94,9 +83,6 @@
     <?php include 'footer.html';?>
   </div>
 </div>
-<script type="text/javascript">
-$("#casesId").select2();
-</script>
 <script type="text/javascript" src="app/views/js/base.js"></script>
 <script type="text/javascript" src="app/views/module/My97DatePicker/WdatePicker.js"></script>
 </body>

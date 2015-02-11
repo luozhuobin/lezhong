@@ -30,29 +30,18 @@
           <table>
             <thead>
               <tr>
-                <th>
-                  <input class="check-all" type="checkbox" />
-                </th>
+                <th>序号</th>
                 <th>小组编号</th>
                 <th>小组名称</th>
                 <th>筹备工作</th>
-                <th>督导意见</th>
                 <th>目标达致情况</th>
-                <th>督导意见</th>
                 <th>内容/形式</th>
-                <th>督导意见</th>
                 <th>人手分工</th>
-                <th>督导意见</th>
                 <th>工作员/协助者表现</th>
-                <th>督导意见</th>
                 <th>服务对象表现</th>
-                <th>督导意见</th>
                 <th>经费使用情况</th>
-                <th>督导意见</th>
                 <th>其他</th>
-                <th>督导意见</th>
                 <th>跟进工作</th>
-                <th>督导意见</th>
                 <th>报告时间</th>
                 <th>操作</th>
               </tr>
@@ -76,31 +65,20 @@
 					echo '              
 					<tr>
                 		<td>
-                  			<input type="checkbox" />
+                  			'.$value["reportId"].'
                 		</td>
 						<td>'.$value["serialNumber"].'</td>
-               			<td>'.$value["groupName"].'</td>
+               			<td>'.$value["name"].'</td>
                 		<td>'.mb_substr($value["preparatoryWork"],0,30,'UTF-8').'..</td>
-						<td>'.mb_substr($value["preparatoryWorkOption"],0,30,'UTF-8').'..</td>
 						<td>'.mb_substr($value["targetCompletion"],0,30,'UTF-8').'..</td>
-						<td>'.mb_substr($value["targetCompletionOption"],0,30,'UTF-8').'..</td>
 						<td>'.mb_substr($value["reportcontent"],0,30,'UTF-8').'..</td>
-						<td>'.mb_substr($value["reportcontentOption"],0,30,'UTF-8').'..</td>
 						<td>'.mb_substr($value["personnelArrangement"],0,30,'UTF-8').'..</td>
-						<td>'.mb_substr($value["personnelArrangementOption"],0,30,'UTF-8').'..</td>
 						<td>'.mb_substr($value["staffExpression"],0,30,'UTF-8').'..</td>
-						<td>'.mb_substr($value["staffExpressionOption"],0,30,'UTF-8').'..</td>
 						<td>'.mb_substr($value["targetExpression"],0,30,'UTF-8').'..</td>
-						<td>'.mb_substr($value["targetExpressionOption"],0,30,'UTF-8').'..</td>
 						<td>'.mb_substr($value["funds"],0,30,'UTF-8').'..</td>
-						<td>'.mb_substr($value["fundsOption"],0,30,'UTF-8').'..</td>
 						<td>'.mb_substr($value["other"],0,30,'UTF-8').'..</td>
-						<td>'.mb_substr($value["otherOption"],0,30,'UTF-8').'..</td>
 						<td>'.mb_substr($value["followUp"],0,30,'UTF-8').'..</td>
-						<td>'.mb_substr($value["followUpOption"],0,30,'UTF-8').'..</td>
-                		<td>'.mb_substr($value["opinionSupervision"],0,30,'UTF-8').'..</td>
                 		<td>'.$createtime.'</td>
-						<td>'.$updatetime.'</td>
                 		<td>
                   			<a href="?c='.$c.'&m=edit&'.$primaryName.'='.$value[$primaryName].'" title="Edit"><img src="./app/views/images/icons/pencil.png" alt="Edit" /></a> 
 							<a href="javascript:;" title="Delete" onclick="delData(\'groupreport\',\'del\',\''.$value["reportId"].'\',this);"><img src="./app/views/images/icons/cross.png" alt="Delete" /></a> 

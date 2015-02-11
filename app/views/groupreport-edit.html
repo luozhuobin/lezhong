@@ -19,21 +19,7 @@
         <div class="tab-content default-tab" >
           <form id="groupreport">
             <fieldset>
-             <p>
-              <label>小组名称</label>
-              <select name="groupId" class="small-input">
-              	<option value="0">请选择</option>
-              	<?php
-              		foreach($groupList as $key=>$value){
-						if($value['groupId'] == "groupId"){
-							$selected = 'selected="selected"';
-						}
-						echo '<option value="'.$value['groupId'].'" '.$selected.'>'.$value['name'].'</option>';
-					}
-              	?>
-              </select>
-              <span class="input-notification png_bg none" id="groupNameInfo"></span>
-            </p>
+             <?php include '/app/views/public/group-select.html';?>
               <p>
 	              <label>筹备工作</label>
 	              <textarea class="text-input textarea wysiwyg" id="preparatoryWork" name="preparatoryWork" cols="79" rows="15"><?php echo $preparatoryWork;?></textarea>
@@ -161,7 +147,7 @@
               	}
               ?>
             <p>
-              <input type="hidden" name="<?php echo $primaryName;?>" value="<?php echo $primaryValue;?>" />
+              <input type="hidden" name="reportId" value="<?php echo $primaryValue;?>" id="reportId"/>
               <input class="button" type="button" value="确定" onclick="saveInfo('groupreport','groupreport','saveInfo')"/>
             </p>
             </fieldset>
@@ -181,6 +167,9 @@
     <?php include 'footer.html';?>
   </div>
 </div>
+<script type="text/javascript">
+$("#groupId").select2();
+</script>
 <script type="text/javascript" src="app/views/js/base.js"></script>
 <script type="text/javascript" src="app/views/module/My97DatePicker/WdatePicker.js"></script>
 </body>

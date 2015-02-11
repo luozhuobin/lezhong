@@ -12,13 +12,15 @@ class Groupregister extends CI_Controller {
 	public function __construct() {
 		parent::__construct ();
 		$this->load->model ( 'GroupregisterModel', "groupregister" );
+		$this->load->model ( 'GroupModel', "group" );
 	}
 	/**
 	 * @desc 列表
 	 */
 	public function show() {
 		$offset = $this->input->get ( 'per_page', TRUE );
-		$list = $this->groupregister->getData ( $this->groupregister->__groupRegisterTable, array (), $offset );
+		$join = array ($this->group->__groupTable => $this->group->__groupTable . '.groupId = ' . $this->groupregister->__groupRegisterTable . '.groupId' );
+		$list = $this->groupregister->getData ( $this->groupregister->__groupRegisterTable, array (), $offset ,$join);
 		$data ['groupregister'] = $list ['data'];
 		$links = $this->getPageList ( $list ['total'], $offset );
 		$data ['links'] = $links;
@@ -52,6 +54,8 @@ class Groupregister extends CI_Controller {
 			$data ['title'] = "新增报名";
 		}
 		$data ['__sex'] = self::$__sex;
+		$list = $this->group->getData ( $this->group->__groupTable );
+		$data['groupList'] = $list['data'];
 		$this->load->view ( 'groupregister-edit', $data );
 	}
 	/**
@@ -78,9 +82,9 @@ class Groupregister extends CI_Controller {
 		if (! empty ( $post )) {
 			$isSuccess = $this->groupregister->save ( $this->groupregister->__groupRegisterTable, $post );
 			if ($isSuccess > 0) {
-				$this->jsonCallback ( "1", "保存成功" );
+				$this->jsonCallback ( "1", "保存成功" , array('opt'=>$isSuccess));
 			} else {
-				$this->jsonCallback ( "2", "保存失败" );
+				$this->jsonCallback ( "1", "操作成功" );
 			}
 		} else {
 			$this->jsonCallback ( "3", "表单数据为空" );

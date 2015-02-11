@@ -57,6 +57,26 @@ function saveInfo(formId,c,m){
 	     			$("#processId").val(callback.data.opt);
 	     		}
 	     		break;
+	     	case 'groupregister':
+	     		if($("#regId").val() == ''){
+	     			$("#regId").val(callback.data.opt);
+	     		}
+	     		break;
+	     	case 'groupsignin':
+	     		if($("#signinId").val() == ''){
+	     			$("#signinId").val(callback.data.opt);
+	     		}
+	     		break;
+	     	case 'groupreport':
+	     		if($("#reportId").val() == ''){
+	     			$("#reportId").val(callback.data.opt);
+	     		}
+	     		break;
+	     	case 'groupsuggestion':
+	     		if($("#suggestionId").val() == ''){
+	     			$("#suggestionId").val(callback.data.opt);
+	     		}
+	     		break;
 	     }
 	   }
 	});

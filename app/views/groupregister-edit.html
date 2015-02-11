@@ -19,11 +19,7 @@
         <div class="tab-content default-tab" >
           <form id="groupregister">
             <fieldset>
-             <p>
-              <label>小组名称</label>
-             <input class="text-input small-input" type="text" id="groupName" name="groupName" value="<?php echo $groupName;?>"/>
-              <span class="input-notification png_bg none" id="groupNameInfo"></span>
-             </p>
+             <?php include '/app/views/public/group-select.html';?>
              <p>
               <label>报名者姓名</label>
              <input class="text-input small-input" type="text" id="applican" name="applican" value="<?php echo $applican;?>"/>
@@ -49,12 +45,17 @@
              <input class="text-input small-input" type="text" id="conditions" name="conditions" value="<?php echo $conditions;?>"/>
               <span class="input-notification png_bg none" id="conditionsInfo"></span>
              </p>
+             <p>
+              <label>跟进</label>
+             <input class="text-input small-input" type="text" id="followUp" name="followUp" value="<?php echo $followUp;?>"/>
+              <span class="input-notification png_bg none" id="followUpInfo"></span>
+             </p>
             <p>
-              <input type="hidden" name="<?php echo $primaryName;?>" value="<?php echo $primaryValue;?>" />
+              <input type="hidden" name="regId" value="<?php echo $primaryValue;?>" id="regId"/>
               <input class="button" type="button" value="确定" onclick="saveInfo('groupregister','groupregister','saveInfo')"/>
             </p>
             </fieldset>
-            <div class="notification success png_bg none" style="width:150px;" id="saveResult">
+            <div class="notification success png_bg none" style="width:150px;" id="groupregisterSaveResult">
 	          	<a href="javascript:;" class="close">
 	          		<img src="./app/views/images/icons/cross_grey_small.png" title="Close this notification" alt="close" />
 	          	</a>
@@ -70,6 +71,9 @@
     <?php include 'footer.html';?>
   </div>
 </div>
+<script type="text/javascript">
+$("#groupId").select2();
+</script>
 <script type="text/javascript" src="app/views/js/base.js"></script>
 <script type="text/javascript" src="app/views/module/My97DatePicker/WdatePicker.js"></script>
 </body>

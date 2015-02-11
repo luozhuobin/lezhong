@@ -19,21 +19,7 @@
         <div class="tab-content default-tab" >
           <form id="groupsignin">
             <fieldset>
-             <p>
-              <label>小组名称</label>
-              <select name="groupId" class="small-input">
-              	<option value="0">请选择</option>
-              	<?php
-              		foreach($groupList as $key=>$value){
-						if($value['groupId'] == $groupId){
-							$selected = 'selected="selected"';
-						}
-						echo '<option value="'.$value['groupId'].'" '.$selected.'>'.$value['name'].'</option>';
-					}
-              	?>
-              </select>
-              <span class="input-notification png_bg none" id="groupNameInfo"></span>
-            </p>
+			 <?php include '/app/views/public/group-select.html';?>
              <p>
               <label>参加者姓名</label>
              <input class="text-input small-input" type="text" id="participantName" name="participantName" value="<?php echo $participantName;?>"/>
@@ -100,7 +86,7 @@
               <span class="input-notification png_bg none" id="sectionInfo"></span>
              </p>
             <p>
-              <input type="hidden" name="<?php echo $primaryName;?>" value="<?php echo $primaryValue;?>" />
+              <input type="hidden" name="signinId" value="<?php echo $primaryValue;?>" id="signinId"/>
               <input class="button" type="button" value="确定" onclick="saveInfo('groupsignin','groupsignin','saveInfo')"/>
             </p>
             </fieldset>

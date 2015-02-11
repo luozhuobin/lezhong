@@ -11,13 +11,15 @@ class Groupreport extends CI_Controller {
 	public function __construct() {
 		parent::__construct ();
 		$this->load->model ( 'GroupReportModel', "groupReport" );
+		$this->load->model ( 'GroupModel', "group" );
 	}
 	/**
 	 * @desc 列表
 	 */
 	public function show() {
 		$offset = $this->input->get ( 'per_page', TRUE );
-		$list = $this->groupReport->getData ( $this->groupReport->__groupReportTable, array (), $offset );
+		$join = array ($this->group->__groupTable => $this->group->__groupTable . '.groupId = ' . $this->groupReport->__groupReportTable . '.groupId' );
+		$list = $this->groupReport->getData ( $this->groupReport->__groupReportTable, array (), $offset ,$join);
 		$data ['groupreport'] = $list ['data'];
 		$links = $this->getPageList ( $list ['total'], $offset );
 		$data ['links'] = $links;
@@ -81,9 +83,9 @@ class Groupreport extends CI_Controller {
 		if (! empty ( $post )) {
 			$isSuccess = $this->groupReport->save ( $this->groupReport->__groupReportTable, $post );
 			if ($isSuccess > 0) {
-				$this->jsonCallback ( "1", "保存成功" );
+				$this->jsonCallback ( "1", "保存成功" ,array("opt"=>$isSuccess));
 			} else {
-				$this->jsonCallback ( "2", "保存失败" );
+				$this->jsonCallback ( "1", "操作成功" );
 			}
 		} else {
 			$this->jsonCallback ( "3", "表单数据为空" );

@@ -17,6 +17,7 @@ class Groupsuggestion extends CI_Controller {
 	 * @desc 列表
 	 */
 	public function show() {
+		
 		$offset = $this->input->get ( 'per_page', TRUE );
 		$this->load->model ( 'GroupModel', "group" );
 		$join = array($this->group->__groupTable=>$this->groupsuggestion->__groupsuggestionTable.".groupId = ".$this->group->__groupTable.".groupId");
@@ -87,7 +88,7 @@ class Groupsuggestion extends CI_Controller {
 		if (! empty ( $post )) {
 			$isSuccess = $this->groupsuggestion->save ( $this->groupsuggestion->__groupsuggestionTable, $post );
 			if ($isSuccess > 0) {
-				$this->jsonCallback ( "1", "保存成功" );
+				$this->jsonCallback ( "1", "保存成功",array("opt"=>$isSuccess) );
 			} else {
 				$this->jsonCallback ( "2", "保存失败" );
 			}

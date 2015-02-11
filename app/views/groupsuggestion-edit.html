@@ -19,21 +19,7 @@
         <div class="tab-content default-tab" >
           <form id="groupsuggestion">
             <fieldset>
-             <p>
-              <label>小组名称</label>
-             <select name="groupId" class="small-input">
-              	<option value="0">请选择</option>
-              	<?php
-              		foreach($groupList as $key=>$value){
-						if($value['groupId'] == $groupId){
-							$selected = 'selected="selected"';
-						}
-						echo '<option value="'.$value['groupId'].'" '.$selected.'>'.$value['name'].'</option>';
-					}
-              	?>
-              </select>
-              <span class="input-notification png_bg none" id="groupIdInfo"></span>
-             </p>
+			 <?php include '/app/views/public/group-select.html';?>
              <p>
               <label>目标达致程度</label>
              <input class="text-input small-input" type="text" id="targetsAchievement" name="targetsAchievement" value="<?php echo $targetsAchievement;?>"/>
@@ -84,7 +70,7 @@
               <textarea class="text-input textarea wysiwyg" id="advices" name="advices" cols="79" rows="15"><?php echo $advices;?></textarea>
              </p>
             <p>
-              <input type="hidden" name="<?php echo $primaryName;?>" value="<?php echo $primaryValue;?>" />
+              <input type="hidden" name="suggestionId" value="<?php echo $primaryValue;?>" id="suggestionId"/>
               <input class="button" type="button" value="确定" onclick="saveInfo('groupsuggestion','groupsuggestion','saveInfo')"/>
             </p>
             </fieldset>

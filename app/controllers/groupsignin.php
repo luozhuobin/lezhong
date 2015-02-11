@@ -57,9 +57,8 @@ class Groupsignin extends CI_Controller {
 		$data ['__attendance'] = self::$__attendance;
 		##小组列表
 		$this->load->model ( 'GroupModel', "group" );
-		$list = $this->group->getData ( $this->group->__groupTable, array () ,0,array(),'groupId,name');
-		$group = $list ['total'] > 0 ? $list ['data'] : array ();
-		$data ['groupList'] = $group;
+		$list = $this->group->getData ( $this->group->__groupTable );
+		$data['groupList'] = $list['data'];
 		$this->load->view ( 'groupSignin-edit', $data );
 	}
 	/**
@@ -98,7 +97,7 @@ class Groupsignin extends CI_Controller {
 			}
 			$isSuccess = $this->groupSignin->save ( $this->groupSignin->__groupSigninTable, $post );
 			if ($isSuccess > 0) {
-				$this->jsonCallback ( "1", "保存成功" );
+				$this->jsonCallback ( "1", "保存成功" ,array("opt"=>$isSuccess));
 			} else {
 				$this->jsonCallback ( "1", "操作成功" );
 			}
