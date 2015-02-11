@@ -1,0 +1,16 @@
+<p>
+<label>小组名称</label>
+<select name="groupId" id="groupId" class="small-input">
+	<option value="">请选择小组名称</option>
+	<?php
+	foreach($groupList AS $key=>$value){
+		$selected = $value['groupId'] == $groupId ? 'selected="selected"' : '';
+		echo '<option value="'.$value['groupId'].'" '.$selected.'>'.$value['serialNumber'].'</option>';
+	}
+	?>
+</select>
+ <span class="input-notification png_bg none" id="groupIdInfo"></span>
+</p>
+<script type="text/javascript">
+$("#groupId").select2();
+</script>

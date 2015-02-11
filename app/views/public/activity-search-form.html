@@ -1,0 +1,8 @@
+<form action="/" method="get" id="search_form">
+  搜索：
+  <input type="hidden" value="<?=$this->input->get('c',TRUE);?>" name="c" />
+  <input type="hidden" value="<?=$this->input->get('m',TRUE);?>" name="m" />
+  <input type="text" name="serialNumber" id="small-input" class="text-input" placeholder="请输入小组编号" value="<?php echo $this->input->get('serialNumber');?>"/>
+  <input type="text" name="name" id="small-input" class="text-input" placeholder="请输入小组名称" value='<?php echo $this->input->get('name');?>'/>
+ <input type="submit" value="查询" class="button">
+ </form>

@@ -2,7 +2,7 @@
 if (! defined ( 'BASEPATH' ))
 	exit ( 'No direct script access allowed' );
 /**
- * @desc 小组相关类
+ * @desc 活动相关类
  * @author zhuobin.luo
  * @link 498512133@qq.com
  * @since 2014-05-14
@@ -19,7 +19,15 @@ class Activity extends CI_Controller {
 	 */
 	public function show() {
 		$offset = $this->input->get ( 'per_page', TRUE );
-		$list = $this->activity->getData ( $this->activity->__activityTable, array (), $offset );
+		$serialNumber = urldecode($this->input->get('serialNumber',TRUE));
+		$name = urldecode($this->input->get('name',TRUE));
+		if(!empty($serialNumber)){
+			$where['serialNumber'] = $serialNumber;
+		}
+		if(!empty($name)){
+			$where['name'] = $name;
+		}
+		$list = $this->activity->getData ( $this->activity->__activityTable,$where, $offset );
 		$data ['activity'] = $list ['data'];
 		$links = $this->getPageList ( $list ['total'], $offset );
 		$data ['links'] = $links;
@@ -48,9 +56,9 @@ class Activity extends CI_Controller {
 			$data = $this->activity->getDataByPrimaryKey ( $this->activity->__activityTable, $value );
 			$data ["primaryValue"] = $value;
 			$data ['primaryName'] = $key;
-			$data ['title'] = "编辑小组计划书";
+			$data ['title'] = "编辑活动计划书";
 		} else {
-			$data ['title'] = "新增小组计划书";
+			$data ['title'] = "新增活动计划书";
 		}
 		$data ['__type'] = self::$__type;
 		$this->load->view ( 'activity-edit', $data );
@@ -72,17 +80,17 @@ class Activity extends CI_Controller {
 		if (! empty ( $this->activityId )) {
 			$this->__activity = $this->activity->getDataByPrimaryKey ( $this->activity->__activityTable, $this->activityId );
 			if (! empty ( $this->__activity )) {
-				$fileName = "make/".$this->__activity ['alias'] . "_小组.xml";
+				$fileName = $this->__activity ['name'] . ".doc";
 				$this->__xmlContent = file_get_contents("activity.xml");
 				##封面
 				$this->cover ();
-				##小组计划书
+				##活动计划书
 				$this->prospectus();	
-				##小组报告书
+				##活动报告书
 				$this->report();
-				##小组报名表
+				##活动报名表
 				$this->register();	
-				##小组签到表
+				##活动签到表
 				$this->signin();			
 				if (file_exists ( $fileName )) {
 					unlink ( $fileName );
@@ -102,7 +110,7 @@ class Activity extends CI_Controller {
 		if (! empty ( $post )) {
 			$isSuccess = $this->activity->save ( $this->activity->__activityTable, $post );
 			if ($isSuccess > 0) {
-				$this->jsonCallback ( "1", "保存成功" );
+				$this->jsonCallback ( "1", "保存成功" ,array("opt"=>$isSuccess));
 			} else {
 				$this->jsonCallback ( "2", "保存失败" );
 			}
@@ -186,7 +194,7 @@ class Activity extends CI_Controller {
 		}
 	}
 	/**
-	 * @desc 小组报告书
+	 * @desc 活动报告书
 	 */
 	public function report(){
 		$this->load->model ( 'activityReportModel', "activityReport" );
@@ -197,7 +205,7 @@ class Activity extends CI_Controller {
 		}
 	}
 	/**
-	 * @desc 小组报名表
+	 * @desc 活动报名表
 	 */
 	public function register(){
 		$this->load->model ( 'activityRegisterModel', "activityRegister" );
