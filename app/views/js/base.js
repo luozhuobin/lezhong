@@ -82,6 +82,11 @@ function saveInfo(formId,c,m){
 	     			$("#activityId").val(callback.data.opt);
 	     		}
 	     		break;
+	     	case 'activityreport':
+	     		if($("#reportId").val() == ''){
+	     			$("#reportId").val(callback.data.opt);
+	     		}
+	     		break;
 	     }
 	   }
 	});

@@ -8,7 +8,7 @@ if (! defined ( 'BASEPATH' ))
  * @since 2014-05-14
  */
 class Activity extends CI_Controller {
-	private static $__type = array ("成长", "教育", "互助", "治疗" );
+	private static $__type = array ("宣传", "成长", "志愿者主导" );
 	private static $__xmlCoontent = '';
 	public function __construct() {
 		parent::__construct ();

@@ -60,7 +60,7 @@ class Groupreport extends CI_Controller {
 		} else {
 			$data ['title'] = "新增小组报告书";
 		}
-			##小组列表
+		##小组列表
 		$this->load->model ( 'GroupModel', "group" );
 		$list = $this->group->getData ( $this->group->__groupTable, array () );
 		$group = $list ['total'] > 0 ? $list ['data'] : array ();
