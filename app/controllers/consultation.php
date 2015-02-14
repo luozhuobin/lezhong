@@ -75,7 +75,7 @@ class Consultation extends CI_Controller {
 		if (! empty ( $post )) {
 			$isSuccess = $this->consultation->save ( $this->consultation->__consultationTable, $post );
 			if ($isSuccess > 0) {
-				$this->jsonCallback ( "1", "保存成功" );
+				$this->jsonCallback ( "1", "保存成功" ,array("opt"=>$isSuccess));
 			} else {
 				$this->jsonCallback ( "2", "保存失败" );
 			}

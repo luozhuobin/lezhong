@@ -1,0 +1,8 @@
+<form action="/" method="get" id="search_form">
+  搜索：
+  <input type="hidden" value="<?=$this->input->get('c',TRUE);?>" name="c" />
+  <input type="hidden" value="<?=$this->input->get('m',TRUE);?>" name="m" />
+  <input type="text" name="username" id="small-input" class="text-input" placeholder="请输入帐号" value="<?php echo $this->input->get('username');?>"/>
+  <input type="text" name="truename" id="small-input" class="text-input" placeholder="请输入姓名" value='<?php echo $this->input->get('truename');?>'/>
+ <input type="submit" value="查询" class="button">
+ </form>

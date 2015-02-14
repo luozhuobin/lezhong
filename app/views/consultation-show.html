@@ -3,7 +3,9 @@
 <div id="body-wrapper">
   <!-- Wrapper for the radial gradient background -->
   <?php include 'left.html';?>
+  <?php include 'menu-show.html';?>
   <div id="main-content">
+  	<?php include 'public/consultation-search-form.html';?>
     <!-- Main Content Section with everything -->
     <noscript>
     <!-- Show a notification if the user has disabled javascript -->
@@ -37,7 +39,7 @@
             <thead>
               <tr>
                 <th>
-                  <input class="check-all" type="checkbox" />
+                  	序号
                 </th>
                 <th>日期</th>
                 <th>联络方式</th>
@@ -64,9 +66,7 @@
               	foreach($consultation as $key=>$value){
 					echo '              
 					<tr>
-                		<td>
-                  			<input type="checkbox" />
-                		</td>
+                		<td>'.$value["con_id"].'</td>
                			<td>'.$value["date"].'</td>
                 		<td>'.$value["contact"].'</td>
                 		<td>'.$value["content"].'</td>

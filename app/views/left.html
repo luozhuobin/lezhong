@@ -135,9 +135,9 @@
      <li> 
      	<a class="nav-top-item <?php echo $_GET['c'] == 'consultation' ?  'current' : '';?>">日常咨询记录表</a>
        <ul>
-         <li><a href="?c=consultation&m=edit" class="<?php echo $_GET['c'] == 'consultation'&& $_GET['m'] == 'edit' ?  'current' : '';?>">新增</a></li>
-         <li><a href="?c=consultation&m=import" class="<?php echo $_GET['c'] == 'consultation'&&$_GET['m'] == 'import' ?  'current' : '';?>">导入</a></li>
-         <li><a href="?c=consultation&m=show" class="<?php echo $_GET['c'] == 'consultation'&&$_GET['m'] == 'show' ?  'current' : '';?>">列表</a></li>
+         <!-- <li><a href="?c=consultation&m=edit" class="<?php echo $_GET['c'] == 'consultation'&& $_GET['m'] == 'edit' ?  'current' : '';?>">新增</a></li>
+         <li><a href="?c=consultation&m=import" class="<?php echo $_GET['c'] == 'consultation'&&$_GET['m'] == 'import' ?  'current' : '';?>">导入</a></li> -->
+         <li><a href="?c=consultation&m=show" class="<?php echo $_GET['c'] == 'consultation'&&($_GET['m'] == 'show' || $_GET['m'] == 'edit') ?  'current' : '';?>">列表</a></li>
        </ul>
      </li>
      <li> 

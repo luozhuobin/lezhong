@@ -102,6 +102,11 @@ function saveInfo(formId,c,m){
 	     			$("#suggestionId").val(callback.data.opt);
 	     		}
 	     		break;
+	     	case 'consultation':
+	     		if($("#con_id").val() == ''){
+	     			$("#con_id").val(callback.data.opt);
+	     		}
+	     		break;
 	     }
 	   }
 	});

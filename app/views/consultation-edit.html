@@ -2,6 +2,7 @@
 <body>
 <div id="body-wrapper">
   <?php include 'left.html';?>
+  <?php include 'menu-show.html';?>
   <div id="main-content">
     <!-- Page Head -->
     <!-- <h2>Welcome</h2> -->
@@ -47,12 +48,12 @@
               	}
               ?>
             <p>
-              <input type="hidden" name="<?php echo $primaryName;?>" value="<?php echo $primaryValue;?>" />
+              <input type="hidden" name="<?php echo $primaryName;?>" value="<?php echo $primaryValue;?>" id="con_id"/>
               <input class="button" type="button" value="确定" onclick="saveInfo('consultation','consultation','saveInfo')"/>
               
             </p>
             </fieldset>
-            <div class="notification success png_bg none" style="width:150px;" id="saveResult">
+            <div class="notification success png_bg none" style="width:150px;" id="consultationSaveResult">
 	          	<a href="javascript:;" class="close">
 	          		<img src="./app/views/images/icons/cross_grey_small.png" title="Close this notification" alt="close" />
 	          	</a>
