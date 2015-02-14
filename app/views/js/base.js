@@ -107,6 +107,11 @@ function saveInfo(formId,c,m){
 	     			$("#con_id").val(callback.data.opt);
 	     		}
 	     		break;
+	     	case 'volunteer':
+	     		if($("#volunteerId").val() == ''){
+	     			$("#volunteerId").val(callback.data.opt);
+	     		}
+	     		break;
 	     }
 	   }
 	});

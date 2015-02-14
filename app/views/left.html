@@ -141,11 +141,11 @@
        </ul>
      </li>
      <li> 
-     	<a class="nav-top-item <?php echo $_GET['c'] == 'volunteer' ?  'current' : '';?>">义工</a>
+     	<a class="nav-top-item <?php echo $_GET['c'] == 'volunteer' ?  'current' : '';?>">义工管理</a>
        <ul>
-         <li><a href="?c=volunteer&m=edit" class="<?php echo $_GET['c'] == 'volunteer'&&$_GET['m'] == 'edit' ?  'current' : '';?>">义工登记</a></li>
-         <li><a href="?c=volunteer&m=import" class="<?php echo $_GET['c'] == 'volunteer'&&$_GET['m'] == 'import' ?  'current' : '';?>">义工培训</a></li>
-         <li><a href="?c=volunteer&m=show" class="<?php echo $_GET['c'] == 'volunteer'&&$_GET['m'] == 'show' ?  'current' : '';?>">义工服务</a></li>
+         <!-- <li><a href="?c=volunteer&m=edit" class="<?php echo $_GET['c'] == 'volunteer'&&$_GET['m'] == 'edit' ?  'current' : '';?>">义工登记</a></li>
+         <li><a href="?c=volunteer&m=import" class="<?php echo $_GET['c'] == 'volunteer'&&$_GET['m'] == 'import' ?  'current' : '';?>">义工培训</a></li> -->
+         <li><a href="?c=volunteer&m=show" class="<?php echo $_GET['c'] == 'volunteer'&&in_array($_GET['m'],array('show','edit')) ?  'current' : '';?>">义工列表</a></li>
        </ul>
      </li>
      <!-- <li> 

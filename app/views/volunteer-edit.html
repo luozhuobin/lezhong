@@ -2,6 +2,7 @@
 <body>
 <div id="body-wrapper">
   <?php include 'left.html';?>
+  <?php include 'menu-show.html';?>
   <div id="main-content">
     <!-- Page Head -->
     <!-- <h2>Welcome</h2> -->
@@ -106,12 +107,12 @@
 				?>
              </p>
             <p>
-              <input type="hidden" name="<?php echo $primaryName;?>" value="<?php echo $primaryValue;?>" />
+              <input type="hidden" name="volunteerId" value="<?php echo $primaryValue;?>" id="volunteerId"/>
               <input class="button" type="button" value="确定" onclick="saveInfo('volunteer','volunteer','saveInfo')"/>
               
             </p>
             </fieldset>
-            <div class="notification success png_bg none" style="width:150px;" id="saveResult">
+            <div class="notification success png_bg none" style="width:150px;" id="volunteerSaveResult">
 	          	<a href="javascript:;" class="close">
 	          		<img src="./app/views/images/icons/cross_grey_small.png" title="Close this notification" alt="close" />
 	          	</a>

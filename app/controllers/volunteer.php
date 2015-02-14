@@ -21,7 +21,12 @@ class Volunteer extends CI_Controller {
 	 */
 	public function show() {
 		$offset = $this->input->get ( 'per_page', TRUE );
-		$list = $this->volunteer->getData ( $this->volunteer->__volunteerTable, array (), $offset );
+		$name = $this->input->get ( 'name', TRUE );
+		$where = array();
+		if(!empty($name)){
+			$where['name'] = $name;
+		}
+		$list = $this->volunteer->getData ( $this->volunteer->__volunteerTable, $where, $offset );
 		$data ['volunteer'] = $list ['data'];
 		$links = $this->getPageList ( $list ['total'], $offset );
 		$data ['links'] = $links;
@@ -94,7 +99,7 @@ class Volunteer extends CI_Controller {
 			}
 			$isSuccess = $this->volunteer->save ( $this->volunteer->__volunteerTable, $post );
 			if ($isSuccess > 0) {
-				$this->jsonCallback ( "1", "保存成功" );
+				$this->jsonCallback ( "1", "保存成功" ,array("opt"=>$isSuccess));
 			} else {
 				$this->jsonCallback ( "2", "保存失败" );
 			}
