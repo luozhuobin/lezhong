@@ -87,6 +87,21 @@ function saveInfo(formId,c,m){
 	     			$("#reportId").val(callback.data.opt);
 	     		}
 	     		break;
+	     	case 'activitysignin':
+	     		if($("#signinId").val() == ''){
+	     			$("#signinId").val(callback.data.opt);
+	     		}
+	     		break;
+	     	case 'activityregister':
+	     		if($("#regId").val() == ''){
+	     			$("#regId").val(callback.data.opt);
+	     		}
+	     		break;
+	     	case 'activitysuggestion':
+	     		if($("#suggestionId").val() == ''){
+	     			$("#suggestionId").val(callback.data.opt);
+	     		}
+	     		break;
 	     }
 	   }
 	});

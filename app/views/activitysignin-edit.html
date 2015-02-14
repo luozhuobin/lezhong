@@ -2,6 +2,7 @@
 <body>
 <div id="body-wrapper">
   <?php include 'left.html';?>
+  <?php include 'menu-show.html';?>
   <div id="main-content">
     <!-- Page Head -->
     <!-- <h2>Welcome</h2> -->
@@ -16,39 +17,80 @@
       <!-- End .content-box-header -->
       <div class="content-box-content">
         <div class="tab-content default-tab" >
-          <form id="groupsignin">
+          <form id="activitysignin">
             <fieldset>
-             <p>
-              <label>小组名称</label>
-             <input class="text-input small-input" type="text" id="groupName" name="groupName" value="<?php echo $groupName;?>"/>
-              <span class="input-notification png_bg none" id="groupNameInfo"></span>
-             </p>
-             <p>
-              <label>小组节次/时间</label>
-             <input class="text-input small-input" type="text" id="section" name="section" value="<?php echo $section;?>"/>
-              <span class="input-notification png_bg none" id="sectionInfo"></span>
-             </p>
-             
+			 <?php include '/app/views/public/activity-select.html';?>
              <p>
               <label>参加者姓名</label>
              <input class="text-input small-input" type="text" id="participantName" name="participantName" value="<?php echo $participantName;?>"/>
               <span class="input-notification png_bg none" id="participantNameInfo"></span>
              </p>
-            <p>
-              <label>出席情况</label>
-              	<?php
+             <p>
+              <label>第一节</label>
+             <?php
               	foreach($__attendance as $key=>$value){
-					$checked = $value == $attendance?'checked=checked':'';
-					echo '<input type="radio" name="attendance" value="'.$value.'" '.$checked.'/> '.$value;
+					$checked = $value == $section_1?'checked=checked':'';
+					echo '<input type="radio" name="section_1" value="'.$value.'" '.$checked.'/> '.$value;
 				}
               ?>
-            </p>
+              <span class="input-notification png_bg none" id="sectionInfo"></span>
+             </p>
+             <p>
+              <label>第二节</label>
+             <?php
+              	foreach($__attendance as $key=>$value){
+					$checked = $value == $section_2?'checked=checked':'';
+					echo '<input type="radio" name="section_2" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+              <span class="input-notification png_bg none" id="sectionInfo"></span>
+             </p>
+             <p>
+              <label>第三节</label>
+             <?php
+              	foreach($__attendance as $key=>$value){
+					$checked = $value == $section_3?'checked=checked':'';
+					echo '<input type="radio" name="section_3" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+              <span class="input-notification png_bg none" id="sectionInfo"></span>
+             </p>
+             <p>
+              <label>第四节</label>
+             <?php
+              	foreach($__attendance as $key=>$value){
+					$checked = $value == $section_4?'checked=checked':'';
+					echo '<input type="radio" name="section_4" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+              <span class="input-notification png_bg none" id="sectionInfo"></span>
+             </p>
+             <p>
+              <label>第五节</label>
+             <?php
+              	foreach($__attendance as $key=>$value){
+					$checked = $value == $section_5?'checked=checked':'';
+					echo '<input type="radio" name="section_5" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+              <span class="input-notification png_bg none" id="sectionInfo"></span>
+             </p>
+             <p>
+              <label>第六节</label>
+             <?php
+              	foreach($__attendance as $key=>$value){
+					$checked = $value == $section_6?'checked=checked':'';
+					echo '<input type="radio" name="section_6" value="'.$value.'" '.$checked.'/> '.$value;
+				}
+              ?>
+              <span class="input-notification png_bg none" id="sectionInfo"></span>
+             </p>
             <p>
-              <input type="hidden" name="<?php echo $primaryName;?>" value="<?php echo $primaryValue;?>" />
-              <input class="button" type="button" value="确定" onclick="saveInfo('groupsignin','groupsignin','saveInfo')"/>
+              <input type="hidden" name="signinId" value="<?php echo $primaryValue;?>" id="signinId"/>
+              <input class="button" type="button" value="确定" onclick="saveInfo('activitysignin','activitysignin','saveInfo')"/>
             </p>
             </fieldset>
-            <div class="notification success png_bg none" style="width:150px;" id="saveResult">
+            <div class="notification success png_bg none" style="width:150px;" id="activitysigninSaveResult">
 	          	<a href="javascript:;" class="close">
 	          		<img src="./app/views/images/icons/cross_grey_small.png" title="Close this notification" alt="close" />
 	          	</a>

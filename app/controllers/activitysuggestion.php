@@ -2,7 +2,7 @@
 if (! defined ( 'BASEPATH' ))
 	exit ( 'No direct script access allowed' );
 /**
- * @desc 小组报名表相关类
+ * @desc 活动报名表相关类
  * @author zhuobin.luo
  * @link 498512133@qq.com
  * @since 2014-05-14
@@ -11,14 +11,28 @@ class Activitysuggestion extends CI_Controller {
 	private static $__attendance = array ("出席", "缺席", "迟到" );
 	public function __construct() {
 		parent::__construct ();
-		$this->load->model ( 'activitySuggestionModel', "activitySuggestion" );
+		$this->load->model ( 'ActivitySuggestionModel', "activitySuggestion" );
 	}
 	/**
 	 * @desc 列表
 	 */
 	public function show() {
 		$offset = $this->input->get ( 'per_page', TRUE );
-		$list = $this->activitySuggestion->getData ( $this->activitySuggestion->__activitySuggestionTable, array (), $offset );
+		$serialNumber = urldecode($this->input->get('serialNumber',TRUE));
+		$name = urldecode($this->input->get('name',TRUE));
+		if(!empty($serialNumber)){
+			$where['serialNumber'] = $serialNumber;
+		}
+		if(!empty($name)){
+			$where['name'] = $name;
+		}
+		$this->load->model ( 'ActivityModel', "activity" );
+		
+		$join = array($this->activity->__activityTable=>$this->activitySuggestion->__activitySuggestionTable.".activityId = ".$this->activity->__activityTable.".activityId");
+		
+		$type = array($this->activity->__activityTable=>"LEFT");
+		$select = $this->activitySuggestion->__activitySuggestionTable.'.*,'.$this->activity->__activityTable.'.name,'.$this->activity->__activityTable.'.serialNumber';
+		$list = $this->activitySuggestion->getData ( $this->activitySuggestion->__activitySuggestionTable, $where, $offset ,$join,$select,$type);
 		$data ['activitySuggestion'] = $list ['data'];
 		$links = $this->getPageList ( $list ['total'], $offset );
 		$data ['links'] = $links;
@@ -52,6 +66,11 @@ class Activitysuggestion extends CI_Controller {
 			$data ['title'] = "新增报名";
 		}
 		$data ['__attendance'] = self::$__attendance;
+		##活动列表
+		$this->load->model ( 'activityModel', "activity" );
+		$list = $this->activity->getData ( $this->activity->__activityTable, array () );
+		$activity = $list ['total'] > 0 ? $list ['data'] : array ();
+		$data ['activityList'] = $activity;
 		$this->load->view ( 'activitySuggestion-edit', $data );
 	}
 	/**
@@ -78,7 +97,7 @@ class Activitysuggestion extends CI_Controller {
 		if (! empty ( $post )) {
 			$isSuccess = $this->activitySuggestion->save ( $this->activitySuggestion->__activitySuggestionTable, $post );
 			if ($isSuccess > 0) {
-				$this->jsonCallback ( "1", "保存成功" );
+				$this->jsonCallback ( "1", "保存成功",array("opt"=>$isSuccess) );
 			} else {
 				$this->jsonCallback ( "2", "保存失败" );
 			}

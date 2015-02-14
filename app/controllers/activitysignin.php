@@ -2,7 +2,7 @@
 if (! defined ( 'BASEPATH' ))
 	exit ( 'No direct script access allowed' );
 /**
- * @desc 小组报名表相关类
+ * @desc 活动报名表相关类
  * @author zhuobin.luo
  * @link 498512133@qq.com
  * @since 2014-05-14
@@ -11,14 +11,25 @@ class Activitysignin extends CI_Controller {
 	private static $__attendance = array ("出席", "缺席", "迟到" );
 	public function __construct() {
 		parent::__construct ();
-		$this->load->model ( 'activitySigninModel', "activitySignin" );
+		$this->load->model ( 'ActivitysigninModel', "activitySignin" );
 	}
 	/**
 	 * @desc 列表
 	 */
 	public function show() {
 		$offset = $this->input->get ( 'per_page', TRUE );
-		$list = $this->activitySignin->getData ( $this->activitySignin->__activitySigninTable, array (), $offset );
+		$serialNumber = urldecode($this->input->get('serialNumber',TRUE));
+		$name = urldecode($this->input->get('name',TRUE));
+		if(!empty($serialNumber)){
+			$where['serialNumber'] = $serialNumber;
+		}
+		if(!empty($name)){
+			$where['name'] = $name;
+		}
+		$this->load->model ( 'ActivityModel', "activity" );
+		$join = array($this->activity->__activityTable=>$this->activitySignin->__activitySigninTable.".activityId = ".$this->activity->__activityTable.".activityId");
+		$type = array($this->activity->__activityTable=>"LEFT");
+		$list = $this->activitySignin->getData ( $this->activitySignin->__activitySigninTable, $where, $offset ,$join,'*',$type);
 		$data ['activitySignin'] = $list ['data'];
 		$links = $this->getPageList ( $list ['total'], $offset );
 		$data ['links'] = $links;
@@ -52,6 +63,10 @@ class Activitysignin extends CI_Controller {
 			$data ['title'] = "新增报名";
 		}
 		$data ['__attendance'] = self::$__attendance;
+		##活动列表
+		$this->load->model ( 'activityModel', "activity" );
+		$list = $this->activity->getData ( $this->activity->__activityTable );
+		$data['activityList'] = $list['data'];
 		$this->load->view ( 'activitySignin-edit', $data );
 	}
 	/**
@@ -76,11 +91,23 @@ class Activitysignin extends CI_Controller {
 	public function saveInfo() {
 		$post = $this->input->post ();
 		if (! empty ( $post )) {
+			if (empty ( $post ['activityId'] )) {
+				$this->jsonCallback ( "activityName", "请选择活动" );
+			}
+			if (empty ( $post ['participantName'] )) {
+				$this->jsonCallback ( "participantName", "请输入参加者姓名" );
+			}
+			$where = array ("activityId" => $post ['activityId'], "participantName" => $post ['participantName'] );
+			$this->load->model ( 'activitySigninModel', "activitySignin" );
+			$signin = $this->activitySignin->getData ( $this->activitySignin->__activitySigninTable, $where );
+			if ($signin ['total'] > 0) {
+				$post ['signinId'] = $signin ['data'] [0] ['signinId'];
+			}
 			$isSuccess = $this->activitySignin->save ( $this->activitySignin->__activitySigninTable, $post );
 			if ($isSuccess > 0) {
-				$this->jsonCallback ( "1", "保存成功" );
+				$this->jsonCallback ( "1", "保存成功" ,array("opt"=>$isSuccess));
 			} else {
-				$this->jsonCallback ( "2", "保存失败" );
+				$this->jsonCallback ( "1", "操作成功" );
 			}
 		} else {
 			$this->jsonCallback ( "3", "表单数据为空" );

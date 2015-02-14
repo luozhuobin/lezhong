@@ -3,25 +3,21 @@
 <div id="body-wrapper">
   <!-- Wrapper for the radial gradient background -->
   <?php include 'left.html';?>
+  <?php include 'menu-show.html';?>
   <div id="main-content">
+  	<?php include 'public/activity-search-form.html';?>
     <!-- Main Content Section with everything -->
-    <noscript>
-    <!-- Show a notification if the user has disabled javascript -->
-    <div class="notification error png_bg">
-      <div> Javascript is disabled or is not supported by your browser. Please <a href="http://browsehappy.com/" title="Upgrade to a better browser">upgrade</a> your browser or <a href="http://www.google.com/support/bin/answer.py?answer=23852" title="Enable Javascript in your browser">enable</a> Javascript to navigate the interface properly.
-        Download From <a href="http://www.exet.tk">exet.tk</a></div>
-    </div>
-    </noscript>
     <!-- Page Head -->
     <!-- End .clear -->
     <div class="content-box">
       <!-- Start Content Box -->
       <div class="content-box-header">
-        <h3>小组签到表</h3>
+        <h3>活动签到表</h3>
         <ul class="content-box-tabs">
           <li><a href="#tab1" class="default-tab">列表</a></li>
           <!-- href must be unique and match the id of target div -->
-          <li><a href="?c=groupsignin&m=edit">新增签到</a></li>
+          <li><a href="?c=activitysignin&m=edit">新增签到</a></li>
+          <li><a href="?c=activityreport&m=edit">日期节次设置</a></li>
         </ul>
         <div class="clear"></div>
       </div>
@@ -37,12 +33,17 @@
             <thead>
               <tr>
                 <th>
-                  <input class="check-all" type="checkbox" />
+                  	序号
                 </th>
-                <th>小组名称</th>
-                <th>小组节次/时间</th>
+                <th>活动编号</th>
+                <th>活动名称</th>
                 <th>参加者姓名</th>
-                <th>出席情况</th>
+                <th>第一节</th>
+                <th>第二节</th>
+                <th>第三节</th>
+                <th>第四节</th>
+                <th>第五节</th>
+                <th>第六节</th>
                 <th>记录时间</th>
                 <th>操作</th>
               </tr>
@@ -60,21 +61,24 @@
             </tfoot>
             <tbody>
               <?php
-              	foreach($groupsignin as $key=>$value){
+              	foreach($activitySignin as $key=>$value){
 					$createtime = !empty($value['createtime'])?date("Y-m-d",$value['createtime']):'';
 					echo '              
 					<tr>
-                		<td>
-                  			<input type="checkbox" />
-                		</td>
-               			<td>'.$value["groupName"].'</td>
-						<td>'.$value["section"].'</td>
+						<td>'.$value["signinId"].'</td>
+                		<td>'.$value["serialNumber"].'</td>
+               			<td>'.$value["name"].'</td>
 						<td>'.$value["participantName"].'</td>
-						<td>'.$value["attendance"].'</td>
+						<td>'.$value["section_1"].'</td>
+						<td>'.$value["section_2"].'</td>
+						<td>'.$value["section_3"].'</td>
+						<td>'.$value["section_4"].'</td>
+						<td>'.$value["section_5"].'</td>
+						<td>'.$value["section_6"].'</td>
                 		<td>'.$createtime.'</td>
                 		<td>
                   			<a href="?c='.$c.'&m=edit&'.$primaryName.'='.$value[$primaryName].'" title="Edit"><img src="./app/views/images/icons/pencil.png" alt="Edit" /></a> 
-							<a href="javascript:;" title="Delete" onclick="delData(\'groupsignin\',\'del\',\''.$value["signinId"].'\',this);"><img src="./app/views/images/icons/cross.png" alt="Delete" /></a> 
+							<a href="javascript:;" title="Delete" onclick="delData(\'activitysignin\',\'del\',\''.$value["signinId"].'\',this);"><img src="./app/views/images/icons/cross.png" alt="Delete" /></a> 
 						</td>
               		</tr>';
 				}
