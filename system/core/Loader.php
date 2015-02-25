@@ -272,7 +272,7 @@ class CI_Loader {
 			show_error('The model name you are loading is the name of a resource that is already being used: '.$name);
 		}
 
-		$model = strtolower($model);
+		//$model = strtolower($model);
 
 		foreach ($this->_ci_model_paths as $mod_path)
 		{
