@@ -11,7 +11,7 @@ class Activitysignin extends CI_Controller {
 	private static $__attendance = array ("出席", "缺席", "迟到" );
 	public function __construct() {
 		parent::__construct ();
-		$this->load->model ( 'ActivitysigninModel', "activitySignin" );
+		$this->load->model ( 'ActivitySigninModel', "activitySignin" );
 	}
 	/**
 	 * @desc 列表

@@ -11,7 +11,7 @@ class Activityregister extends CI_Controller {
 	private static $__sex = array ("男", "女", "未知" );
 	public function __construct() {
 		parent::__construct ();
-		$this->load->model ( 'ActivityregisterModel', "activityregister" );
+		$this->load->model ( 'ActivityRegisterModel', "activityregister" );
 		$this->load->model ( 'ActivityModel', "activity" );
 	}
 	/**
