@@ -12,7 +12,7 @@ class Activity extends CI_Controller {
 	private static $__xmlCoontent = '';
 	public function __construct() {
 		parent::__construct ();
-		$this->load->model ( 'activityModel', "activity" );
+		$this->load->model ( 'ActivityModel', "activity" );
 	}
 	/**
 	 * @desc 列表
