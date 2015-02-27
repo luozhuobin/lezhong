@@ -71,21 +71,9 @@
                 		<td>'.$value["marriage"].'</td>
 						<td>'.$createtime.'</td>
                 		<td>
+							<a href="#messages" rel="modal" title="查看" onclick="getDetail('.$c.','.$primaryName.','.$value[$primaryName].');"><img src="./app/views/images/icons/zoom.png" alt="查看" /></a> 
                   			<a href="?c='.$c.'&m=edit&'.$primaryName.'='.$value[$primaryName].'" title="修改"><img src="./app/views/images/icons/pencil.png" alt="修改" /></a> 
-							<?php
-								if(intval($this->session->userdata(\'groupId\')) != 3){
-							?>
 							<a href="javascript:;" title="删除" onclick="delData(\'cases\',\'del\',\''.$value["casesId"].'\',this);"><img src="./app/views/images/icons/cross.png" alt="删除" /></a>
-							<?php
-								}
-							?>							
-							 <?
-								if(intval ( $this->session->userdata ( \'groupId\' ) ) < 4){
-							 ?>
-							<a href="#messages" rel="modal" title="督导意见" onclick="getDetail('.$c.','.$primaryName.','.$value[$primaryName].');"><img src="./app/views/images/icons/hammer_screwdriver.png" alt="查看" /></a> 
-							<?php
-								}
-							?>
 							<a href="?c=cases&m=export&casesId='.$value['casesId'].'" title="导出内部保存版"><img src="./app/views/images/icons/word.png" alt="导出word文件" /></a>
 							<a href="?c=cases&m=export&casesId='.$value['casesId'].'&assess=1" title="导出提交评估版"><img src="./app/views/images/icons/page_word.png" alt="导出word文件" /></a> 
 						</td>
