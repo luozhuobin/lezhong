@@ -143,3 +143,19 @@ function delData(c,m,value,obj){
 		return false;
 	}
 }
+
+function getDetail(c,key,value,obj){
+	$.ajax({
+		   type: "POST",
+		   url: "?c="+c+"&m=getDetail",
+		   data: key+"="+value,
+		   dataType:"json",
+		   success: function(callback){
+				if(callback.code == "1"){
+					
+				}else{
+					
+				}
+		   }
+		});
+}
