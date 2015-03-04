@@ -18,7 +18,7 @@ class Admin extends CI_Controller {
 			header ( "Location:/?c=cases&m=show" );
 			exit ();
 		}
-		$this->load->view ( 'login' );
+		$this->load->view ( 'login_new' );
 	}
 	/**
 	 * @desc  实现登录

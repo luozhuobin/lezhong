@@ -11,12 +11,12 @@ function login(){
 		   data: form,
 		   dataType:"json",
 		   success: function(callback){
-			 var classname = "error";
+			 var classname = "red";
 			 if(callback.code == "1"){
-				 classname = "success";
+				 classname = "green";
 			 }
 			 $("#login-notice").attr("class","notification "+classname+" png_bg");
-			 $("#login-notice").children("div").html(callback.msg);
+			 $("#login-notice").html('<span style="color:'+classname+';text-align:center;">'+callback.msg+'</span>');
 			 if(callback.code == "1"){
 				 window.location.href="?c=cases&m=show";
 			 }
